@@ -1,0 +1,265 @@
+{
+  "app": "app-patched.json",
+  "checks": 298116,
+  "passed": 298116,
+  "failed": 0,
+  "quantities": {
+    "status": {
+      "checks": 2160,
+      "passed": 2160,
+      "max_difference": 0,
+      "worst": null,
+      "tolerances": [
+        0
+      ]
+    },
+    "mu_re": {
+      "checks": 1962,
+      "passed": 1962,
+      "max_difference": 1.440785877150696e-15,
+      "worst": "dat.yusuf1985::ci::n2i::all|logit|FE",
+      "tolerances": [
+        1e-09,
+        1e-06
+      ]
+    },
+    "seRE": {
+      "checks": 1962,
+      "passed": 1962,
+      "max_difference": 6.106226635438361e-16,
+      "worst": "dat.egger2001::ai::n1i::all|logit|DL",
+      "tolerances": [
+        1e-09,
+        1e-06
+      ]
+    },
+    "tau2": {
+      "checks": 1962,
+      "passed": 1962,
+      "max_difference": 4.5303204736917725e-15,
+      "worst": "dat.axfors2021::hcq_arm_event::hcq_arm_total::all|logit|DL",
+      "tolerances": [
+        1e-09,
+        1e-06
+      ]
+    },
+    "Q": {
+      "checks": 1962,
+      "passed": 1962,
+      "max_difference": 2.3141067508736556e-14,
+      "worst": "dat.bcg::cpos::cpos+cneg::all|raw|PM",
+      "tolerances": [
+        1e-09
+      ]
+    },
+    "df": {
+      "checks": 1962,
+      "passed": 1962,
+      "max_difference": 0,
+      "worst": null,
+      "tolerances": [
+        1e-09
+      ]
+    },
+    "i2": {
+      "checks": 1962,
+      "passed": 1962,
+      "max_difference": 2.100543865231401e-14,
+      "worst": "dat.nissen2007::cont.infarction::cont.total::all|logit|PM",
+      "tolerances": [
+        1e-09
+      ]
+    },
+    "k": {
+      "checks": 1962,
+      "passed": 1962,
+      "max_difference": 0,
+      "worst": null,
+      "tolerances": [
+        1e-09
+      ]
+    },
+    "lo": {
+      "checks": 1962,
+      "passed": 1962,
+      "max_difference": 1.4184638608631378e-15,
+      "worst": "dat.yusuf1985::ci::n2i::all|logit|FE",
+      "tolerances": [
+        1e-09,
+        1e-06
+      ]
+    },
+    "hi": {
+      "checks": 1962,
+      "passed": 1962,
+      "max_difference": 1.4638216782346601e-15,
+      "worst": "dat.yusuf1985::ci::n2i::all|logit|FE",
+      "tolerances": [
+        1e-09,
+        1e-06
+      ]
+    },
+    "piLo": {
+      "checks": 1962,
+      "passed": 1962,
+      "max_difference": 1.9340085088970227e-13,
+      "worst": "dat.linde2015::resp1::n1::all|logit|DL",
+      "tolerances": [
+        1e-09,
+        1e-06
+      ]
+    },
+    "piHi": {
+      "checks": 1962,
+      "passed": 1962,
+      "max_difference": 3.632649736573512e-13,
+      "worst": "dat.linde2015::loss.ae2::n2::all|logit|PM",
+      "tolerances": [
+        1e-09,
+        1e-06
+      ]
+    },
+    "poolP": {
+      "checks": 1962,
+      "passed": 1962,
+      "max_difference": 3.6637359812630166e-15,
+      "worst": "dat.bartos2023::same::flips::all|ft|FE",
+      "tolerances": [
+        1e-09,
+        1e-06
+      ]
+    },
+    "poolLo": {
+      "checks": 1962,
+      "passed": 1962,
+      "max_difference": 1.4432899320127035e-15,
+      "worst": "dat.dagostino1998::xt::nt::sngoal1|ft|DL",
+      "tolerances": [
+        1e-09,
+        1e-06
+      ]
+    },
+    "poolHi": {
+      "checks": 1962,
+      "passed": 1962,
+      "max_difference": 2.220446049250313e-15,
+      "worst": "dat.linde2016::resp::n::Face-to-face CBT|ft|PM",
+      "tolerances": [
+        1e-09,
+        1e-06
+      ]
+    },
+    "poolPiLo": {
+      "checks": 1962,
+      "passed": 1962,
+      "max_difference": 7.72715225139109e-14,
+      "worst": "dat.linde2015::ae1::n1::all|raw|PM",
+      "tolerances": [
+        1e-09,
+        1e-06
+      ]
+    },
+    "poolPiHi": {
+      "checks": 1962,
+      "passed": 1962,
+      "max_difference": 8.876233081878127e-14,
+      "worst": "dat.linde2015::loss.ae2::n2::all|logit|PM",
+      "tolerances": [
+        1e-09,
+        1e-06
+      ]
+    },
+    "yi": {
+      "checks": 42786,
+      "passed": 42786,
+      "max_difference": 2.1820096582259427e-16,
+      "worst": "dat.bornmann2007::waward::wtotal::all|ft|PM#10",
+      "tolerances": [
+        1e-09
+      ]
+    },
+    "vi": {
+      "checks": 42786,
+      "passed": 42786,
+      "max_difference": 0,
+      "worst": null,
+      "tolerances": [
+        1e-09
+      ]
+    },
+    "study_lo": {
+      "checks": 42786,
+      "passed": 42786,
+      "max_difference": 1.2542744620702706e-12,
+      "worst": "dat.bourassa1996::lh.le::lh.le+lh.re::all|logit|PM#22",
+      "tolerances": [
+        1e-09
+      ]
+    },
+    "study_hi": {
+      "checks": 42786,
+      "passed": 42786,
+      "max_difference": 1.2484457911909885e-12,
+      "worst": "dat.fine1993::e2i::nei::all|logit|PM#12",
+      "tolerances": [
+        1e-09
+      ]
+    },
+    "study_rel": {
+      "checks": 42786,
+      "passed": 42786,
+      "max_difference": 4.003676082781863e-11,
+      "worst": "dat.crisafulli2020::cases::total::all|raw|PM#17",
+      "tolerances": [
+        1e-09,
+        1e-06
+      ]
+    },
+    "study_p": {
+      "checks": 42786,
+      "passed": 42786,
+      "max_difference": 0,
+      "worst": null,
+      "tolerances": [
+        1e-09
+      ]
+    },
+    "ui_row_count": {
+      "checks": 1962,
+      "passed": 1962,
+      "max_difference": 0,
+      "worst": null,
+      "tolerances": [
+        0
+      ]
+    },
+    "ui_forest_diamond": {
+      "checks": 1962,
+      "passed": 1962,
+      "max_difference": 0,
+      "worst": null,
+      "tolerances": [
+        0
+      ]
+    },
+    "ui_pooled_text": {
+      "checks": 1962,
+      "passed": 1962,
+      "max_difference": 0,
+      "worst": null,
+      "tolerances": [
+        0
+      ]
+    },
+    "ui_prediction_text": {
+      "checks": 1962,
+      "passed": 1962,
+      "max_difference": 0,
+      "worst": null,
+      "tolerances": [
+        0
+      ]
+    }
+  },
+  "failures": []
+}

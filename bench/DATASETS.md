@@ -1,0 +1,246 @@
+# Exact corpus mappings
+
+Every row below is an independently executed computational analysis. Source row exclusions are recorded in row-audit.json.
+
+| Dataset | x | n | Group | k | x=0 | x=n |
+|---|---|---|---|---:|---:|---:|
+| dat.anand1999 | `ai` | `n1i` | all | 34 | 1 | 0 |
+| dat.anand1999 | `ci` | `n2i` | all | 34 | 3 | 0 |
+| dat.axfors2021 | `hcq_arm_event` | `hcq_arm_total` | all | 33 | 16 | 0 |
+| dat.axfors2021 | `control_arm_event` | `control_arm_total` | all | 33 | 20 | 0 |
+| dat.baker2009 | `exac` | `total` | Fluticasone | 8 | 1 | 0 |
+| dat.baker2009 | `exac` | `total` | Placebo | 35 | 0 | 1 |
+| dat.baker2009 | `exac` | `total` | Salmeterol | 18 | 0 | 1 |
+| dat.baker2009 | `exac` | `total` | Tiotropium | 15 | 2 | 0 |
+| dat.baker2009 | `exac` | `total` | Fluticasone+Salmeterol | 9 | 0 | 1 |
+| dat.baker2009 | `exac` | `total` | Formoterol | 5 | 0 | 0 |
+| dat.baker2009 | `exac` | `total` | Budesonide | 2 | 0 | 0 |
+| dat.baker2009 | `exac` | `total` | Budesonide+Formoterol | 2 | 0 | 0 |
+| dat.bartos2023 | `same` | `flips` | all | 48 | 0 | 0 |
+| dat.bartos2023 | `hsame` | `hsame+hdiff` | all | 48 | 0 | 0 |
+| dat.bartos2023 | `tsame` | `tsame+tdiff` | all | 48 | 0 | 0 |
+| dat.bassler2004 | `Ee` | `Ne` | all | 10 | 0 | 0 |
+| dat.bassler2004 | `Ec` | `Nc` | all | 10 | 0 | 0 |
+| dat.bcg | `tpos` | `tpos+tneg` | all | 13 | 0 | 0 |
+| dat.bcg | `cpos` | `cpos+cneg` | all | 13 | 0 | 0 |
+| dat.bornmann2007 | `waward` | `wtotal` | all | 66 | 0 | 0 |
+| dat.bornmann2007 | `maward` | `mtotal` | all | 66 | 0 | 0 |
+| dat.bourassa1996 | `lh.le` | `lh.le+lh.re` | all | 95 | 0 | 2 |
+| dat.bourassa1996 | `rh.le` | `rh.le+rh.re` | all | 96 | 0 | 0 |
+| dat.cannon2006 | `ep1t` | `nt` | all | 4 | 0 | 0 |
+| dat.cannon2006 | `ep2t` | `nt` | all | 4 | 0 | 0 |
+| dat.cannon2006 | `ep3t` | `nt` | all | 4 | 0 | 0 |
+| dat.cannon2006 | `ep4t` | `nt` | all | 4 | 0 | 0 |
+| dat.cannon2006 | `ep5t` | `nt` | all | 4 | 0 | 0 |
+| dat.cannon2006 | `ep6t` | `nt` | all | 4 | 0 | 0 |
+| dat.cannon2006 | `ep1c` | `nc` | all | 4 | 0 | 0 |
+| dat.cannon2006 | `ep2c` | `nc` | all | 4 | 0 | 0 |
+| dat.cannon2006 | `ep3c` | `nc` | all | 4 | 0 | 0 |
+| dat.cannon2006 | `ep4c` | `nc` | all | 4 | 0 | 0 |
+| dat.cannon2006 | `ep5c` | `nc` | all | 4 | 0 | 0 |
+| dat.cannon2006 | `ep6c` | `nc` | all | 4 | 0 | 0 |
+| dat.chiarito2020 | `p2y12.mi` | `p2y12.total` | all | 8 | 0 | 0 |
+| dat.chiarito2020 | `p2y12.stroke` | `p2y12.total` | all | 8 | 0 | 0 |
+| dat.chiarito2020 | `p2y12.death` | `p2y12.total` | all | 9 | 1 | 0 |
+| dat.chiarito2020 | `p2y12.vdeath` | `p2y12.total` | all | 7 | 1 | 0 |
+| dat.chiarito2020 | `aspirin.mi` | `aspirin.total` | all | 8 | 0 | 0 |
+| dat.chiarito2020 | `aspirin.stroke` | `aspirin.total` | all | 8 | 0 | 0 |
+| dat.chiarito2020 | `aspirin.death` | `aspirin.total` | all | 9 | 0 | 0 |
+| dat.chiarito2020 | `aspirin.vdeath` | `aspirin.total` | all | 7 | 0 | 0 |
+| dat.colditz1994 | `tpos` | `tpos+tneg` | all | 13 | 0 | 0 |
+| dat.colditz1994 | `cpos` | `cpos+cneg` | all | 13 | 0 | 0 |
+| dat.collins1985a | `b.xti` | `nti` | all | 25 | 2 | 0 |
+| dat.collins1985a | `o.xti` | `nti` | all | 22 | 2 | 0 |
+| dat.collins1985a | `d.xti` | `nti` | all | 24 | 6 | 0 |
+| dat.collins1985a | `b.xci` | `nci` | all | 25 | 1 | 0 |
+| dat.collins1985a | `o.xci` | `nci` | all | 22 | 3 | 0 |
+| dat.collins1985a | `d.xci` | `nci` | all | 24 | 6 | 0 |
+| dat.collins1985b | `pre.xti` | `pre.nti` | all | 9 | 0 | 0 |
+| dat.collins1985b | `ped.xti` | `fup.nti` | all | 9 | 2 | 0 |
+| dat.collins1985b | `stb.xti` | `fup.nti` | all | 8 | 3 | 0 |
+| dat.collins1985b | `ned.xti` | `fup.nti` | all | 8 | 3 | 0 |
+| dat.collins1985b | `pre.xci` | `pre.nci` | all | 9 | 0 | 0 |
+| dat.collins1985b | `ped.xci` | `fup.nci` | all | 9 | 2 | 0 |
+| dat.collins1985b | `stb.xci` | `fup.nci` | all | 8 | 2 | 0 |
+| dat.collins1985b | `ned.xci` | `fup.nci` | all | 8 | 2 | 0 |
+| dat.crisafulli2020 | `cases` | `total` | all | 26 | 0 | 0 |
+| dat.dagostino1998 | `xt` | `nt` | rnic1 | 0 | 0 | 0 |
+| dat.dagostino1998 | `xt` | `nt` | rnic2 | 0 | 0 | 0 |
+| dat.dagostino1998 | `xt` | `nt` | rngoal1 | 9 | 0 | 0 |
+| dat.dagostino1998 | `xt` | `nt` | rngoal2 | 9 | 0 | 0 |
+| dat.dagostino1998 | `xt` | `nt` | snic1 | 0 | 0 | 0 |
+| dat.dagostino1998 | `xt` | `nt` | snic2 | 0 | 0 | 0 |
+| dat.dagostino1998 | `xt` | `nt` | sngoal1 | 8 | 0 | 0 |
+| dat.dagostino1998 | `xt` | `nt` | sngoal2 | 8 | 0 | 2 |
+| dat.dagostino1998 | `xc` | `nc` | rnic1 | 0 | 0 | 0 |
+| dat.dagostino1998 | `xc` | `nc` | rnic2 | 0 | 0 | 0 |
+| dat.dagostino1998 | `xc` | `nc` | rngoal1 | 9 | 0 | 0 |
+| dat.dagostino1998 | `xc` | `nc` | rngoal2 | 9 | 0 | 0 |
+| dat.dagostino1998 | `xc` | `nc` | snic1 | 0 | 0 | 0 |
+| dat.dagostino1998 | `xc` | `nc` | snic2 | 0 | 0 | 0 |
+| dat.dagostino1998 | `xc` | `nc` | sngoal1 | 8 | 0 | 0 |
+| dat.dagostino1998 | `xc` | `nc` | sngoal2 | 8 | 0 | 0 |
+| dat.damico2009 | `xt` | `nt` | all | 16 | 1 | 0 |
+| dat.damico2009 | `xc` | `nc` | all | 16 | 0 | 0 |
+| dat.debruin2009 | `xi` | `ni` | all | 13 | 0 | 0 |
+| dat.dogliotti2014 | `stroke` | `total` | VKAs | 16 | 1 | 0 |
+| dat.dogliotti2014 | `stroke` | `total` | Aspirin | 13 | 1 | 0 |
+| dat.dogliotti2014 | `stroke` | `total` | Placebo/Control | 8 | 0 | 0 |
+| dat.dogliotti2014 | `stroke` | `total` | Aspirin+Clopidogtrel | 2 | 0 | 0 |
+| dat.dogliotti2014 | `stroke` | `total` | Dabigatran 110mg | 1 | 0 | 0 |
+| dat.dogliotti2014 | `stroke` | `total` | Dabigatran 150mg | 1 | 0 | 0 |
+| dat.dogliotti2014 | `stroke` | `total` | Rivaroxaban | 1 | 0 | 0 |
+| dat.dogliotti2014 | `stroke` | `total` | Apixaban | 2 | 0 | 0 |
+| dat.dong2013 | `death` | `randomized` | TIO-SMI | 2 | 0 | 0 |
+| dat.dong2013 | `death` | `randomized` | Placebo | 33 | 9 | 0 |
+| dat.dong2013 | `death` | `randomized` | TIO-HH | 12 | 1 | 0 |
+| dat.dong2013 | `death` | `randomized` | LABA | 20 | 4 | 0 |
+| dat.dong2013 | `death` | `randomized` | LABA-ICS | 17 | 2 | 0 |
+| dat.dong2013 | `death` | `randomized` | ICS | 15 | 4 | 0 |
+| dat.dorn2007 | `x.a` | `n.a` | all | 19 | 0 | 0 |
+| dat.dorn2007 | `x.p` | `n.p` | all | 19 | 0 | 0 |
+| dat.egger2001 | `ai` | `n1i` | all | 16 | 1 | 0 |
+| dat.egger2001 | `ci` | `n2i` | all | 16 | 0 | 0 |
+| dat.feng2019 | `depr` | `n` | all | 19 | 0 | 0 |
+| dat.fine1993 | `e1i` | `nei` | all | 16 | 0 | 1 |
+| dat.fine1993 | `e2i` | `nei` | all | 17 | 0 | 0 |
+| dat.fine1993 | `e3i` | `nei` | all | 16 | 0 | 0 |
+| dat.fine1993 | `e4i` | `nei` | all | 17 | 0 | 0 |
+| dat.fine1993 | `c1i` | `nci` | all | 16 | 0 | 2 |
+| dat.fine1993 | `c2i` | `nci` | all | 17 | 0 | 0 |
+| dat.fine1993 | `c3i` | `nci` | all | 16 | 0 | 0 |
+| dat.fine1993 | `c4i` | `nci` | all | 17 | 2 | 0 |
+| dat.frank2008 | `bc.ins.ins` | `bc.ins.ins+bc.ins.del+bc.del.del` | all | 4 | 0 | 0 |
+| dat.frank2008 | `bc.ins.del` | `bc.ins.ins+bc.ins.del+bc.del.del` | all | 4 | 0 | 0 |
+| dat.frank2008 | `bc.del.del` | `bc.ins.ins+bc.ins.del+bc.del.del` | all | 4 | 0 | 0 |
+| dat.frank2008 | `ct.ins.ins` | `ct.ins.ins+ct.ins.del+ct.del.del` | all | 4 | 0 | 0 |
+| dat.frank2008 | `ct.ins.del` | `ct.ins.ins+ct.ins.del+ct.del.del` | all | 4 | 0 | 0 |
+| dat.frank2008 | `ct.del.del` | `ct.ins.ins+ct.ins.del+ct.del.del` | all | 4 | 0 | 0 |
+| dat.gibson2002 | `ai` | `n1i` | all | 7 | 1 | 0 |
+| dat.gibson2002 | `ci` | `n2i` | all | 7 | 0 | 0 |
+| dat.graves2010 | `ai` | `n1i` | all | 17 | 0 | 0 |
+| dat.graves2010 | `ci` | `n2i` | all | 17 | 0 | 0 |
+| dat.greb2008 | `Ee` | `Ne` | all | 14 | 0 | 0 |
+| dat.greb2008 | `Ec` | `Nc` | all | 14 | 0 | 0 |
+| dat.gurusamy2011 | `death` | `n` | Control/Placebo | 12 | 4 | 0 |
+| dat.gurusamy2011 | `death` | `n` | Aprotonin | 6 | 3 | 0 |
+| dat.gurusamy2011 | `death` | `n` | Tranexamic acid | 5 | 1 | 0 |
+| dat.gurusamy2011 | `death` | `n` | EACA | 1 | 0 | 0 |
+| dat.gurusamy2011 | `death` | `n` | Antithrombin III | 1 | 1 | 0 |
+| dat.gurusamy2011 | `death` | `n` | rFVIIa | 3 | 1 | 0 |
+| dat.gurusamy2011 | `death` | `n` | Solvent detergent plasma | 1 | 1 | 0 |
+| dat.hahn2001 | `ai` | `n1i` | all | 12 | 4 | 0 |
+| dat.hahn2001 | `ci` | `n2i` | all | 12 | 3 | 0 |
+| dat.hannum2020 | `xi` | `ni` | all | 35 | 0 | 0 |
+| dat.hart1999 | `x1i` | `n1i` | all | 6 | 0 | 0 |
+| dat.hart1999 | `x2i` | `n2i` | all | 6 | 0 | 0 |
+| dat.hartmannboyce2018 | `x.nrt` | `n.nrt` | all | 136 | 0 | 0 |
+| dat.hartmannboyce2018 | `x.ctrl` | `n.ctrl` | all | 136 | 0 | 0 |
+| dat.hasselblad1998 | `xi` | `ni` | no_contact | 19 | 2 | 0 |
+| dat.hasselblad1998 | `xi` | `ni` | ind_counseling | 19 | 0 | 0 |
+| dat.hasselblad1998 | `xi` | `ni` | grp_counseling | 6 | 0 | 0 |
+| dat.hasselblad1998 | `xi` | `ni` | self_help | 6 | 0 | 0 |
+| dat.higgins2008 | `resp.halo` | `resp.halo+fail.halo` | all | 17 | 0 | 0 |
+| dat.higgins2008 | `resp.plac` | `resp.plac+fail.plac` | all | 17 | 6 | 0 |
+| dat.hine1989 | `ai` | `n1i` | all | 6 | 0 | 0 |
+| dat.hine1989 | `ci` | `n2i` | all | 6 | 0 | 0 |
+| dat.karner2014 | `tiotropium.exa` | `tiotropium.total` | all | 22 | 1 | 0 |
+| dat.karner2014 | `tiotropium.sexa` | `tiotropium.total` | all | 21 | 3 | 0 |
+| dat.karner2014 | `tiotropium.hospi` | `tiotropium.total` | all | 19 | 0 | 0 |
+| dat.karner2014 | `tiotropium.deaths` | `tiotropium.total` | all | 22 | 7 | 0 |
+| dat.karner2014 | `tiotropium.sae` | `tiotropium.total` | all | 22 | 1 | 0 |
+| dat.karner2014 | `tiotropium.dropout` | `tiotropium.total` | all | 22 | 1 | 0 |
+| dat.karner2014 | `placebo.exa` | `placebo.total` | all | 22 | 0 | 0 |
+| dat.karner2014 | `placebo.sexa` | `placebo.total` | all | 21 | 4 | 0 |
+| dat.karner2014 | `placebo.hospi` | `placebo.total` | all | 19 | 0 | 0 |
+| dat.karner2014 | `placebo.deaths` | `placebo.total` | all | 22 | 7 | 0 |
+| dat.karner2014 | `placebo.sae` | `placebo.total` | all | 22 | 1 | 0 |
+| dat.karner2014 | `placebo.dropout` | `placebo.total` | all | 22 | 0 | 0 |
+| dat.kearon1998 | `tp` | `np` | all | 31 | 0 | 1 |
+| dat.kearon1998 | `tn` | `nn` | all | 31 | 0 | 7 |
+| dat.landenberger2005 | `n.ctrl.rec` | `n.ctrl.rec+n.ctrl.non` | all | 58 | 0 | 0 |
+| dat.landenberger2005 | `n.cbt.rec` | `n.cbt.rec+n.cbt.non` | all | 58 | 0 | 0 |
+| dat.laopaiboon2015 | `ai` | `n1i` | all | 15 | 1 | 0 |
+| dat.laopaiboon2015 | `ci` | `n2i` | all | 15 | 0 | 0 |
+| dat.lau1992 | `ai` | `n1i` | all | 33 | 1 | 0 |
+| dat.lau1992 | `ci` | `n2i` | all | 33 | 0 | 0 |
+| dat.lee2004 | `ai` | `n1i` | all | 16 | 0 | 0 |
+| dat.lee2004 | `ci` | `n2i` | all | 16 | 0 | 0 |
+| dat.li2007 | `ai` | `n1i` | all | 22 | 1 | 0 |
+| dat.li2007 | `ci` | `n2i` | all | 22 | 1 | 0 |
+| dat.linde2005 | `ai` | `n1i` | all | 24 | 1 | 0 |
+| dat.linde2005 | `ci` | `n2i` | all | 24 | 2 | 0 |
+| dat.linde2015 | `resp1` | `n1` | all | 59 | 0 | 0 |
+| dat.linde2015 | `remi1` | `n1` | all | 54 | 1 | 0 |
+| dat.linde2015 | `loss1` | `n1` | all | 60 | 1 | 0 |
+| dat.linde2015 | `loss.ae1` | `n1` | all | 58 | 6 | 0 |
+| dat.linde2015 | `ae1` | `n1` | all | 40 | 3 | 0 |
+| dat.linde2015 | `resp2` | `n2` | all | 59 | 0 | 0 |
+| dat.linde2015 | `remi2` | `n2` | all | 54 | 1 | 0 |
+| dat.linde2015 | `loss2` | `n2` | all | 59 | 0 | 0 |
+| dat.linde2015 | `loss.ae2` | `n2` | all | 58 | 11 | 0 |
+| dat.linde2015 | `ae2` | `n2` | all | 40 | 3 | 0 |
+| dat.linde2015 | `resp3` | `n3` | all | 7 | 0 | 0 |
+| dat.linde2015 | `remi3` | `n3` | all | 4 | 0 | 0 |
+| dat.linde2015 | `loss3` | `n3` | all | 7 | 0 | 0 |
+| dat.linde2015 | `loss.ae3` | `n3` | all | 7 | 1 | 0 |
+| dat.linde2015 | `ae3` | `n3` | all | 4 | 0 | 0 |
+| dat.linde2016 | `resp` | `n` | SNRI | 6 | 0 | 0 |
+| dat.linde2016 | `resp` | `n` | Placebo | 22 | 0 | 0 |
+| dat.linde2016 | `resp` | `n` | TCA | 35 | 0 | 0 |
+| dat.linde2016 | `resp` | `n` | Face-to-face CBT | 9 | 0 | 0 |
+| dat.linde2016 | `resp` | `n` | UC | 25 | 0 | 0 |
+| dat.linde2016 | `resp` | `n` | Ind drug | 1 | 0 | 0 |
+| dat.linde2016 | `resp` | `n` | Other face-to-face | 8 | 0 | 0 |
+| dat.linde2016 | `resp` | `n` | Self-help CBT | 4 | 0 | 0 |
+| dat.linde2016 | `resp` | `n` | SSRI | 39 | 0 | 0 |
+| dat.linde2016 | `resp` | `n` | Face-to-face interpsy | 3 | 0 | 0 |
+| dat.linde2016 | `resp` | `n` | Face-to-face PST | 4 | 0 | 0 |
+| dat.linde2016 | `resp` | `n` | Face-to-face PST + SSRI | 1 | 0 | 0 |
+| dat.linde2016 | `resp` | `n` | NaSSa | 9 | 0 | 0 |
+| dat.linde2016 | `resp` | `n` | rMAO-A | 4 | 0 | 0 |
+| dat.linde2016 | `resp` | `n` | Hypericum | 14 | 0 | 0 |
+| dat.linde2016 | `resp` | `n` | Remote CBT | 4 | 0 | 0 |
+| dat.linde2016 | `resp` | `n` | Face-to-face interpsy + SSRI | 1 | 0 | 0 |
+| dat.linde2016 | `resp` | `n` | Low-dose SARI | 5 | 0 | 0 |
+| dat.linde2016 | `resp` | `n` | No contact CBT | 4 | 0 | 0 |
+| dat.linde2016 | `resp` | `n` | Face-to-face CBT + SSRI | 1 | 0 | 0 |
+| dat.linde2016 | `resp` | `n` | Face-to-face psychodyn | 1 | 0 | 0 |
+| dat.linde2016 | `resp` | `n` | NRI | 1 | 0 | 0 |
+| dat.metap$cholest | `dtreat` | `ntreat` | all | 34 | 4 | 0 |
+| dat.metap$cholest | `dcontrol` | `ncontrol` | all | 34 | 1 | 0 |
+| dat.moore1998 | `Ee` | `Ne` | all | 37 | 0 | 1 |
+| dat.moore1998 | `Ec` | `Nc` | all | 37 | 2 | 0 |
+| dat.nielweise2007 | `ai` | `n1i` | all | 18 | 6 | 0 |
+| dat.nielweise2007 | `ci` | `n2i` | all | 18 | 1 | 0 |
+| dat.nissen2007 | `treat.infarction` | `treat.total` | all | 42 | 10 | 0 |
+| dat.nissen2007 | `treat.death` | `treat.total` | all | 42 | 21 | 0 |
+| dat.nissen2007 | `cont.infarction` | `cont.total` | all | 42 | 24 | 0 |
+| dat.nissen2007 | `cont.death` | `cont.total` | all | 42 | 34 | 0 |
+| dat.obrien2003 | `cases` | `total` | all | 43 | 0 | 0 |
+| dat.pagliaro1992 | `xi` | `ni` | beta-blockers | 9 | 0 | 0 |
+| dat.pagliaro1992 | `xi` | `ni` | sclerotherapy | 19 | 1 | 0 |
+| dat.pagliaro1992 | `xi` | `ni` | control | 26 | 1 | 0 |
+| dat.pritz1997 | `xi` | `ni` | all | 14 | 0 | 2 |
+| dat.quan2000 | `Ee` | `Ne` | all | 11 | 1 | 0 |
+| dat.quan2000 | `Ec` | `Nc` | all | 11 | 0 | 0 |
+| dat.rivera2025 | `TP` | `TP+FN` | all | 10 | 0 | 0 |
+| dat.rivera2025 | `TN` | `TN+FP` | all | 10 | 0 | 0 |
+| dat.roever2022 | `events` | `total` | all | 37 | 18 | 0 |
+| dat.thompson1999 | `ihd.cont` | `ihd.cont+noihd.cont` | all | 28 | 2 | 0 |
+| dat.thompson1999 | `ihd.exp` | `ihd.exp+noihd.exp` | all | 28 | 0 | 0 |
+| dat.tian2009 | `deaths` | `n` | Rosiglitazone | 48 | 27 | 0 |
+| dat.tian2009 | `deaths` | `n` | Control | 48 | 40 | 0 |
+| dat.tian2009 | `infarcts` | `n` | Rosiglitazone | 48 | 16 | 0 |
+| dat.tian2009 | `infarcts` | `n` | Control | 48 | 30 | 0 |
+| dat.ursino2021 | `events` | `total` | all | 49 | 20 | 2 |
+| dat.vanhowe1999 | `non.pos` | `non.pos+non.neg` | all | 33 | 0 | 0 |
+| dat.vanhowe1999 | `cir.pos` | `cir.pos+cir.neg` | all | 33 | 0 | 0 |
+| dat.viechtbauer2021 | `xTi` | `nTi` | all | 20 | 0 | 0 |
+| dat.viechtbauer2021 | `xCi` | `nCi` | all | 20 | 0 | 0 |
+| dat.woods2010 | `r` | `N` | Salmeterol | 3 | 0 | 0 |
+| dat.woods2010 | `r` | `N` | Placebo | 3 | 0 | 0 |
+| dat.woods2010 | `r` | `N` | Fluticasone | 1 | 0 | 0 |
+| dat.woods2010 | `r` | `N` | SFC | 1 | 0 | 0 |
+| dat.yusuf1985 | `ai` | `n1i` | all | 118 | 13 | 0 |
+| dat.yusuf1985 | `ci` | `n2i` | all | 118 | 15 | 0 |

@@ -1,0 +1,49 @@
+[
+  {
+    "title": "proportion full corpus and exact state restoration",
+    "status": "passed",
+    "hosts": [
+      "127.0.0.1:8000"
+    ]
+  },
+  {
+    "title": "proportion live built-in and every current transform estimator @slow",
+    "status": "passed",
+    "hosts": [
+      "127.0.0.1:8000"
+    ]
+  },
+  {
+    "title": "proportion-ma file picker offline widget replay",
+    "status": "passed",
+    "hosts": []
+  },
+  {
+    "title": "proportion-ma HTTP preparation then offline widget replay",
+    "status": "passed",
+    "hosts": [
+      "127.0.0.1:8000"
+    ]
+  },
+  {
+    "title": "proportion refuses changed corpus.json",
+    "status": "passed",
+    "hosts": [
+      "127.0.0.1:8000"
+    ]
+  },
+  {
+    "title": "proportion refuses changed reference.json",
+    "status": "passed",
+    "hosts": [
+      "127.0.0.1:8000"
+    ]
+  },
+  {
+    "title": "proportion refuses insufficient current rows",
+    "status": "passed",
+    "hosts": [
+      "127.0.0.1:8000"
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "missing_local_assets": [],
+  "assets": 49,
+  "bytes": 57689503,
+  "packages": [
+    "Matrix",
+    "digest",
+    "lattice",
+    "mathjaxr",
+    "metadat",
+    "metafor",
+    "nlme",
+    "numDeriv",
+    "pbapply"
+  ],
+  "method": "Actual proportion Playwright requests plus static dependencies and pinned metafor dependency closure"
+}

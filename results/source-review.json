@@ -1,0 +1,10 @@
+{
+  "source_bytes_preserved": true,
+  "configuration_ids_preserved": true,
+  "meta_mismatches": 614,
+  "all_meta_mismatches_raw_with_boundary_rows": true,
+  "shared_widget_unchanged": true,
+  "no_CSP_relaxation": true,
+  "full_LF_corpus_pins_verified": true,
+  "app_snapshot_byte_identical": true
+}

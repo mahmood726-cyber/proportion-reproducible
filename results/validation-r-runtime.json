@@ -1,0 +1,8 @@
+{
+  "R": "R version 4.6.0 (2026-04-24 ucrt)",
+  "metafor": "5.2.1",
+  "checks": 298116,
+  "passed": 298116,
+  "command": "Rscript validate.R",
+  "note": "Explicit R_LIBS_USER preferred; R_LIBS retained for jsonlite. Four DOM checks per successful fit replay archived evidence."
+}

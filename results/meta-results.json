@@ -1,0 +1,4945 @@
+{
+  "checks": 8046,
+  "passed": 7432,
+  "failed": 614,
+  "quantities": {
+    "status": {
+      "checks": 2160,
+      "passed": 2160,
+      "max_difference": 0,
+      "worst": null
+    },
+    "mu_re": {
+      "checks": 1962,
+      "passed": 1683,
+      "max_difference": 0.04759746560242517,
+      "worst": "dat.roever2022::events::total::all|raw|FE"
+    },
+    "seRE": {
+      "checks": 1962,
+      "passed": 1794,
+      "max_difference": 0.011904168932765857,
+      "worst": "dat.roever2022::events::total::all|raw|PM"
+    },
+    "tau2": {
+      "checks": 1962,
+      "passed": 1795,
+      "max_difference": 0.01959876598710465,
+      "worst": "dat.roever2022::events::total::all|raw|PM"
+    }
+  },
+  "failures": [
+    {
+      "configuration": "dat.anand1999::ai::n1i::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.10787957989949969,
+      "reference": 0.10752400887291376,
+      "difference": 0.0003555710265859269,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.anand1999::ai::n1i::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.017531581011372147,
+      "reference": 0.01760666703828409,
+      "difference": 7.508602691194341e-05,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.anand1999::ai::n1i::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0.009714879100798903,
+      "reference": 0.00980377015409278,
+      "difference": 8.889105329387692e-05,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.anand1999::ai::n1i::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.09926777023043758,
+      "reference": 0.09889066920675202,
+      "difference": 0.0003771010236855582,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.anand1999::ai::n1i::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.010125237165645047,
+      "reference": 0.01014512335027988,
+      "difference": 1.9886184634833673e-05,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.anand1999::ai::n1i::all|raw|DL",
+      "quantity": "tau2",
+      "app": 0.002882758502637873,
+      "reference": 0.0028959017846895527,
+      "difference": 1.3143282051679504e-05,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.anand1999::ai::n1i::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.047097581466598655,
+      "reference": 0.04696108995202608,
+      "difference": 0.00013649151457257452,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.anand1999::ci::n2i::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.129779947704101,
+      "reference": 0.1283804499202605,
+      "difference": 0.0013994977838405198,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.anand1999::ci::n2i::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.019435381685206154,
+      "reference": 0.019731213612573153,
+      "difference": 0.00029583192736699904,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.anand1999::ci::n2i::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0.012021437121180117,
+      "reference": 0.012413539018442651,
+      "difference": 0.00039210189726253397,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.anand1999::ci::n2i::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.12438026247573536,
+      "reference": 0.1229174907905269,
+      "difference": 0.001462771685208461,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.anand1999::ci::n2i::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.012579623200521776,
+      "reference": 0.01264120002790802,
+      "difference": 6.157682738624354e-05,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.anand1999::ci::n2i::all|raw|DL",
+      "quantity": "tau2",
+      "app": 0.004631933538559138,
+      "reference": 0.004683681795655278,
+      "difference": 5.174825709614028e-05,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.anand1999::ci::n2i::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.05743026119860417,
+      "reference": 0.057040456934592074,
+      "difference": 0.00038980426401209745,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.axfors2021::hcq_arm_event::hcq_arm_total::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.07740153691063985,
+      "reference": 0.066940820331102,
+      "difference": 0.010460716579537843,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.axfors2021::hcq_arm_event::hcq_arm_total::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.020181540148896133,
+      "reference": 0.02117659403135907,
+      "difference": 0.0009950538824629387,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.axfors2021::hcq_arm_event::hcq_arm_total::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0.010081233806455439,
+      "reference": 0.011258507640613405,
+      "difference": 0.0011772738341579662,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.axfors2021::hcq_arm_event::hcq_arm_total::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.060922647315163,
+      "reference": 0.05155878588078418,
+      "difference": 0.009363861434378826,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.axfors2021::hcq_arm_event::hcq_arm_total::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.011312557222141707,
+      "reference": 0.011373007753010467,
+      "difference": 6.0450530868760496e-05,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.axfors2021::hcq_arm_event::hcq_arm_total::all|raw|DL",
+      "quantity": "tau2",
+      "app": 0.0024988470021256822,
+      "reference": 0.0025329275949109897,
+      "difference": 3.408059278530752e-05,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.axfors2021::hcq_arm_event::hcq_arm_total::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.010256377151903326,
+      "reference": 0.007999576147281461,
+      "difference": 0.0022568010046218646,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.axfors2021::control_arm_event::control_arm_total::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.0712164177813202,
+      "reference": 0.05435793141245131,
+      "difference": 0.016858486368868886,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.axfors2021::control_arm_event::control_arm_total::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.017818182727689088,
+      "reference": 0.018802375185378053,
+      "difference": 0.000984192457688965,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.axfors2021::control_arm_event::control_arm_total::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0.007532677966919062,
+      "reference": 0.008553864369216315,
+      "difference": 0.0010211864022972531,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.axfors2021::control_arm_event::control_arm_total::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.06811239108393483,
+      "reference": 0.052590880965172115,
+      "difference": 0.01552151011876271,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.axfors2021::control_arm_event::control_arm_total::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.015261580683755119,
+      "reference": 0.015413535892293082,
+      "difference": 0.00015195520853796343,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.axfors2021::control_arm_event::control_arm_total::all|raw|DL",
+      "quantity": "tau2",
+      "app": 0.005186241142381166,
+      "reference": 0.005313351795211267,
+      "difference": 0.00012711065283010047,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.axfors2021::control_arm_event::control_arm_total::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.02647981145450896,
+      "reference": 0.02344282037397908,
+      "difference": 0.0030369910805298807,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.baker2009::exac::total::Fluticasone|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.4374852716455485,
+      "reference": 0.42999665058535264,
+      "difference": 0.007488621060195877,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.baker2009::exac::total::Fluticasone|raw|PM",
+      "quantity": "seRE",
+      "app": 0.08270997928801378,
+      "reference": 0.08728537086314839,
+      "difference": 0.004575391575134605,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.baker2009::exac::total::Fluticasone|raw|PM",
+      "quantity": "tau2",
+      "app": 0.052270131331796074,
+      "reference": 0.05847702698018514,
+      "difference": 0.006206895648389069,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.baker2009::exac::total::Fluticasone|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.4455616559615898,
+      "reference": 0.43867501138281595,
+      "difference": 0.0068866445787738595,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.baker2009::exac::total::Fluticasone|raw|DL",
+      "quantity": "seRE",
+      "app": 0.05907615738780289,
+      "reference": 0.06040346036311369,
+      "difference": 0.0013273029753107998,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.baker2009::exac::total::Fluticasone|raw|DL",
+      "quantity": "tau2",
+      "app": 0.025597021969577253,
+      "reference": 0.026854530082979368,
+      "difference": 0.001257508113402115,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.baker2009::exac::total::Fluticasone|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.5889992429707855,
+      "reference": 0.5882360294886292,
+      "difference": 0.0007632134821563552,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.baker2009::exac::total::Placebo|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.3710448125841016,
+      "reference": 0.3730059422513673,
+      "difference": 0.001961129667265693,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.baker2009::exac::total::Placebo|raw|PM",
+      "quantity": "seRE",
+      "app": 0.03573464900394916,
+      "reference": 0.036603697547250215,
+      "difference": 0.0008690485433010542,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.baker2009::exac::total::Placebo|raw|PM",
+      "quantity": "tau2",
+      "app": 0.04255635199495837,
+      "reference": 0.0447421669593297,
+      "difference": 0.002185814964371327,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.baker2009::exac::total::Placebo|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.3711875075959951,
+      "reference": 0.372968394591517,
+      "difference": 0.0017808869955218687,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.baker2009::exac::total::Placebo|raw|DL",
+      "quantity": "seRE",
+      "app": 0.03636259691942611,
+      "reference": 0.036443265270073584,
+      "difference": 8.066835064747535e-05,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.baker2009::exac::total::Placebo|raw|DL",
+      "quantity": "tau2",
+      "app": 0.044130392067387406,
+      "reference": 0.04433462363548631,
+      "difference": 0.00020423156809890736,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.baker2009::exac::total::Placebo|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.39123601354608767,
+      "reference": 0.39140465282233017,
+      "difference": 0.0001686392762424993,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.baker2009::exac::total::Salmeterol|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.3397294312231165,
+      "reference": 0.3435574560271984,
+      "difference": 0.0038280248040818976,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.baker2009::exac::total::Salmeterol|raw|PM",
+      "quantity": "seRE",
+      "app": 0.049858015748139806,
+      "reference": 0.05241504218584499,
+      "difference": 0.0025570264377051816,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.baker2009::exac::total::Salmeterol|raw|PM",
+      "quantity": "tau2",
+      "app": 0.043387620430799786,
+      "reference": 0.04808759651836602,
+      "difference": 0.004699976087566234,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.baker2009::exac::total::Salmeterol|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.34025136252789584,
+      "reference": 0.34370244345849543,
+      "difference": 0.0034510809305995926,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.baker2009::exac::total::Salmeterol|raw|DL",
+      "quantity": "seRE",
+      "app": 0.053094113709886356,
+      "reference": 0.053271888382658415,
+      "difference": 0.00017777467277205888,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.baker2009::exac::total::Salmeterol|raw|DL",
+      "quantity": "tau2",
+      "app": 0.04937547699666854,
+      "reference": 0.049715383686329426,
+      "difference": 0.0003399066896608849,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.baker2009::exac::total::Salmeterol|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.3243446898286358,
+      "reference": 0.3245840338143932,
+      "difference": 0.0002393439857574231,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.baker2009::exac::total::Tiotropium|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.23207653119076577,
+      "reference": 0.23035151372760623,
+      "difference": 0.0017250174631595339,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.baker2009::exac::total::Tiotropium|raw|PM",
+      "quantity": "seRE",
+      "app": 0.04815493651764591,
+      "reference": 0.048736093633783416,
+      "difference": 0.0005811571161375081,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.baker2009::exac::total::Tiotropium|raw|PM",
+      "quantity": "tau2",
+      "app": 0.03412476183085457,
+      "reference": 0.03496900560539348,
+      "difference": 0.0008442437745389136,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.baker2009::exac::total::Tiotropium|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.23190641379675142,
+      "reference": 0.2301861224969728,
+      "difference": 0.0017202912997786313,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.baker2009::exac::total::Tiotropium|raw|DL",
+      "quantity": "seRE",
+      "app": 0.045000499841861184,
+      "reference": 0.04560076476111295,
+      "difference": 0.0006002649192517681,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.baker2009::exac::total::Tiotropium|raw|DL",
+      "quantity": "tau2",
+      "app": 0.029719328763015893,
+      "reference": 0.03053461652562122,
+      "difference": 0.0008152877626053275,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.baker2009::exac::total::Tiotropium|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.20035983961767323,
+      "reference": 0.1984765423647414,
+      "difference": 0.0018832972529318204,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.baker2009::exac::total::Fluticasone+Salmeterol|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.45609631613482576,
+      "reference": 0.46383032299146126,
+      "difference": 0.0077340068566355,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.baker2009::exac::total::Fluticasone+Salmeterol|raw|PM",
+      "quantity": "seRE",
+      "app": 0.08662905295901571,
+      "reference": 0.09186209740579408,
+      "difference": 0.0052330444467783704,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.baker2009::exac::total::Fluticasone+Salmeterol|raw|PM",
+      "quantity": "tau2",
+      "app": 0.0658110131774681,
+      "reference": 0.07420692457970511,
+      "difference": 0.008395911402237013,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.baker2009::exac::total::Fluticasone+Salmeterol|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.45428627886592216,
+      "reference": 0.46120263993510274,
+      "difference": 0.006916361069180588,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.baker2009::exac::total::Fluticasone+Salmeterol|raw|DL",
+      "quantity": "seRE",
+      "app": 0.07324980060350844,
+      "reference": 0.07367520708908327,
+      "difference": 0.0004254064855748335,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.baker2009::exac::total::Fluticasone+Salmeterol|raw|DL",
+      "quantity": "tau2",
+      "app": 0.04659586912516402,
+      "reference": 0.04715697228036586,
+      "difference": 0.0005611031552018378,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.baker2009::exac::total::Fluticasone+Salmeterol|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.4758118293751608,
+      "reference": 0.4762644213586205,
+      "difference": 0.00045259198345970475,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.bourassa1996::lh.le::lh.le+lh.re::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.6109539395477435,
+      "reference": 0.6117748182620514,
+      "difference": 0.0008208787143079155,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.bourassa1996::lh.le::lh.le+lh.re::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.015963613892021576,
+      "reference": 0.016221024204595272,
+      "difference": 0.0002574103125736957,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.bourassa1996::lh.le::lh.le+lh.re::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0.015245412851123456,
+      "reference": 0.015943692357723586,
+      "difference": 0.0006982795066001295,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.bourassa1996::lh.le::lh.le+lh.re::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.611719186223986,
+      "reference": 0.6124852712361283,
+      "difference": 0.0007660850121422591,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.bourassa1996::lh.le::lh.le+lh.re::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.0152016226016342,
+      "reference": 0.015465705143687225,
+      "difference": 0.00026408254205302455,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.bourassa1996::lh.le::lh.le+lh.re::all|raw|DL",
+      "quantity": "tau2",
+      "app": 0.01326471343782311,
+      "reference": 0.013936473940246986,
+      "difference": 0.0006717605024238755,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.bourassa1996::lh.le::lh.le+lh.re::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.6362962911192409,
+      "reference": 0.6372179277808603,
+      "difference": 0.0009216366616193739,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.chiarito2020::p2y12.death::p2y12.total::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.03600008082931139,
+      "reference": 0.0356708958994555,
+      "difference": 0.00032918492985588993,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.chiarito2020::p2y12.death::p2y12.total::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.012079794327297602,
+      "reference": 0.012201659478829863,
+      "difference": 0.00012186515153226121,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.chiarito2020::p2y12.death::p2y12.total::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0.0012466242815888724,
+      "reference": 0.001273024071371617,
+      "difference": 2.6399789782744496e-05,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.chiarito2020::p2y12.death::p2y12.total::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.03553738330051253,
+      "reference": 0.035200110636484254,
+      "difference": 0.0003372726640282764,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.chiarito2020::p2y12.death::p2y12.total::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.009514346151468123,
+      "reference": 0.009571378561629335,
+      "difference": 5.703241016121255e-05,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.chiarito2020::p2y12.death::p2y12.total::all|raw|DL",
+      "quantity": "tau2",
+      "app": 0.0007542123060386676,
+      "reference": 0.0007638401878040976,
+      "difference": 9.627881765429994e-06,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.chiarito2020::p2y12.death::p2y12.total::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.020361219032361655,
+      "reference": 0.02020614409395574,
+      "difference": 0.00015507493840591358,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.chiarito2020::p2y12.vdeath::p2y12.total::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.02420926218217639,
+      "reference": 0.023793286625326468,
+      "difference": 0.0004159755568499228,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.chiarito2020::p2y12.vdeath::p2y12.total::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.010046629078190034,
+      "reference": 0.010208715759736364,
+      "difference": 0.0001620866815463303,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.chiarito2020::p2y12.vdeath::p2y12.total::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0.0006895379615175397,
+      "reference": 0.0007125105261080912,
+      "difference": 2.2972564590551512e-05,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.chiarito2020::p2y12.vdeath::p2y12.total::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.02393365751625482,
+      "reference": 0.02351408654653755,
+      "difference": 0.00041957096971726934,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.chiarito2020::p2y12.vdeath::p2y12.total::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.007499555483855906,
+      "reference": 0.007543068786044325,
+      "difference": 4.3513302188419485e-05,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.chiarito2020::p2y12.vdeath::p2y12.total::all|raw|DL",
+      "quantity": "tau2",
+      "app": 0.0003769285867250157,
+      "reference": 0.0003815045631164632,
+      "difference": 4.5759763914475005e-06,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.chiarito2020::p2y12.vdeath::p2y12.total::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.013106597517901853,
+      "reference": 0.013002313301119022,
+      "difference": 0.0001042842167828309,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.collins1985a::b.xti::nti::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.18913622384468198,
+      "reference": 0.18743541341885894,
+      "difference": 0.0017008104258230405,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.collins1985a::b.xti::nti::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.01996986097747749,
+      "reference": 0.021185734875672206,
+      "difference": 0.0012158738981947158,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.collins1985a::b.xti::nti::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0.005711401840581295,
+      "reference": 0.006857474563960764,
+      "difference": 0.0011460727233794689,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.collins1985a::b.xti::nti::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.18865177414648174,
+      "reference": 0.18725647382269917,
+      "difference": 0.0013953003237825723,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.collins1985a::b.xti::nti::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.019578881117249092,
+      "reference": 0.02103087248103533,
+      "difference": 0.001451991363786237,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.collins1985a::b.xti::nti::all|raw|DL",
+      "quantity": "tau2",
+      "app": 0.005361228343368596,
+      "reference": 0.006706738919784819,
+      "difference": 0.0013455105764162232,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.collins1985a::b.xti::nti::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.17465261449235725,
+      "reference": 0.1707232334230784,
+      "difference": 0.003929381069278842,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.collins1985a::o.xti::nti::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.11144588884633007,
+      "reference": 0.11019760009139716,
+      "difference": 0.001248288754932908,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.collins1985a::o.xti::nti::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.01537011524101029,
+      "reference": 0.016430377085509283,
+      "difference": 0.0010602618444989931,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.collins1985a::o.xti::nti::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0.0026620240249731423,
+      "reference": 0.003315369441718989,
+      "difference": 0.0006533454167458467,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.collins1985a::o.xti::nti::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.11319921499248443,
+      "reference": 0.11101809014599226,
+      "difference": 0.0021811248464921745,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.collins1985a::o.xti::nti::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.016406765175888252,
+      "reference": 0.01695952310221596,
+      "difference": 0.0005527579263277065,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.collins1985a::o.xti::nti::all|raw|DL",
+      "quantity": "tau2",
+      "app": 0.003300169691585415,
+      "reference": 0.0036636468123824426,
+      "difference": 0.0003634771207970274,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.collins1985a::o.xti::nti::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.07842791104052474,
+      "reference": 0.07604628942064037,
+      "difference": 0.0023816216198843665,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.collins1985a::d.xti::nti::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.03738581935709293,
+      "reference": 0.03452333921240823,
+      "difference": 0.0028624801446847023,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.collins1985a::d.xti::nti::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.00629614110243106,
+      "reference": 0.0073921630818620295,
+      "difference": 0.0010960219794309695,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.collins1985a::d.xti::nti::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0.00021466874959460416,
+      "reference": 0.0004725076595635057,
+      "difference": 0.00025783890996890153,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.collins1985a::d.xti::nti::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.037666267705104346,
+      "reference": 0.03437006232929055,
+      "difference": 0.0032962053758137932,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.collins1985a::d.xti::nti::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.00644633982158742,
+      "reference": 0.0072704794184235135,
+      "difference": 0.0008241395968360933,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.collins1985a::d.xti::nti::all|raw|DL",
+      "quantity": "tau2",
+      "app": 0.00024592499503720857,
+      "reference": 0.00044049527722427165,
+      "difference": 0.00019457028218706308,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.collins1985a::d.xti::nti::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.03435790457745989,
+      "reference": 0.03040001778004828,
+      "difference": 0.003957886797411606,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.collins1985a::b.xci::nci::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.2233922412109687,
+      "reference": 0.22272353178320445,
+      "difference": 0.000668709427764258,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.collins1985a::b.xci::nci::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.021916009503027172,
+      "reference": 0.0226893883295709,
+      "difference": 0.0007733788265437275,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.collins1985a::b.xci::nci::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0.006922824798053586,
+      "reference": 0.007710993115609811,
+      "difference": 0.0007881683175562249,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.collins1985a::b.xci::nci::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.22119871820241133,
+      "reference": 0.22071961798066725,
+      "difference": 0.0004791002217440776,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.collins1985a::b.xci::nci::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.020491381064833926,
+      "reference": 0.02131589804877422,
+      "difference": 0.0008245169839402947,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.collins1985a::b.xci::nci::all|raw|DL",
+      "quantity": "tau2",
+      "app": 0.005563700442160003,
+      "reference": 0.006335517533905135,
+      "difference": 0.0007718170917451325,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.collins1985a::b.xci::nci::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.19756418858927804,
+      "reference": 0.19560754725724125,
+      "difference": 0.001956641332036796,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.collins1985a::o.xci::nci::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.13650330653788775,
+      "reference": 0.1336697674721097,
+      "difference": 0.0028335390657780457,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.collins1985a::o.xci::nci::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.0180452763828642,
+      "reference": 0.019674879007549533,
+      "difference": 0.001629602624685332,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.collins1985a::o.xci::nci::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0.004211180327593756,
+      "reference": 0.005461692550926086,
+      "difference": 0.0012505122233323297,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.collins1985a::o.xci::nci::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.13637189332517083,
+      "reference": 0.13289120075763075,
+      "difference": 0.003480692567540078,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.collins1985a::o.xci::nci::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.01795554429213002,
+      "reference": 0.019053582082921967,
+      "difference": 0.001098037790791949,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.collins1985a::o.xci::nci::all|raw|DL",
+      "quantity": "tau2",
+      "app": 0.0041462388666364735,
+      "reference": 0.004969141582570182,
+      "difference": 0.0008229027159337085,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.collins1985a::o.xci::nci::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.11042183517423702,
+      "reference": 0.10639115067439017,
+      "difference": 0.004030684499846851,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.collins1985a::d.xci::nci::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.056111506819629654,
+      "reference": 0.05294486016997961,
+      "difference": 0.0031666466496500442,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.collins1985a::d.xci::nci::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.010251598445792721,
+      "reference": 0.011566210545896136,
+      "difference": 0.0013146121001034149,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.collins1985a::d.xci::nci::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0.0012234794986057864,
+      "reference": 0.0017910695054884976,
+      "difference": 0.0005675900068827112,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.collins1985a::d.xci::nci::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.05512054019404766,
+      "reference": 0.05131535732961764,
+      "difference": 0.003805182864430025,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.collins1985a::d.xci::nci::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.009789111700173787,
+      "reference": 0.010639415422306545,
+      "difference": 0.0008503037221327583,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.collins1985a::d.xci::nci::all|raw|DL",
+      "quantity": "tau2",
+      "app": 0.001047670146298351,
+      "reference": 0.0013805181016021122,
+      "difference": 0.0003328479553037613,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.collins1985a::d.xci::nci::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.040960429414448676,
+      "reference": 0.035833692053785504,
+      "difference": 0.005126737360663172,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.collins1985b::ped.xti::fup.nti::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.013527460217369091,
+      "reference": 0.01271972874488682,
+      "difference": 0.0008077314724822711,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.collins1985b::ped.xti::fup.nti::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.0030650178464783806,
+      "reference": 0.003691512846443807,
+      "difference": 0.0006264949999654264,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.collins1985b::ped.xti::fup.nti::all|raw|PM",
+      "quantity": "tau2",
+      "app": 3.6079610405121744e-05,
+      "reference": 6.567695477547876e-05,
+      "difference": 2.9597344370357014e-05,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.collins1985b::ped.xti::fup.nti::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.01347341805646553,
+      "reference": 0.012632893987078394,
+      "difference": 0.0008405240693871354,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.collins1985b::ped.xti::fup.nti::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.0029326594871702527,
+      "reference": 0.0035076293510582558,
+      "difference": 0.0005749698638880031,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.collins1985b::ped.xti::fup.nti::all|raw|DL",
+      "quantity": "tau2",
+      "app": 3.073301924859312e-05,
+      "reference": 5.6263039867953e-05,
+      "difference": 2.553002061935988e-05,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.collins1985b::ped.xti::fup.nti::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.013350035453067928,
+      "reference": 0.012415745063740602,
+      "difference": 0.0009342903893273264,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.collins1985b::stb.xti::fup.nti::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.006794592661340383,
+      "reference": 0.005931062753292171,
+      "difference": 0.0008635299080482122,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.collins1985b::stb.xti::fup.nti::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.006794592661340383,
+      "reference": 0.005931062753292171,
+      "difference": 0.0008635299080482122,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.collins1985b::stb.xti::fup.nti::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.006794592661340383,
+      "reference": 0.005931062753292171,
+      "difference": 0.0008635299080482122,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.collins1985b::ned.xti::fup.nti::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.0076592644358100615,
+      "reference": 0.006217204769404622,
+      "difference": 0.0014420596664054394,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.collins1985b::ned.xti::fup.nti::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.0018008161269080951,
+      "reference": 0.0024792974199842038,
+      "difference": 0.0006784812930761086,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.collins1985b::ned.xti::fup.nti::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0,
+      "reference": 1.4634819499984031e-05,
+      "difference": 1.4634819499984031e-05,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.collins1985b::ned.xti::fup.nti::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.0076592644358100615,
+      "reference": 0.006213409914499728,
+      "difference": 0.0014458545213103333,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.collins1985b::ned.xti::fup.nti::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.0018008161269080951,
+      "reference": 0.002381218029905818,
+      "difference": 0.0005804019029977227,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.collins1985b::ned.xti::fup.nti::all|raw|DL",
+      "quantity": "tau2",
+      "app": 0,
+      "reference": 1.1984535178407188e-05,
+      "difference": 1.1984535178407188e-05,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.collins1985b::ned.xti::fup.nti::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.0076592644358100615,
+      "reference": 0.006373420313016476,
+      "difference": 0.0012858441227935856,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.collins1985b::ped.xci::fup.nci::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.01680585003176972,
+      "reference": 0.01626650983798346,
+      "difference": 0.0005393401937862606,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.collins1985b::ped.xci::fup.nci::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.003976138469660336,
+      "reference": 0.004904796476737537,
+      "difference": 0.0009286580070772005,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.collins1985b::ped.xci::fup.nci::all|raw|PM",
+      "quantity": "tau2",
+      "app": 5.8719115424959024e-05,
+      "reference": 0.00011257943265260119,
+      "difference": 5.386031722764216e-05,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.collins1985b::ped.xci::fup.nci::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.01630085732718007,
+      "reference": 0.015553161216950415,
+      "difference": 0.0007476961102296543,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.collins1985b::ped.xci::fup.nci::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.003466597886668962,
+      "reference": 0.00418302250552697,
+      "difference": 0.000716424618858008,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.collins1985b::ped.xci::fup.nci::all|raw|DL",
+      "quantity": "tau2",
+      "app": 3.596705100446382e-05,
+      "reference": 6.932880806219539e-05,
+      "difference": 3.336175705773157e-05,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.collins1985b::ped.xci::fup.nci::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.015208995320868602,
+      "reference": 0.014227608310411893,
+      "difference": 0.0009813870104567086,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.collins1985b::stb.xci::fup.nci::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.008795015514959922,
+      "reference": 0.007987499177822124,
+      "difference": 0.000807516337137798,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.collins1985b::stb.xci::fup.nci::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.0021825595661574626,
+      "reference": 0.0024168199016394772,
+      "difference": 0.0002342603354820146,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.collins1985b::stb.xci::fup.nci::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0,
+      "reference": 3.3345443632314442e-06,
+      "difference": 3.3345443632314442e-06,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.collins1985b::stb.xci::fup.nci::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.008795015514959922,
+      "reference": 0.008009658048343882,
+      "difference": 0.0007853574666160396,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.collins1985b::stb.xci::fup.nci::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.0021825595661574626,
+      "reference": 0.002446134344552597,
+      "difference": 0.0002635747783951343,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.collins1985b::stb.xci::fup.nci::all|raw|DL",
+      "quantity": "tau2",
+      "app": 0,
+      "reference": 3.816930534412672e-06,
+      "difference": 3.816930534412672e-06,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.collins1985b::stb.xci::fup.nci::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.008795015514959922,
+      "reference": 0.0078041706082632376,
+      "difference": 0.0009908449066966842,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.collins1985b::ned.xci::fup.nci::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.010230405584470956,
+      "reference": 0.009078499515995491,
+      "difference": 0.0011519060684754643,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.collins1985b::ned.xci::fup.nci::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.010230405584470956,
+      "reference": 0.009078499515995491,
+      "difference": 0.0011519060684754643,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.collins1985b::ned.xci::fup.nci::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.010230405584470956,
+      "reference": 0.009078499515995491,
+      "difference": 0.0011519060684754643,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.dagostino1998::xt::nt::sngoal2|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.7999937787645907,
+      "reference": 0.8070870312293521,
+      "difference": 0.007093252464761446,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.dagostino1998::xt::nt::sngoal2|raw|PM",
+      "quantity": "seRE",
+      "app": 0.06916528691148656,
+      "reference": 0.0721501982460563,
+      "difference": 0.0029849113345697398,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.dagostino1998::xt::nt::sngoal2|raw|PM",
+      "quantity": "tau2",
+      "app": 0.03338019360921221,
+      "reference": 0.03667603567046855,
+      "difference": 0.0032958420612563405,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.dagostino1998::xt::nt::sngoal2|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.8063772722017861,
+      "reference": 0.8135067722261148,
+      "difference": 0.007129500024328661,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.dagostino1998::xt::nt::sngoal2|raw|DL",
+      "quantity": "seRE",
+      "app": 0.05488142925118869,
+      "reference": 0.056886343454248076,
+      "difference": 0.0020049142030593853,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.dagostino1998::xt::nt::sngoal2|raw|DL",
+      "quantity": "tau2",
+      "app": 0.019673643463824785,
+      "reference": 0.021390183337015912,
+      "difference": 0.0017165398731911266,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.dagostino1998::xt::nt::sngoal2|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.8913529160980486,
+      "reference": 0.8981399294534067,
+      "difference": 0.00678701335535814,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.damico2009::xt::nt::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.15746707556548548,
+      "reference": 0.15682526158234542,
+      "difference": 0.0006418139831400604,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.damico2009::xt::nt::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.029947075821243396,
+      "reference": 0.03021411107080952,
+      "difference": 0.0002670352495661235,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.damico2009::xt::nt::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0.012443006531637706,
+      "reference": 0.012695911220040598,
+      "difference": 0.00025290468840289196,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.damico2009::xt::nt::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.15698635446966197,
+      "reference": 0.15650412140956474,
+      "difference": 0.0004822330600972313,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.damico2009::xt::nt::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.028974305082886904,
+      "reference": 0.029550272843324416,
+      "difference": 0.0005759677604375117,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.damico2009::xt::nt::all|raw|DL",
+      "quantity": "tau2",
+      "app": 0.011541710935730531,
+      "reference": 0.012071566446590647,
+      "difference": 0.0005298555108601156,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.damico2009::xt::nt::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.10104595595564093,
+      "reference": 0.09857297746025298,
+      "difference": 0.0024729784953879536,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.dogliotti2014::stroke::total::VKAs|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.03320550302631498,
+      "reference": 0.03291952872348305,
+      "difference": 0.0002859743028319345,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.dogliotti2014::stroke::total::VKAs|raw|PM",
+      "quantity": "seRE",
+      "app": 0.004432381400491654,
+      "reference": 0.004677906379505152,
+      "difference": 0.0002455249790134983,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.dogliotti2014::stroke::total::VKAs|raw|PM",
+      "quantity": "tau2",
+      "app": 0.00021691726079935467,
+      "reference": 0.00025000476530859185,
+      "difference": 3.308750450923718e-05,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.dogliotti2014::stroke::total::VKAs|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.03127585234848426,
+      "reference": 0.03105547225702502,
+      "difference": 0.00022038009145924214,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.dogliotti2014::stroke::total::VKAs|raw|DL",
+      "quantity": "seRE",
+      "app": 0.002875605027540219,
+      "reference": 0.0029043320396365353,
+      "difference": 2.872701209631623e-05,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.dogliotti2014::stroke::total::VKAs|raw|DL",
+      "quantity": "tau2",
+      "app": 6.215436507983723e-05,
+      "reference": 6.409750547998839e-05,
+      "difference": 1.943140400151159e-06,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.dogliotti2014::stroke::total::VKAs|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.02808335142569496,
+      "reference": 0.028047774267017243,
+      "difference": 3.557715867771871e-05,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.dogliotti2014::stroke::total::Aspirin|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.06586979216504849,
+      "reference": 0.06499927469029751,
+      "difference": 0.0008705174747509759,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.dogliotti2014::stroke::total::Aspirin|raw|PM",
+      "quantity": "seRE",
+      "app": 0.01405318081503161,
+      "reference": 0.014389442399545663,
+      "difference": 0.00033626158451405264,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.dogliotti2014::stroke::total::Aspirin|raw|PM",
+      "quantity": "tau2",
+      "app": 0.002409330316608208,
+      "reference": 0.002533448350945811,
+      "difference": 0.00012411803433760296,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.dogliotti2014::stroke::total::Aspirin|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.06534860706255266,
+      "reference": 0.06449402270771512,
+      "difference": 0.0008545843548375398,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.dogliotti2014::stroke::total::Aspirin|raw|DL",
+      "quantity": "seRE",
+      "app": 0.01098121286622892,
+      "reference": 0.011081026369444634,
+      "difference": 9.981350321571283e-05,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.dogliotti2014::stroke::total::Aspirin|raw|DL",
+      "quantity": "tau2",
+      "app": 0.001412482957991793,
+      "reference": 0.0014409787698013042,
+      "difference": 2.8495811809511233e-05,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.dogliotti2014::stroke::total::Aspirin|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.05892660900287627,
+      "reference": 0.058715398265464194,
+      "difference": 0.00021121073741207919,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.dong2013::death::randomized::Placebo|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.02428809052338545,
+      "reference": 0.023208151881709434,
+      "difference": 0.001079938641676017,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.dong2013::death::randomized::Placebo|raw|PM",
+      "quantity": "seRE",
+      "app": 0.006112407537989642,
+      "reference": 0.006232590397127153,
+      "difference": 0.00012018285913751106,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.dong2013::death::randomized::Placebo|raw|PM",
+      "quantity": "tau2",
+      "app": 0.001160719811657151,
+      "reference": 0.0012094884843737025,
+      "difference": 4.876867271655155e-05,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.dong2013::death::randomized::Placebo|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.023870832865452916,
+      "reference": 0.022802257370988576,
+      "difference": 0.0010685754944643397,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.dong2013::death::randomized::Placebo|raw|DL",
+      "quantity": "seRE",
+      "app": 0.004710239782476442,
+      "reference": 0.004812093149159298,
+      "difference": 0.0001018533666828558,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.dong2013::death::randomized::Placebo|raw|DL",
+      "quantity": "tau2",
+      "app": 0.0006631187886064698,
+      "reference": 0.0006948180834438224,
+      "difference": 3.169929483735261e-05,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.dong2013::death::randomized::Placebo|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.014721126984390357,
+      "reference": 0.013510078230684864,
+      "difference": 0.0012110487537054931,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.dong2013::death::randomized::TIO-HH|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.02743921452878267,
+      "reference": 0.027076697837060612,
+      "difference": 0.00036251669172205833,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.dong2013::death::randomized::TIO-HH|raw|PM",
+      "quantity": "seRE",
+      "app": 0.010063731113173184,
+      "reference": 0.01014427612062368,
+      "difference": 8.054500745049639e-05,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.dong2013::death::randomized::TIO-HH|raw|PM",
+      "quantity": "tau2",
+      "app": 0.0011502819763426915,
+      "reference": 0.0011697294130468582,
+      "difference": 1.9447436704166663e-05,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.dong2013::death::randomized::TIO-HH|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.027454436811224975,
+      "reference": 0.027089354715111123,
+      "difference": 0.0003650820961138522,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.dong2013::death::randomized::TIO-HH|raw|DL",
+      "quantity": "seRE",
+      "app": 0.008336222028583863,
+      "reference": 0.008375245786989043,
+      "difference": 3.902375840517981e-05,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.dong2013::death::randomized::TIO-HH|raw|DL",
+      "quantity": "tau2",
+      "app": 0.0007711494728495831,
+      "reference": 0.0007789107474045424,
+      "difference": 7.761274554959289e-06,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.dong2013::death::randomized::TIO-HH|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.01834744627669998,
+      "reference": 0.018157406703297907,
+      "difference": 0.00019003957340207184,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.dong2013::death::randomized::LABA|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.020638591638684606,
+      "reference": 0.02005697613864492,
+      "difference": 0.0005816155000396873,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.dong2013::death::randomized::LABA|raw|PM",
+      "quantity": "seRE",
+      "app": 0.006828105204420364,
+      "reference": 0.006922458800129791,
+      "difference": 9.435359570942638e-05,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.dong2013::death::randomized::LABA|raw|PM",
+      "quantity": "tau2",
+      "app": 0.0008684825843378733,
+      "reference": 0.0008941384316475208,
+      "difference": 2.5655847309647545e-05,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.dong2013::death::randomized::LABA|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.0189163966705046,
+      "reference": 0.018372916749654997,
+      "difference": 0.0005434799208496009,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.dong2013::death::randomized::LABA|raw|DL",
+      "quantity": "seRE",
+      "app": 0.0041533048983782616,
+      "reference": 0.004257521954440236,
+      "difference": 0.0001042170560619747,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.dong2013::death::randomized::LABA|raw|DL",
+      "quantity": "tau2",
+      "app": 0.0002928004720207601,
+      "reference": 0.00030971421719134905,
+      "difference": 1.6913745170588936e-05,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.dong2013::death::randomized::LABA|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.011752427347993312,
+      "reference": 0.010979352163525379,
+      "difference": 0.0007730751844679338,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.dong2013::death::randomized::LABA-ICS|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.020149118899384633,
+      "reference": 0.019806179262577956,
+      "difference": 0.00034293963680667727,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.dong2013::death::randomized::LABA-ICS|raw|PM",
+      "quantity": "seRE",
+      "app": 0.007070620699827147,
+      "reference": 0.007131238495546181,
+      "difference": 6.0617795719033855e-05,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.dong2013::death::randomized::LABA-ICS|raw|PM",
+      "quantity": "tau2",
+      "app": 0.0007914303349189674,
+      "reference": 0.0008059237522148646,
+      "difference": 1.4493417295897136e-05,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.dong2013::death::randomized::LABA-ICS|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.01911887272907103,
+      "reference": 0.01878720386782138,
+      "difference": 0.0003316688612496517,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.dong2013::death::randomized::LABA-ICS|raw|DL",
+      "quantity": "seRE",
+      "app": 0.004615300861840442,
+      "reference": 0.004683409057034156,
+      "difference": 6.810819519371437e-05,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.dong2013::death::randomized::LABA-ICS|raw|DL",
+      "quantity": "tau2",
+      "app": 0.0003115581826100808,
+      "reference": 0.00032203608141612064,
+      "difference": 1.047789880603985e-05,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.dong2013::death::randomized::LABA-ICS|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.011311506908605953,
+      "reference": 0.010821622576652784,
+      "difference": 0.0004898843319531693,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.dong2013::death::randomized::ICS|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.029457138814379044,
+      "reference": 0.028754606918398522,
+      "difference": 0.0007025318959805217,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.dong2013::death::randomized::ICS|raw|PM",
+      "quantity": "seRE",
+      "app": 0.010736572649745866,
+      "reference": 0.010868104890474716,
+      "difference": 0.00013153224072885022,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.dong2013::death::randomized::ICS|raw|PM",
+      "quantity": "tau2",
+      "app": 0.0016308577867620794,
+      "reference": 0.0016733658899213302,
+      "difference": 4.25081031592508e-05,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.dong2013::death::randomized::ICS|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.02832273467764301,
+      "reference": 0.02761105826375271,
+      "difference": 0.0007116764138902984,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.dong2013::death::randomized::ICS|raw|DL",
+      "quantity": "seRE",
+      "app": 0.006833154040549597,
+      "reference": 0.006935183158355871,
+      "difference": 0.00010202911780627429,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.dong2013::death::randomized::ICS|raw|DL",
+      "quantity": "tau2",
+      "app": 0.0006089050048658196,
+      "reference": 0.0006296618851423504,
+      "difference": 2.0756880276530734e-05,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.dong2013::death::randomized::ICS|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.007468329444400256,
+      "reference": 0.006199174096013989,
+      "difference": 0.001269155348386267,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.egger2001::ai::n1i::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.04421148748705806,
+      "reference": 0.04326866092536345,
+      "difference": 0.0009428265616946083,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.egger2001::ai::n1i::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.0075952757382529625,
+      "reference": 0.007890832358864916,
+      "difference": 0.0002955566206119531,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.egger2001::ai::n1i::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0.0005048723155502745,
+      "reference": 0.0005661567864716314,
+      "difference": 6.128447092135691e-05,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.egger2001::ai::n1i::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.04432929917371766,
+      "reference": 0.04328226757660501,
+      "difference": 0.0010470315971126479,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.egger2001::ai::n1i::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.00973609486500619,
+      "reference": 0.009822107652630273,
+      "difference": 8.601278762408217e-05,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.egger2001::ai::n1i::all|raw|DL",
+      "quantity": "tau2",
+      "app": 0.0010223519613086725,
+      "reference": 0.0010466238728609677,
+      "difference": 2.4271911552295206e-05,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.egger2001::ai::n1i::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.07129877167400925,
+      "reference": 0.07124925002130171,
+      "difference": 4.952165270753761e-05,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.fine1993::e1i::nei::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.8264757164378299,
+      "reference": 0.8285089654230618,
+      "difference": 0.002033248985231939,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.fine1993::e1i::nei::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.029075296025665155,
+      "reference": 0.029826433113332437,
+      "difference": 0.0007511370876672821,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.fine1993::e1i::nei::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0.010929213745570751,
+      "reference": 0.011623634496338738,
+      "difference": 0.0006944207507679871,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.fine1993::e1i::nei::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.8261483804665165,
+      "reference": 0.8282212192415833,
+      "difference": 0.00207283877506681,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.fine1993::e1i::nei::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.03122091629290505,
+      "reference": 0.031767736418558346,
+      "difference": 0.0005468201256532967,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.fine1993::e1i::nei::all|raw|DL",
+      "quantity": "tau2",
+      "app": 0.012962850648940602,
+      "reference": 0.013505679147651661,
+      "difference": 0.000542828498711059,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.fine1993::e1i::nei::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.8228443754915226,
+      "reference": 0.8243744168292546,
+      "difference": 0.0015300413377320465,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.fine1993::c1i::nci::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.7644890083350016,
+      "reference": 0.7668024112496336,
+      "difference": 0.002313402914632001,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.fine1993::c1i::nci::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.03567585139817066,
+      "reference": 0.03684714355532791,
+      "difference": 0.0011712921571572499,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.fine1993::c1i::nci::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0.016126425929576124,
+      "reference": 0.017450623491683474,
+      "difference": 0.0013241975621073494,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.fine1993::c1i::nci::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.7614116522577725,
+      "reference": 0.7636140865468954,
+      "difference": 0.002202434289122923,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.fine1993::c1i::nci::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.0424149439692689,
+      "reference": 0.04423691919650945,
+      "difference": 0.0018219752272405493,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.fine1993::c1i::nci::all|raw|DL",
+      "quantity": "tau2",
+      "app": 0.024376479557312914,
+      "reference": 0.026867191527459183,
+      "difference": 0.0024907119701462685,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.fine1993::c1i::nci::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.8409343179215995,
+      "reference": 0.8480948190666844,
+      "difference": 0.00716050114508493,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.fine1993::c4i::nci::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.16304204514039045,
+      "reference": 0.1618790355042599,
+      "difference": 0.0011630096361305575,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.fine1993::c4i::nci::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.03545910583218332,
+      "reference": 0.03591543571924065,
+      "difference": 0.00045632988705732874,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.fine1993::c4i::nci::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0.018063907415804485,
+      "reference": 0.018609850238834304,
+      "difference": 0.0005459428230298186,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.fine1993::c4i::nci::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.15549341421889,
+      "reference": 0.1548742333748587,
+      "difference": 0.000619180844031314,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.fine1993::c4i::nci::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.02686824276780825,
+      "reference": 0.027687797215772192,
+      "difference": 0.0008195544479639404,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.fine1993::c4i::nci::all|raw|DL",
+      "quantity": "tau2",
+      "app": 0.009175440871917842,
+      "reference": 0.00990756781648008,
+      "difference": 0.0007321269445622388,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.fine1993::c4i::nci::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.05792684985463112,
+      "reference": 0.05264960796522669,
+      "difference": 0.005277241889404427,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.gibson2002::ai::n1i::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.31163757022531263,
+      "reference": 0.3061337091489833,
+      "difference": 0.0055038610763293305,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.gibson2002::ai::n1i::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.08092986240693384,
+      "reference": 0.0842567407090276,
+      "difference": 0.003326878302093758,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.gibson2002::ai::n1i::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0.04201035206437678,
+      "reference": 0.04585339598104606,
+      "difference": 0.0038430439166692795,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.gibson2002::ai::n1i::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.3114781053469389,
+      "reference": 0.30600363326967683,
+      "difference": 0.005474472077262094,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.gibson2002::ai::n1i::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.07640506274203937,
+      "reference": 0.08043173414818898,
+      "difference": 0.0040266714061496095,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.gibson2002::ai::n1i::all|raw|DL",
+      "quantity": "tau2",
+      "app": 0.03703303501773381,
+      "reference": 0.04144831739575522,
+      "difference": 0.004415282378021405,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.gibson2002::ai::n1i::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.31032706630454776,
+      "reference": 0.3039152478875373,
+      "difference": 0.00641181841701044,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.gurusamy2011::death::n::Control/Placebo|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.038864767592192116,
+      "reference": 0.032374301603332316,
+      "difference": 0.0064904659888598,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.gurusamy2011::death::n::Control/Placebo|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.038864767592192116,
+      "reference": 0.032374301603332316,
+      "difference": 0.0064904659888598,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.gurusamy2011::death::n::Control/Placebo|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.038864767592192116,
+      "reference": 0.032374301603332316,
+      "difference": 0.0064904659888598,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.gurusamy2011::death::n::Aprotonin|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.024146040884950818,
+      "reference": 0.0175505464697809,
+      "difference": 0.00659549441516992,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.gurusamy2011::death::n::Aprotonin|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.024146040884950818,
+      "reference": 0.0175505464697809,
+      "difference": 0.00659549441516992,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.gurusamy2011::death::n::Aprotonin|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.024146040884950818,
+      "reference": 0.0175505464697809,
+      "difference": 0.00659549441516992,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.gurusamy2011::death::n::Tranexamic acid|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.0493892995645618,
+      "reference": 0.042358889946961444,
+      "difference": 0.007030409617600354,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.gurusamy2011::death::n::Tranexamic acid|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.0493892995645618,
+      "reference": 0.042358889946961444,
+      "difference": 0.007030409617600354,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.gurusamy2011::death::n::Tranexamic acid|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.0493892995645618,
+      "reference": 0.042358889946961444,
+      "difference": 0.007030409617600354,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.gurusamy2011::death::n::rFVIIa|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.034917763038719386,
+      "reference": 0.03432771938244756,
+      "difference": 0.000590043656271827,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.gurusamy2011::death::n::rFVIIa|raw|PM",
+      "quantity": "seRE",
+      "app": 0.014202729782207473,
+      "reference": 0.016520375765770205,
+      "difference": 0.0023176459835627314,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.gurusamy2011::death::n::rFVIIa|raw|PM",
+      "quantity": "tau2",
+      "app": 5.902217567204708e-05,
+      "reference": 0.00017702702422915063,
+      "difference": 0.00011800484855710355,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.gurusamy2011::death::n::rFVIIa|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.03575762526603159,
+      "reference": 0.034711957268663454,
+      "difference": 0.0010456679973681327,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.gurusamy2011::death::n::rFVIIa|raw|DL",
+      "quantity": "seRE",
+      "app": 0.014990728568352383,
+      "reference": 0.017096354414501535,
+      "difference": 0.0021056258461491523,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.gurusamy2011::death::n::rFVIIa|raw|DL",
+      "quantity": "tau2",
+      "app": 9.573071657909639e-05,
+      "reference": 0.0002112729751877992,
+      "difference": 0.00011554225860870281,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.gurusamy2011::death::n::rFVIIa|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.03335587789370279,
+      "reference": 0.03148103816538411,
+      "difference": 0.0018748397283186793,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.hahn2001::ai::n1i::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.0672652094047095,
+      "reference": 0.060992017220592346,
+      "difference": 0.006273192184117149,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.hahn2001::ai::n1i::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.016853374858121595,
+      "reference": 0.01909439437220375,
+      "difference": 0.0022410195140821557,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.hahn2001::ai::n1i::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0.0023588511552578156,
+      "reference": 0.0032600094087777507,
+      "difference": 0.0009011582535199351,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.hahn2001::ai::n1i::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.0673420159336178,
+      "reference": 0.06031986837653482,
+      "difference": 0.007022147557082976,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.hahn2001::ai::n1i::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.016967934996531712,
+      "reference": 0.01780697505287354,
+      "difference": 0.0008390400563418297,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.hahn2001::ai::n1i::all|raw|DL",
+      "quantity": "tau2",
+      "app": 0.0024017281731383397,
+      "reference": 0.0027262808497457206,
+      "difference": 0.0003245526766073809,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.hahn2001::ai::n1i::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.047206679490784574,
+      "reference": 0.043402285639512074,
+      "difference": 0.0038043938512725,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.hahn2001::ci::n2i::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.10541390278802791,
+      "reference": 0.10052853440446234,
+      "difference": 0.004885368383565569,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.hahn2001::ci::n2i::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.0222147292978115,
+      "reference": 0.024500990122586417,
+      "difference": 0.002286260824774917,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.hahn2001::ci::n2i::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0.004404582854754887,
+      "reference": 0.005634101991422181,
+      "difference": 0.001229519136667294,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.hahn2001::ci::n2i::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.10529599504646502,
+      "reference": 0.10041952982231872,
+      "difference": 0.004876465224146295,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.hahn2001::ci::n2i::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.021945534246697818,
+      "reference": 0.02423967626895776,
+      "difference": 0.002294142022259943,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.hahn2001::ci::n2i::all|raw|DL",
+      "quantity": "tau2",
+      "app": 0.004268529673638858,
+      "reference": 0.0054868858804770024,
+      "difference": 0.0012183562068381441,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.hahn2001::ci::n2i::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.10035489310415056,
+      "reference": 0.09421203942479815,
+      "difference": 0.006142853679352411,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.hasselblad1998::xi::ni::no_contact|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.07157109771315046,
+      "reference": 0.06988297710006947,
+      "difference": 0.00168812061308099,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.hasselblad1998::xi::ni::no_contact|raw|PM",
+      "quantity": "seRE",
+      "app": 0.008737281205754462,
+      "reference": 0.009369089852394945,
+      "difference": 0.0006318086466404835,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.hasselblad1998::xi::ni::no_contact|raw|PM",
+      "quantity": "tau2",
+      "app": 0.0010853372613732564,
+      "reference": 0.001290718073699477,
+      "difference": 0.00020538081232622063,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.hasselblad1998::xi::ni::no_contact|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.071534927978501,
+      "reference": 0.06990263437701198,
+      "difference": 0.0016322936014890183,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.hasselblad1998::xi::ni::no_contact|raw|DL",
+      "quantity": "seRE",
+      "app": 0.009062363812221965,
+      "reference": 0.009249131227643526,
+      "difference": 0.00018676741542156088,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.hasselblad1998::xi::ni::no_contact|raw|DL",
+      "quantity": "tau2",
+      "app": 0.0011889728187473596,
+      "reference": 0.001250469190720909,
+      "difference": 6.149637197354948e-05,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.hasselblad1998::xi::ni::no_contact|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.06679489906859731,
+      "reference": 0.06632145181260943,
+      "difference": 0.0004734472559878855,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.higgins2008::resp.plac::resp.plac+fail.plac::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.1581490722356084,
+      "reference": 0.14528236779040105,
+      "difference": 0.01286670444520735,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.higgins2008::resp.plac::resp.plac+fail.plac::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.04266248112270974,
+      "reference": 0.04565327395784251,
+      "difference": 0.0029907928351327676,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.higgins2008::resp.plac::resp.plac+fail.plac::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0.025419300171344736,
+      "reference": 0.02983872235911312,
+      "difference": 0.004419422187768383,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.higgins2008::resp.plac::resp.plac+fail.plac::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.1521123231960605,
+      "reference": 0.13927510852147826,
+      "difference": 0.012837214674582237,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.higgins2008::resp.plac::resp.plac+fail.plac::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.034661780852692725,
+      "reference": 0.03688590414803494,
+      "difference": 0.0022241232953422174,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.higgins2008::resp.plac::resp.plac+fail.plac::all|raw|DL",
+      "quantity": "tau2",
+      "app": 0.015159854486848322,
+      "reference": 0.017781376772583426,
+      "difference": 0.0026215222857351034,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.higgins2008::resp.plac::resp.plac+fail.plac::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.09218353389132437,
+      "reference": 0.07546834944125626,
+      "difference": 0.016715184450068116,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.karner2014::tiotropium.exa::tiotropium.total::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.24439128005147984,
+      "reference": 0.2436618723377309,
+      "difference": 0.0007294077137489363,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.karner2014::tiotropium.exa::tiotropium.total::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.03912213408733329,
+      "reference": 0.039332016435595106,
+      "difference": 0.00020988234826181673,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.karner2014::tiotropium.exa::tiotropium.total::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0.03300658723592867,
+      "reference": 0.03336858801560267,
+      "difference": 0.0003620007796740002,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.karner2014::tiotropium.exa::tiotropium.total::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.24463371861014008,
+      "reference": 0.24390017159123734,
+      "difference": 0.0007335470189027415,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.karner2014::tiotropium.exa::tiotropium.total::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.048794929579993075,
+      "reference": 0.04889667342587036,
+      "difference": 0.00010174384587728624,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.karner2014::tiotropium.exa::tiotropium.total::all|raw|DL",
+      "quantity": "tau2",
+      "app": 0.051706730338714445,
+      "reference": 0.0519253327367263,
+      "difference": 0.00021860239801185788,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.karner2014::tiotropium.exa::tiotropium.total::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.2755439560923889,
+      "reference": 0.2751674002583644,
+      "difference": 0.00037655583402451676,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.karner2014::tiotropium.sexa::tiotropium.total::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.050553407589599635,
+      "reference": 0.04913814580419009,
+      "difference": 0.001415261785409544,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.karner2014::tiotropium.sexa::tiotropium.total::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.01247777202181347,
+      "reference": 0.012719606993784117,
+      "difference": 0.00024183497197064786,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.karner2014::tiotropium.sexa::tiotropium.total::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0.00313383534311103,
+      "reference": 0.003261628033697589,
+      "difference": 0.00012779269058655913,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.karner2014::tiotropium.sexa::tiotropium.total::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.05055116874759665,
+      "reference": 0.049137978632887706,
+      "difference": 0.0014131901147089454,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.karner2014::tiotropium.sexa::tiotropium.total::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.012642737479537047,
+      "reference": 0.012726224473128211,
+      "difference": 8.348699359116488e-05,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.karner2014::tiotropium.sexa::tiotropium.total::all|raw|DL",
+      "quantity": "tau2",
+      "app": 0.0032207406303832596,
+      "reference": 0.0032651595592622915,
+      "difference": 4.441892887903191e-05,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.karner2014::tiotropium.sexa::tiotropium.total::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.04106753275924395,
+      "reference": 0.040519772802477046,
+      "difference": 0.0005477599567669036,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.karner2014::tiotropium.deaths::tiotropium.total::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.01693122011216766,
+      "reference": 0.015244887267607693,
+      "difference": 0.0016863328445599676,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.karner2014::tiotropium.deaths::tiotropium.total::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.005638916793543648,
+      "reference": 0.005800297458591876,
+      "difference": 0.00016138066504822746,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.karner2014::tiotropium.deaths::tiotropium.total::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0.0006423497761573701,
+      "reference": 0.0006824775927522331,
+      "difference": 4.0127816594862954e-05,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.karner2014::tiotropium.deaths::tiotropium.total::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.016879202902588347,
+      "reference": 0.015336021100747856,
+      "difference": 0.001543181801840491,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.karner2014::tiotropium.deaths::tiotropium.total::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.004339261129960848,
+      "reference": 0.004379922557892777,
+      "difference": 4.0661427931928604e-05,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.karner2014::tiotropium.deaths::tiotropium.total::all|raw|DL",
+      "quantity": "tau2",
+      "app": 0.00036208512632941996,
+      "reference": 0.0003696911935777518,
+      "difference": 7.606067248331857e-06,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.karner2014::tiotropium.deaths::tiotropium.total::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.007864106341119758,
+      "reference": 0.007342312945957991,
+      "difference": 0.0005217933951617675,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.karner2014::tiotropium.sae::tiotropium.total::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.1208787674267105,
+      "reference": 0.12015770124269393,
+      "difference": 0.0007210661840165722,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.karner2014::tiotropium.sae::tiotropium.total::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.024531154516071404,
+      "reference": 0.024687677830638605,
+      "difference": 0.00015652331456720084,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.karner2014::tiotropium.sae::tiotropium.total::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0.012873925266331538,
+      "reference": 0.013043218720948197,
+      "difference": 0.00016929345461665947,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.karner2014::tiotropium.sae::tiotropium.total::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.1210002961050027,
+      "reference": 0.120273006232885,
+      "difference": 0.0007272898721176896,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.karner2014::tiotropium.sae::tiotropium.total::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.030283417694533486,
+      "reference": 0.030329887760569166,
+      "difference": 4.647006603568024e-05,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.karner2014::tiotropium.sae::tiotropium.total::all|raw|DL",
+      "quantity": "tau2",
+      "app": 0.01980527966477718,
+      "reference": 0.019867214291611757,
+      "difference": 6.19346268345769e-05,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.karner2014::tiotropium.sae::tiotropium.total::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.12946121062180702,
+      "reference": 0.12922702069495717,
+      "difference": 0.00023418992684984263,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.karner2014::tiotropium.dropout::tiotropium.total::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.14367993555349148,
+      "reference": 0.14297423595958483,
+      "difference": 0.0007056995939066502,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.karner2014::tiotropium.dropout::tiotropium.total::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.0199269189703334,
+      "reference": 0.020163224067638597,
+      "difference": 0.00023630509730519778,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.karner2014::tiotropium.dropout::tiotropium.total::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0.008300447180419352,
+      "reference": 0.008508219727973254,
+      "difference": 0.0002077725475539017,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.karner2014::tiotropium.dropout::tiotropium.total::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.14392426449215434,
+      "reference": 0.14320240276266522,
+      "difference": 0.0007218617294891261,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.karner2014::tiotropium.dropout::tiotropium.total::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.02296628943256545,
+      "reference": 0.023065423005849253,
+      "difference": 9.913357328380362e-05,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.karner2014::tiotropium.dropout::tiotropium.total::all|raw|DL",
+      "quantity": "tau2",
+      "app": 0.011161417754319905,
+      "reference": 0.011261614514943457,
+      "difference": 0.0001001967606235523,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.karner2014::tiotropium.dropout::tiotropium.total::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.15920612996893366,
+      "reference": 0.15890003341106984,
+      "difference": 0.0003060965578638164,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.karner2014::placebo.sexa::placebo.total::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.06036324706611396,
+      "reference": 0.05973257067536717,
+      "difference": 0.0006306763907467927,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.karner2014::placebo.sexa::placebo.total::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.015520196262648696,
+      "reference": 0.01563903208639814,
+      "difference": 0.00011883582374944308,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.karner2014::placebo.sexa::placebo.total::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0.00483077041943163,
+      "reference": 0.004908127460338112,
+      "difference": 7.735704090648231e-05,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.karner2014::placebo.sexa::placebo.total::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.06013143309124843,
+      "reference": 0.0595037734106839,
+      "difference": 0.000627659680564531,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.karner2014::placebo.sexa::placebo.total::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.013411022395182161,
+      "reference": 0.013566729516633359,
+      "difference": 0.00015570712145119778,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.karner2014::placebo.sexa::placebo.total::all|raw|DL",
+      "quantity": "tau2",
+      "app": 0.0035577488722081056,
+      "reference": 0.003645247470385392,
+      "difference": 8.749859817728644e-05,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.karner2014::placebo.sexa::placebo.total::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.027354421724778998,
+      "reference": 0.025831822105425218,
+      "difference": 0.0015225996193537795,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.karner2014::placebo.deaths::placebo.total::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.018088934983974892,
+      "reference": 0.016433568562925084,
+      "difference": 0.001655366421049808,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.karner2014::placebo.deaths::placebo.total::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.005974746558858665,
+      "reference": 0.006141186947644153,
+      "difference": 0.00016644038878548852,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.karner2014::placebo.deaths::placebo.total::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0.0007180371615642983,
+      "reference": 0.0007618831304914522,
+      "difference": 4.384596892715383e-05,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.karner2014::placebo.deaths::placebo.total::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.01805207665542764,
+      "reference": 0.01644102187823616,
+      "difference": 0.0016110547771914785,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.karner2014::placebo.deaths::placebo.total::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.005345969856805726,
+      "reference": 0.0054643364057254005,
+      "difference": 0.00011836654891967443,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.karner2014::placebo.deaths::placebo.total::all|raw|DL",
+      "quantity": "tau2",
+      "app": 0.0005636664361454353,
+      "reference": 0.0005913621086213986,
+      "difference": 2.769567247596326e-05,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.karner2014::placebo.deaths::placebo.total::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.014104766488963794,
+      "reference": 0.012995875660978097,
+      "difference": 0.001108890827985697,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.karner2014::placebo.sae::placebo.total::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.11827900165218642,
+      "reference": 0.11755552218858693,
+      "difference": 0.0007234794635994912,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.karner2014::placebo.sae::placebo.total::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.02373176921689081,
+      "reference": 0.023888673307517493,
+      "difference": 0.00015690409062668262,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.karner2014::placebo.sae::placebo.total::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0.012003942959033353,
+      "reference": 0.012168126745032584,
+      "difference": 0.00016418378599923102,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.karner2014::placebo.sae::placebo.total::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.1183613273093257,
+      "reference": 0.1176324630146276,
+      "difference": 0.0007288642946981089,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.karner2014::placebo.sae::placebo.total::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.03152500078893604,
+      "reference": 0.03157117444256184,
+      "difference": 4.6173653625802835e-05,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.karner2014::placebo.sae::placebo.total::all|raw|DL",
+      "quantity": "tau2",
+      "app": 0.021471041680837254,
+      "reference": 0.0215351093978228,
+      "difference": 6.406771698554484e-05,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.karner2014::placebo.sae::placebo.total::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.12264068083782424,
+      "reference": 0.12238090831869891,
+      "difference": 0.0002597725191253314,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.kearon1998::tp::np::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.6941442470238177,
+      "reference": 0.6945425599016719,
+      "difference": 0.00039831287785419,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.kearon1998::tp::np::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.04569835124540681,
+      "reference": 0.04578939237640172,
+      "difference": 9.10411309949094e-05,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.kearon1998::tp::np::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0.06006278329110805,
+      "reference": 0.060320272729867924,
+      "difference": 0.0002574894387598753,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.kearon1998::tp::np::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.6967268579054048,
+      "reference": 0.6970979260141819,
+      "difference": 0.00037106810877707286,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.kearon1998::tp::np::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.03814312907330003,
+      "reference": 0.03828596071743942,
+      "difference": 0.00014283164413939065,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.kearon1998::tp::np::all|raw|DL",
+      "quantity": "tau2",
+      "app": 0.04050322460936999,
+      "reference": 0.04083976928976444,
+      "difference": 0.00033654468039445024,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.kearon1998::tp::np::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.9066002090638737,
+      "reference": 0.9080271227153384,
+      "difference": 0.0014269136514646341,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.kearon1998::tn::nn::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.9622930213456174,
+      "reference": 0.9636611318886485,
+      "difference": 0.001368110543031098,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.kearon1998::tn::nn::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.008441518482199241,
+      "reference": 0.008972027725842293,
+      "difference": 0.0005305092436430521,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.kearon1998::tn::nn::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0.0015334254268985726,
+      "reference": 0.0017900725660127605,
+      "difference": 0.00025664713911418787,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.kearon1998::tn::nn::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.9745641042660571,
+      "reference": 0.976171822846937,
+      "difference": 0.0016077185808799355,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.kearon1998::tn::nn::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.004625489657176283,
+      "reference": 0.0048928299946412145,
+      "difference": 0.00026734033746493146,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.kearon1998::tn::nn::all|raw|DL",
+      "quantity": "tau2",
+      "app": 0.0002811025207356715,
+      "reference": 0.0003348396555882375,
+      "difference": 5.373713485256595e-05,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.kearon1998::tn::nn::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.9847702291656344,
+      "reference": 0.9871460838145363,
+      "difference": 0.0023758546489018872,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.laopaiboon2015::ai::n1i::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.09750853815912724,
+      "reference": 0.09664823023234186,
+      "difference": 0.0008603079267853891,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.laopaiboon2015::ai::n1i::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.022908858965694213,
+      "reference": 0.023337025435447394,
+      "difference": 0.00042816646975318146,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.laopaiboon2015::ai::n1i::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0.006300190962495882,
+      "reference": 0.006587015237092587,
+      "difference": 0.0002868242745967045,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.laopaiboon2015::ai::n1i::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.08732247180693781,
+      "reference": 0.0867697467754097,
+      "difference": 0.0005527250315281035,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.laopaiboon2015::ai::n1i::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.015532144482861207,
+      "reference": 0.015997624867693665,
+      "difference": 0.0004654803848324583,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.laopaiboon2015::ai::n1i::all|raw|DL",
+      "quantity": "tau2",
+      "app": 0.0023012739349028643,
+      "reference": 0.002499764181297894,
+      "difference": 0.00019849024639502976,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.laopaiboon2015::ai::n1i::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.07096017973867663,
+      "reference": 0.06957004331102264,
+      "difference": 0.0013901364276539957,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.lau1992::ai::n1i::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.10636988458539907,
+      "reference": 0.10588797517618337,
+      "difference": 0.0004819094092157056,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.lau1992::ai::n1i::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.010833779795746803,
+      "reference": 0.01102889969147861,
+      "difference": 0.00019511989573180698,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.lau1992::ai::n1i::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0.002561889015311851,
+      "reference": 0.0026874206616729255,
+      "difference": 0.00012553164636107438,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.lau1992::ai::n1i::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.10296495476696671,
+      "reference": 0.10243775283030708,
+      "difference": 0.0005272019366596298,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.lau1992::ai::n1i::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.007602817446968764,
+      "reference": 0.007693915797931712,
+      "difference": 9.109835096294833e-05,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.lau1992::ai::n1i::all|raw|DL",
+      "quantity": "tau2",
+      "app": 0.0009096975207972158,
+      "reference": 0.0009449689762531726,
+      "difference": 3.5271455455956825e-05,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.lau1992::ai::n1i::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.0951018451210356,
+      "reference": 0.0949614557781055,
+      "difference": 0.00014038934293010563,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.li2007::ai::n1i::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.050021697597753864,
+      "reference": 0.04958969364635645,
+      "difference": 0.0004320039513974125,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.li2007::ai::n1i::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.007756532358797444,
+      "reference": 0.00785486601565053,
+      "difference": 9.833365685308574e-05,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.li2007::ai::n1i::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0.0009022839020678137,
+      "reference": 0.0009328665695643339,
+      "difference": 3.0582667496520215e-05,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.li2007::ai::n1i::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.04975428509169657,
+      "reference": 0.04935885501607151,
+      "difference": 0.000395430075625057,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.li2007::ai::n1i::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.00889629453332551,
+      "reference": 0.009032686594077109,
+      "difference": 0.000136392060751599,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.li2007::ai::n1i::all|raw|DL",
+      "quantity": "tau2",
+      "app": 0.0012861237620703293,
+      "reference": 0.0013363206804663634,
+      "difference": 5.01969183960341e-05,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.li2007::ai::n1i::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.07393633929743786,
+      "reference": 0.07379334383764269,
+      "difference": 0.00014299545979516715,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.li2007::ci::n2i::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.08965875834434486,
+      "reference": 0.08916821445323013,
+      "difference": 0.0004905438911147336,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.li2007::ci::n2i::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.01158740032848829,
+      "reference": 0.01189814815754604,
+      "difference": 0.00031074782905774964,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.li2007::ci::n2i::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0.0020618545186236155,
+      "reference": 0.002208246396188107,
+      "difference": 0.00014639187756449162,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.li2007::ci::n2i::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.08778680008224007,
+      "reference": 0.08703824400471527,
+      "difference": 0.0007485560775248035,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.li2007::ci::n2i::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.010062807156048008,
+      "reference": 0.010139090529430064,
+      "difference": 7.628337338205608e-05,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.li2007::ci::n2i::all|raw|DL",
+      "quantity": "tau2",
+      "app": 0.0014145735725038405,
+      "reference": 0.0014441262771886004,
+      "difference": 2.9552704684759944e-05,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.li2007::ci::n2i::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.07680054375987547,
+      "reference": 0.07673912326051163,
+      "difference": 6.142049936383454e-05,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.linde2005::ai::n1i::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.5252372051737539,
+      "reference": 0.5243813110091625,
+      "difference": 0.0008558941645914198,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.linde2005::ai::n1i::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.037336963173885115,
+      "reference": 0.0379214573237621,
+      "difference": 0.0005844941498769837,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.linde2005::ai::n1i::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0.028521854326385834,
+      "reference": 0.029570180001141526,
+      "difference": 0.0010483256747556916,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.linde2005::ai::n1i::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.5273582471392257,
+      "reference": 0.5265573055433009,
+      "difference": 0.000800941595924809,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.linde2005::ai::n1i::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.04784640354244595,
+      "reference": 0.049191638116526194,
+      "difference": 0.0013452345740802424,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.linde2005::ai::n1i::all|raw|DL",
+      "quantity": "tau2",
+      "app": 0.049910979914135074,
+      "reference": 0.05303562077787805,
+      "difference": 0.003124640863742978,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.linde2005::ai::n1i::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.45051728056619667,
+      "reference": 0.4471894890091789,
+      "difference": 0.0033277915570177896,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.linde2005::ci::n2i::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.28107937403724104,
+      "reference": 0.27943121896986434,
+      "difference": 0.0016481550673766998,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.linde2005::ci::n2i::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.035751091419110474,
+      "reference": 0.0363442110562172,
+      "difference": 0.0005931196371067246,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.linde2005::ci::n2i::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0.02688292087099626,
+      "reference": 0.02790241137427057,
+      "difference": 0.0010194905032743125,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.linde2005::ci::n2i::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.28199396915736563,
+      "reference": 0.2804912980751292,
+      "difference": 0.0015026710822364509,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.linde2005::ci::n2i::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.03877981335371123,
+      "reference": 0.039986411359941,
+      "difference": 0.0012065980062297699,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.linde2005::ci::n2i::all|raw|DL",
+      "quantity": "tau2",
+      "app": 0.03226873958734747,
+      "reference": 0.03453877094698146,
+      "difference": 0.002270031359633995,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.linde2005::ci::n2i::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.2170985844979701,
+      "reference": 0.21192340173989627,
+      "difference": 0.005175182758073826,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.linde2015::remi1::n1::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.3892789829359304,
+      "reference": 0.3889999409449282,
+      "difference": 0.0002790419910022046,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.linde2015::remi1::n1::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.022319489990812232,
+      "reference": 0.02242790224491125,
+      "difference": 0.00010841225409901831,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.linde2015::remi1::n1::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0.023660470675924937,
+      "reference": 0.023920424515215324,
+      "difference": 0.00025995383929038746,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.linde2015::remi1::n1::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.3892420870344339,
+      "reference": 0.38904596202737984,
+      "difference": 0.000196125007054071,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.linde2015::remi1::n1::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.022244886934274646,
+      "reference": 0.022522575264483112,
+      "difference": 0.00027768833020846637,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.linde2015::remi1::n1::all|raw|DL",
+      "quantity": "tau2",
+      "app": 0.023482337447903952,
+      "reference": 0.02414849272056766,
+      "difference": 0.0006661552726637092,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.linde2015::remi1::n1::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.32490115235447425,
+      "reference": 0.32389264015675057,
+      "difference": 0.0010085121977236877,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.linde2015::loss1::n1::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.21596225034478556,
+      "reference": 0.21557916271824124,
+      "difference": 0.0003830876265443206,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.linde2015::loss1::n1::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.016086031580102116,
+      "reference": 0.01617589199601221,
+      "difference": 8.986041591009519e-05,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.linde2015::loss1::n1::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0.01320673258502959,
+      "reference": 0.013378694753810266,
+      "difference": 0.0001719621687806764,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.linde2015::loss1::n1::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.21735823654157502,
+      "reference": 0.21695094521245667,
+      "difference": 0.00040729132911834776,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.linde2015::loss1::n1::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.019554555172481333,
+      "reference": 0.019596444925126567,
+      "difference": 4.1889752645234146e-05,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.linde2015::loss1::n1::all|raw|DL",
+      "quantity": "tau2",
+      "app": 0.02056420449009409,
+      "reference": 0.02066205322354568,
+      "difference": 9.78487334515922e-05,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.linde2015::loss1::n1::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.142643499041749,
+      "reference": 0.1422961715748957,
+      "difference": 0.00034732746685328664,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.linde2015::loss.ae1::n1::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.10193928212537226,
+      "reference": 0.10019239280110434,
+      "difference": 0.0017468893242679195,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.linde2015::loss.ae1::n1::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.010852996539091166,
+      "reference": 0.011171077336640042,
+      "difference": 0.000318080797548876,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.linde2015::loss.ae1::n1::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0.0056181494183359364,
+      "reference": 0.006014705916354786,
+      "difference": 0.0003965564980188494,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.linde2015::loss.ae1::n1::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.09961142550026304,
+      "reference": 0.0977790512821425,
+      "difference": 0.0018323742181205471,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.linde2015::loss.ae1::n1::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.009294881272327532,
+      "reference": 0.009436381826623699,
+      "difference": 0.00014150055429616726,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.linde2015::loss.ae1::n1::all|raw|DL",
+      "quantity": "tau2",
+      "app": 0.0038552989927524714,
+      "reference": 0.0040029619431457475,
+      "difference": 0.00014766295039327602,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.linde2015::loss.ae1::n1::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.05113642956679955,
+      "reference": 0.04953668188513553,
+      "difference": 0.0015997476816640155,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.linde2015::ae1::n1::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.5022336828067276,
+      "reference": 0.5007427174278388,
+      "difference": 0.00149096537888882,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.linde2015::ae1::n1::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.03944140118475379,
+      "reference": 0.03990497284427893,
+      "difference": 0.0004635716595251388,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.linde2015::ae1::n1::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0.05917460901076857,
+      "reference": 0.06064152823514986,
+      "difference": 0.0014669192243812884,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.linde2015::ae1::n1::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.5023111296540536,
+      "reference": 0.5008403173295715,
+      "difference": 0.0014708123244820959,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.linde2015::ae1::n1::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.054313107687453954,
+      "reference": 0.05490652977880508,
+      "difference": 0.0005934220913511243,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.linde2015::ae1::n1::all|raw|DL",
+      "quantity": "tau2",
+      "app": 0.11484861698057133,
+      "reference": 0.11743858688356004,
+      "difference": 0.002589969902988709,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.linde2015::ae1::n1::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.4479716844959547,
+      "reference": 0.4452108312887779,
+      "difference": 0.0027608532071767833,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.linde2015::remi2::n2::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.33815066018667056,
+      "reference": 0.33783507826294723,
+      "difference": 0.00031558192372332927,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.linde2015::remi2::n2::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.02219574638394549,
+      "reference": 0.022292869909018805,
+      "difference": 9.712352507331573e-05,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.linde2015::remi2::n2::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0.023736075725945285,
+      "reference": 0.023968127543274906,
+      "difference": 0.00023205181732962113,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.linde2015::remi2::n2::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.33780423092141215,
+      "reference": 0.3375364268880178,
+      "difference": 0.00026780403339432546,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.linde2015::remi2::n2::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.020819937865060086,
+      "reference": 0.02109292702096809,
+      "difference": 0.00027298915590800304,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.linde2015::remi2::n2::all|raw|DL",
+      "quantity": "tau2",
+      "app": 0.020560028992483586,
+      "reference": 0.02117370276470161,
+      "difference": 0.0006136737722180242,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.linde2015::remi2::n2::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.3079282977149484,
+      "reference": 0.30693997623793345,
+      "difference": 0.0009883214770149418,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.linde2015::loss.ae2::n2::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.0989752704534473,
+      "reference": 0.09620110291539676,
+      "difference": 0.0027741675380505426,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.linde2015::loss.ae2::n2::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.01337333040177616,
+      "reference": 0.013741895407390951,
+      "difference": 0.00036856500561479114,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.linde2015::loss.ae2::n2::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0.009228949957749047,
+      "reference": 0.009800920298136494,
+      "difference": 0.0005719703403874472,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.linde2015::loss.ae2::n2::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.09331909650558308,
+      "reference": 0.09060143631085776,
+      "difference": 0.002717660194725316,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.linde2015::loss.ae2::n2::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.009285031719718903,
+      "reference": 0.009455291558900434,
+      "difference": 0.00017025983918153055,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.linde2015::loss.ae2::n2::all|raw|DL",
+      "quantity": "tau2",
+      "app": 0.00398179774047514,
+      "reference": 0.0041596322483203226,
+      "difference": 0.00017783450784518255,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.linde2015::loss.ae2::n2::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.03664543543255907,
+      "reference": 0.03390707941700582,
+      "difference": 0.0027383560155532505,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.linde2015::ae2::n2::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.44300965140224097,
+      "reference": 0.44156476682026513,
+      "difference": 0.001444884581975836,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.linde2015::ae2::n2::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.03904212746714813,
+      "reference": 0.03944219173160846,
+      "difference": 0.00040006426446033416,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.linde2015::ae2::n2::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0.058106058225022766,
+      "reference": 0.05935950721605424,
+      "difference": 0.0012534489910314764,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.linde2015::ae2::n2::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.44285224557915664,
+      "reference": 0.44142676052518093,
+      "difference": 0.001425485053975717,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.linde2015::ae2::n2::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.05253100775601013,
+      "reference": 0.053110037684488604,
+      "difference": 0.0005790299284784764,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.linde2015::ae2::n2::all|raw|DL",
+      "quantity": "tau2",
+      "app": 0.10745632574829539,
+      "reference": 0.10990144000358278,
+      "difference": 0.0024451142552873867,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.linde2015::ae2::n2::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.37089843118310795,
+      "reference": 0.3678013875009522,
+      "difference": 0.0030970436821557423,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.linde2015::loss.ae3::n3::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.04116526183771283,
+      "reference": 0.04042712125270373,
+      "difference": 0.0007381405850091019,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.linde2015::loss.ae3::n3::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.01758887400301292,
+      "reference": 0.01886188187313003,
+      "difference": 0.00127300787011711,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.linde2015::loss.ae3::n3::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0.0015891972206186111,
+      "reference": 0.0018909156284657742,
+      "difference": 0.000301718407847163,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.linde2015::loss.ae3::n3::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.034369186674916855,
+      "reference": 0.033525388723193876,
+      "difference": 0.0008437979517229785,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.linde2015::loss.ae3::n3::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.010418113026063705,
+      "reference": 0.011490229309065344,
+      "difference": 0.0010721162830016392,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.linde2015::loss.ae3::n3::all|raw|DL",
+      "quantity": "tau2",
+      "app": 0.00033063978184299104,
+      "reference": 0.0004711166745346402,
+      "difference": 0.00014047689269164917,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.linde2015::loss.ae3::n3::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.0299493918568542,
+      "reference": 0.02755433136729115,
+      "difference": 0.0023950604895630508,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.metap$cholest::dtreat::ntreat::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.11942396252637365,
+      "reference": 0.1181190252345004,
+      "difference": 0.0013049372918732538,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.metap$cholest::dtreat::ntreat::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.019334957268315363,
+      "reference": 0.019605488385041774,
+      "difference": 0.0002705311167264107,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.metap$cholest::dtreat::ntreat::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0.012042511181842411,
+      "reference": 0.012398809442838409,
+      "difference": 0.00035629826099599707,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.metap$cholest::dtreat::ntreat::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.11016419190617713,
+      "reference": 0.10871310466976282,
+      "difference": 0.0014510872364143085,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.metap$cholest::dtreat::ntreat::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.009887992379058241,
+      "reference": 0.009898728172099002,
+      "difference": 1.0735793040761096e-05,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.metap$cholest::dtreat::ntreat::all|raw|DL",
+      "quantity": "tau2",
+      "app": 0.0027850312634315594,
+      "reference": 0.0027919916389482708,
+      "difference": 6.960375516711342e-06,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.metap$cholest::dtreat::ntreat::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.01949612866815585,
+      "reference": 0.019383000367270968,
+      "difference": 0.00011312830088488351,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.metap$cholest::dcontrol::ncontrol::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.1369122597126514,
+      "reference": 0.1366409117140619,
+      "difference": 0.000271347998589494,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.metap$cholest::dcontrol::ncontrol::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.019922495574332556,
+      "reference": 0.019982674113389828,
+      "difference": 6.017853905727205e-05,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.metap$cholest::dcontrol::ncontrol::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0.012609192826608735,
+      "reference": 0.012690400010984293,
+      "difference": 8.120718437555803e-05,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.metap$cholest::dcontrol::ncontrol::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.12866797058023827,
+      "reference": 0.1283453665108665,
+      "difference": 0.00032260406937176245,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.metap$cholest::dcontrol::ncontrol::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.010266931249886348,
+      "reference": 0.01026983435997858,
+      "difference": 2.903110092232486e-06,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.metap$cholest::dcontrol::ncontrol::all|raw|DL",
+      "quantity": "tau2",
+      "app": 0.0028536844712343887,
+      "reference": 0.0028556180520154105,
+      "difference": 1.933580781021769e-06,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.metap$cholest::dcontrol::ncontrol::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.019086452169974892,
+      "reference": 0.019048918104363034,
+      "difference": 3.7534065611858486e-05,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.moore1998::Ee::Ne::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.7127404328008049,
+      "reference": 0.7132448945458346,
+      "difference": 0.0005044617450297162,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.moore1998::Ee::Ne::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.02420113619309124,
+      "reference": 0.02437477808994269,
+      "difference": 0.00017364189685144943,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.moore1998::Ee::Ne::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0.01660354448173071,
+      "reference": 0.016908551278850624,
+      "difference": 0.00030500679711991524,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.moore1998::Ee::Ne::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.7118178154411354,
+      "reference": 0.7122056905021856,
+      "difference": 0.0003878750610502024,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.moore1998::Ee::Ne::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.028367207044232966,
+      "reference": 0.029064124869050318,
+      "difference": 0.0006969178248173516,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.moore1998::Ee::Ne::all|raw|DL",
+      "quantity": "tau2",
+      "app": 0.024561954515295744,
+      "reference": 0.026023027848058086,
+      "difference": 0.0014610733327623422,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.moore1998::Ee::Ne::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.7528138143022519,
+      "reference": 0.7557124019220811,
+      "difference": 0.002898587619829196,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.moore1998::Ec::Nc::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.3829257571815152,
+      "reference": 0.38074105765686805,
+      "difference": 0.002184699524647171,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.moore1998::Ec::Nc::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.030973191453849396,
+      "reference": 0.03168342644239401,
+      "difference": 0.0007102349885446148,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.moore1998::Ec::Nc::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0.030005497076694018,
+      "reference": 0.03164239429538488,
+      "difference": 0.0016368972186908623,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.moore1998::Ec::Nc::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.3830498030154004,
+      "reference": 0.38089557377434374,
+      "difference": 0.002154229241056682,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.moore1998::Ec::Nc::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.03264508713785078,
+      "reference": 0.03362933944068646,
+      "difference": 0.000984252302835678,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.moore1998::Ec::Nc::all|raw|DL",
+      "quantity": "tau2",
+      "app": 0.0339191871407861,
+      "reference": 0.036321342628071844,
+      "difference": 0.0024021554872857426,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.moore1998::Ec::Nc::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.384926222332827,
+      "reference": 0.3817396540438782,
+      "difference": 0.0031865682889487545,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.nielweise2007::ai::n1i::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.005475383376923101,
+      "reference": 0.0053542161585100265,
+      "difference": 0.00012116721841307423,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.nielweise2007::ai::n1i::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.0014907890705235414,
+      "reference": 0.0020421376226304475,
+      "difference": 0.0005513485521069061,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.nielweise2007::ai::n1i::all|raw|PM",
+      "quantity": "tau2",
+      "app": 6.947158091607952e-07,
+      "reference": 1.8299440560090706e-05,
+      "difference": 1.760472475092991e-05,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.nielweise2007::ai::n1i::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.005460511711928031,
+      "reference": 0.0048502115757125515,
+      "difference": 0.0006103001362154793,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.nielweise2007::ai::n1i::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.0014863170394424786,
+      "reference": 0.0018478841074443591,
+      "difference": 0.0003615670680018805,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.nielweise2007::ai::n1i::all|raw|DL",
+      "quantity": "tau2",
+      "app": 6.073747879663914e-07,
+      "reference": 1.0437774672914916e-05,
+      "difference": 9.830399884948524e-06,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.nielweise2007::ai::n1i::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.005353168981433831,
+      "reference": 0.0037440972975258105,
+      "difference": 0.0016090716839080206,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.nielweise2007::ci::n2i::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.03410138038970933,
+      "reference": 0.03392250353911178,
+      "difference": 0.0001788768505975452,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.nielweise2007::ci::n2i::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.00855193964420722,
+      "reference": 0.00866120023486025,
+      "difference": 0.00010926059065302987,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.nielweise2007::ci::n2i::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0.000985887054013512,
+      "reference": 0.001017367935098967,
+      "difference": 3.148088108545499e-05,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.nielweise2007::ci::n2i::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.027889471796487413,
+      "reference": 0.027714039266317957,
+      "difference": 0.00017543253016945662,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.nielweise2007::ci::n2i::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.005394618973301316,
+      "reference": 0.005484362026413304,
+      "difference": 8.974305311198853e-05,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.nielweise2007::ci::n2i::all|raw|DL",
+      "quantity": "tau2",
+      "app": 0.0002805542083756857,
+      "reference": 0.0002950475932144857,
+      "difference": 1.4493384838800013e-05,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.nielweise2007::ci::n2i::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.013278542292493522,
+      "reference": 0.012732796502545166,
+      "difference": 0.0005457457899483553,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.nissen2007::treat.infarction::treat.total::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.0031633398719017754,
+      "reference": 0.002959274422282515,
+      "difference": 0.00020406544961926046,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.nissen2007::treat.infarction::treat.total::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.0005243405144918335,
+      "reference": 0.000595080554220983,
+      "difference": 7.074003972914957e-05,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.nissen2007::treat.infarction::treat.total::all|raw|PM",
+      "quantity": "tau2",
+      "app": 1.6061866558436376e-06,
+      "reference": 3.1673452161718425e-06,
+      "difference": 1.561158560328205e-06,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.nissen2007::treat.infarction::treat.total::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.0032937866890853183,
+      "reference": 0.002987132896994734,
+      "difference": 0.00030665379209058414,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.nissen2007::treat.infarction::treat.total::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.0005533826663909365,
+      "reference": 0.0006032461889484733,
+      "difference": 4.986352255753677e-05,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.nissen2007::treat.infarction::treat.total::all|raw|DL",
+      "quantity": "tau2",
+      "app": 2.1831467786625635e-06,
+      "reference": 3.3821112697296057e-06,
+      "difference": 1.1989644910670422e-06,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.nissen2007::treat.infarction::treat.total::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.0024763809106034813,
+      "reference": 0.0020647067429942043,
+      "difference": 0.00041167416760927705,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.nissen2007::treat.death::treat.total::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.0017983038694359859,
+      "reference": 0.0012075461722554225,
+      "difference": 0.0005907576971805634,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.nissen2007::treat.death::treat.total::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.0017983038694359859,
+      "reference": 0.0012075461722554225,
+      "difference": 0.0005907576971805634,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.nissen2007::treat.death::treat.total::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.0017983038694359859,
+      "reference": 0.0012075461722554225,
+      "difference": 0.0005907576971805634,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.nissen2007::cont.infarction::cont.total::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.003780650708470149,
+      "reference": 0.0024609817091248154,
+      "difference": 0.0013196689993453335,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.nissen2007::cont.infarction::cont.total::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.0005524826301183576,
+      "reference": 0.0006572616136213191,
+      "difference": 0.0001047789835029615,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.nissen2007::cont.infarction::cont.total::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0,
+      "reference": 1.8721278129372033e-06,
+      "difference": 1.8721278129372033e-06,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.nissen2007::cont.infarction::cont.total::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.003780650708470149,
+      "reference": 0.0024674698825224353,
+      "difference": 0.0013131808259477136,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.nissen2007::cont.infarction::cont.total::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.0005524826301183576,
+      "reference": 0.0007247776199887518,
+      "difference": 0.00017229498987039412,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.nissen2007::cont.infarction::cont.total::all|raw|DL",
+      "quantity": "tau2",
+      "app": 0,
+      "reference": 3.7305329009725844e-06,
+      "difference": 3.7305329009725844e-06,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.nissen2007::cont.infarction::cont.total::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.003780650708470149,
+      "reference": 0.002518785931793393,
+      "difference": 0.001261864776676756,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.nissen2007::cont.death::cont.total::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.002457576586498827,
+      "reference": 0.0013229155644657361,
+      "difference": 0.0011346610220330908,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.nissen2007::cont.death::cont.total::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.002457576586498827,
+      "reference": 0.0013229155644657361,
+      "difference": 0.0011346610220330908,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.nissen2007::cont.death::cont.total::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.002457576586498827,
+      "reference": 0.0013229155644657361,
+      "difference": 0.0011346610220330908,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.pagliaro1992::xi::ni::sclerotherapy|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.20739380716254469,
+      "reference": 0.20652396264795456,
+      "difference": 0.000869844514590129,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.pagliaro1992::xi::ni::sclerotherapy|raw|PM",
+      "quantity": "seRE",
+      "app": 0.024488117608996177,
+      "reference": 0.025187985078250465,
+      "difference": 0.0006998674692542881,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.pagliaro1992::xi::ni::sclerotherapy|raw|PM",
+      "quantity": "tau2",
+      "app": 0.0071261469116134495,
+      "reference": 0.007747466854554641,
+      "difference": 0.0006213199429411917,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.pagliaro1992::xi::ni::sclerotherapy|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.20925728449984562,
+      "reference": 0.208795782265229,
+      "difference": 0.0004615022346166342,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.pagliaro1992::xi::ni::sclerotherapy|raw|DL",
+      "quantity": "seRE",
+      "app": 0.02627363335849572,
+      "reference": 0.02753333549129372,
+      "difference": 0.0012597021327979997,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.pagliaro1992::xi::ni::sclerotherapy|raw|DL",
+      "quantity": "tau2",
+      "app": 0.008752596661470146,
+      "reference": 0.009981156439719904,
+      "difference": 0.0012285597782497586,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.pagliaro1992::xi::ni::sclerotherapy|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.1722306967805685,
+      "reference": 0.16869621812083388,
+      "difference": 0.003534478659734608,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.pagliaro1992::xi::ni::control|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.30516408113136834,
+      "reference": 0.3042398392213719,
+      "difference": 0.0009242419099964594,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.pagliaro1992::xi::ni::control|raw|PM",
+      "quantity": "seRE",
+      "app": 0.03601551427151296,
+      "reference": 0.03636907808864192,
+      "difference": 0.00035356381712895596,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.pagliaro1992::xi::ni::control|raw|PM",
+      "quantity": "tau2",
+      "app": 0.028973847497002145,
+      "reference": 0.029634306093917873,
+      "difference": 0.0006604585969157278,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.pagliaro1992::xi::ni::control|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.3041886380423593,
+      "reference": 0.3034619125997049,
+      "difference": 0.0007267254426543968,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.pagliaro1992::xi::ni::control|raw|DL",
+      "quantity": "seRE",
+      "app": 0.03390233763020815,
+      "reference": 0.03463354164830846,
+      "difference": 0.0007312040181003121,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.pagliaro1992::xi::ni::control|raw|DL",
+      "quantity": "tau2",
+      "app": 0.025164818953633716,
+      "reference": 0.026455963900763668,
+      "difference": 0.0012911449471299519,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.pagliaro1992::xi::ni::control|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.24617769131442843,
+      "reference": 0.2435610823536086,
+      "difference": 0.002616608960819833,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.pritz1997::xi::ni::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.7974497417155532,
+      "reference": 0.8030501024768005,
+      "difference": 0.005600360761247369,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.pritz1997::xi::ni::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.041406765324982844,
+      "reference": 0.043913508128381296,
+      "difference": 0.0025067428033984512,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.pritz1997::xi::ni::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0.015647790000049094,
+      "reference": 0.018409076091633586,
+      "difference": 0.0027612860915844917,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.pritz1997::xi::ni::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.798030460973905,
+      "reference": 0.8033848075439873,
+      "difference": 0.00535434657008238,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.pritz1997::xi::ni::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.0406632881578398,
+      "reference": 0.04345978131766731,
+      "difference": 0.0027964931598275095,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.pritz1997::xi::ni::all|raw|DL",
+      "quantity": "tau2",
+      "app": 0.014866756969132143,
+      "reference": 0.01789469225465585,
+      "difference": 0.003027935285523706,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.pritz1997::xi::ni::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.8307575549796562,
+      "reference": 0.8401137121301437,
+      "difference": 0.009356157150487543,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.quan2000::Ee::Ne::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.010637438188656418,
+      "reference": 0.01052986629886931,
+      "difference": 0.00010757188978710759,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.quan2000::Ee::Ne::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.00398752681642438,
+      "reference": 0.004054866071984728,
+      "difference": 6.733925556034765e-05,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.quan2000::Ee::Ne::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0.0001490843190453636,
+      "reference": 0.00015479061927705496,
+      "difference": 5.706300231691358e-06,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.quan2000::Ee::Ne::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.007715733776018613,
+      "reference": 0.0076161138039526136,
+      "difference": 9.961997206599932e-05,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.quan2000::Ee::Ne::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.0017913451565715437,
+      "reference": 0.001847394850269544,
+      "difference": 5.6049693698000374e-05,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.quan2000::Ee::Ne::all|raw|DL",
+      "quantity": "tau2",
+      "app": 2.1211233595677355e-05,
+      "reference": 2.307198288712228e-05,
+      "difference": 1.860749291444926e-06,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.quan2000::Ee::Ne::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.005252979166054108,
+      "reference": 0.005078118633726613,
+      "difference": 0.00017486053232749436,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.roever2022::events::total::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.19452698896063264,
+      "reference": 0.15450292933498483,
+      "difference": 0.04002405962564781,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.roever2022::events::total::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.023493375006623074,
+      "reference": 0.03539754393938893,
+      "difference": 0.011904168932765857,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.roever2022::events::total::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0,
+      "reference": 0.01959876598710465,
+      "difference": 0.01959876598710465,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.roever2022::events::total::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.19452698896063264,
+      "reference": 0.14917270038185956,
+      "difference": 0.04535428857877308,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.roever2022::events::total::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.023493375006623074,
+      "reference": 0.03146269000059565,
+      "difference": 0.007969314993972576,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.roever2022::events::total::all|raw|DL",
+      "quantity": "tau2",
+      "app": 0,
+      "reference": 0.011177873267929307,
+      "difference": 0.011177873267929307,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.roever2022::events::total::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.19452698896063264,
+      "reference": 0.14692952335820747,
+      "difference": 0.04759746560242517,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.thompson1999::ihd.cont::ihd.cont+noihd.cont::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.15754896268511734,
+      "reference": 0.15663901565756327,
+      "difference": 0.0009099470275540644,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.thompson1999::ihd.cont::ihd.cont+noihd.cont::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.02336038216164157,
+      "reference": 0.023585583219594513,
+      "difference": 0.00022520105795294232,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.thompson1999::ihd.cont::ihd.cont+noihd.cont::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0.014482205052664315,
+      "reference": 0.014777098058077512,
+      "difference": 0.00029489300541319687,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.thompson1999::ihd.cont::ihd.cont+noihd.cont::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.15282066987588921,
+      "reference": 0.15184997616248325,
+      "difference": 0.0009706937134059679,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.thompson1999::ihd.cont::ihd.cont+noihd.cont::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.013491145522181443,
+      "reference": 0.013509143895813676,
+      "difference": 1.7998373632232764e-05,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.thompson1999::ihd.cont::ihd.cont+noihd.cont::all|raw|DL",
+      "quantity": "tau2",
+      "app": 0.004396729722622879,
+      "reference": 0.004410010177048193,
+      "difference": 1.3280454425313414e-05,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.thompson1999::ihd.cont::ihd.cont+noihd.cont::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.04487257354919156,
+      "reference": 0.04473498321361273,
+      "difference": 0.00013759033557882855,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.tian2009::deaths::n::Rosiglitazone|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.0017235459751777018,
+      "reference": 0.001067892272409889,
+      "difference": 0.0006556537027678127,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.tian2009::deaths::n::Rosiglitazone|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.0017235459751777018,
+      "reference": 0.001067892272409889,
+      "difference": 0.0006556537027678127,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.tian2009::deaths::n::Rosiglitazone|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.0017235459751777018,
+      "reference": 0.001067892272409889,
+      "difference": 0.0006556537027678127,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.tian2009::deaths::n::Control|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.002484539559731044,
+      "reference": 0.0012662711904445252,
+      "difference": 0.001218268369286519,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.tian2009::deaths::n::Control|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.002484539559731044,
+      "reference": 0.0012662711904445252,
+      "difference": 0.001218268369286519,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.tian2009::deaths::n::Control|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.002484539559731044,
+      "reference": 0.0012662711904445252,
+      "difference": 0.001218268369286519,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.tian2009::infarcts::n::Rosiglitazone|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.0027674665271951743,
+      "reference": 0.002470787830523482,
+      "difference": 0.00029667869667169243,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.tian2009::infarcts::n::Rosiglitazone|raw|PM",
+      "quantity": "seRE",
+      "app": 0.0004535881547533654,
+      "reference": 0.0005242799618688834,
+      "difference": 7.069180711551798e-05,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.tian2009::infarcts::n::Rosiglitazone|raw|PM",
+      "quantity": "tau2",
+      "app": 1.0163251205117256e-06,
+      "reference": 2.3718196117797633e-06,
+      "difference": 1.3554944912680377e-06,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.tian2009::infarcts::n::Rosiglitazone|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.002887843389366568,
+      "reference": 0.0024982563766200723,
+      "difference": 0.00038958701274649553,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.tian2009::infarcts::n::Rosiglitazone|raw|DL",
+      "quantity": "seRE",
+      "app": 0.00047729234448794363,
+      "reference": 0.0005316849090376269,
+      "difference": 5.4392564549683264e-05,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.tian2009::infarcts::n::Rosiglitazone|raw|DL",
+      "quantity": "tau2",
+      "app": 1.4112768400465747e-06,
+      "reference": 2.5459543829363036e-06,
+      "difference": 1.1346775428897289e-06,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.tian2009::infarcts::n::Rosiglitazone|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.0022746017392529447,
+      "reference": 0.0017501585770531,
+      "difference": 0.0005244431621998446,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.tian2009::infarcts::n::Control|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.003736129138369993,
+      "reference": 0.002292521170510288,
+      "difference": 0.001443607967859705,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.tian2009::infarcts::n::Control|raw|PM",
+      "quantity": "seRE",
+      "app": 0.0005344505503902798,
+      "reference": 0.0005887297862400349,
+      "difference": 5.427923584975505e-05,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.tian2009::infarcts::n::Control|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.003736129138369993,
+      "reference": 0.0022661440575540556,
+      "difference": 0.0014699850808159373,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.tian2009::infarcts::n::Control|raw|DL",
+      "quantity": "seRE",
+      "app": 0.0005344505503902798,
+      "reference": 0.0006360310040239821,
+      "difference": 0.00010158045363370231,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.tian2009::infarcts::n::Control|raw|DL",
+      "quantity": "tau2",
+      "app": 0,
+      "reference": 2.0041690100879316e-06,
+      "difference": 2.0041690100879316e-06,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.tian2009::infarcts::n::Control|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.003736129138369993,
+      "reference": 0.0023570514328366825,
+      "difference": 0.0013790777055333104,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.ursino2021::events::total::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.16621911890244373,
+      "reference": 0.14583748867198565,
+      "difference": 0.02038163023045808,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.ursino2021::events::total::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.023325303465812963,
+      "reference": 0.030074651391786018,
+      "difference": 0.0067493479259730545,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.ursino2021::events::total::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0.009543100555602712,
+      "reference": 0.025067023115775702,
+      "difference": 0.01552392256017299,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.ursino2021::events::total::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.1644737710392055,
+      "reference": 0.14107355710876482,
+      "difference": 0.023400213930440672,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.ursino2021::events::total::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.02278451005004282,
+      "reference": 0.026864751567437055,
+      "difference": 0.0040802415173942334,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.ursino2021::events::total::all|raw|DL",
+      "quantity": "tau2",
+      "app": 0.00857345059125432,
+      "reference": 0.01693252186115791,
+      "difference": 0.008359071269903592,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.ursino2021::events::total::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.1230071991785688,
+      "reference": 0.09296179714014569,
+      "difference": 0.03004540203842311,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.yusuf1985::ai::n1i::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.05635291499729943,
+      "reference": 0.0550805522237022,
+      "difference": 0.001272362773597227,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.yusuf1985::ai::n1i::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.0038814378316226407,
+      "reference": 0.004079458118124024,
+      "difference": 0.0001980202865013831,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.yusuf1985::ai::n1i::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0.0012987501285399326,
+      "reference": 0.0014680596083023662,
+      "difference": 0.00016930947976243364,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.yusuf1985::ai::n1i::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.05309009449500832,
+      "reference": 0.051967881261148305,
+      "difference": 0.0011222132338600185,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.yusuf1985::ai::n1i::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.0027948898151717145,
+      "reference": 0.0028358912683104326,
+      "difference": 4.10014531387181e-05,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.yusuf1985::ai::n1i::all|raw|DL",
+      "quantity": "tau2",
+      "app": 0.0005538098636308126,
+      "reference": 0.0005762177101701508,
+      "difference": 2.24078465393382e-05,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.yusuf1985::ai::n1i::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.03881475791493948,
+      "reference": 0.038461770821706,
+      "difference": 0.00035298709323347555,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.yusuf1985::ci::n2i::all|raw|PM",
+      "quantity": "mu_re",
+      "app": 0.07016807345276732,
+      "reference": 0.0684174569877049,
+      "difference": 0.0017506164650624156,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.yusuf1985::ci::n2i::all|raw|PM",
+      "quantity": "seRE",
+      "app": 0.004757072945629517,
+      "reference": 0.005013554706482673,
+      "difference": 0.0002564817608531559,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.yusuf1985::ci::n2i::all|raw|PM",
+      "quantity": "tau2",
+      "app": 0.0020414097136762155,
+      "reference": 0.0023161885987476286,
+      "difference": 0.0002747788850714131,
+      "tolerance": 1e-06
+    },
+    {
+      "configuration": "dat.yusuf1985::ci::n2i::all|raw|DL",
+      "quantity": "mu_re",
+      "app": 0.06679337799386506,
+      "reference": 0.06521377879642239,
+      "difference": 0.0015795991974426743,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.yusuf1985::ci::n2i::all|raw|DL",
+      "quantity": "seRE",
+      "app": 0.003495546613185734,
+      "reference": 0.0035580760861101996,
+      "difference": 6.252947292446562e-05,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.yusuf1985::ci::n2i::all|raw|DL",
+      "quantity": "tau2",
+      "app": 0.0009388758096690841,
+      "reference": 0.0009836644058021503,
+      "difference": 4.478859613306623e-05,
+      "tolerance": 1e-09
+    },
+    {
+      "configuration": "dat.yusuf1985::ci::n2i::all|raw|FE",
+      "quantity": "mu_re",
+      "app": 0.04760142539856377,
+      "reference": 0.04705729141847162,
+      "difference": 0.0005441339800921485,
+      "tolerance": 1e-09
+    }
+  ]
+}

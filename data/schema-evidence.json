@@ -1,0 +1,2901 @@
+[
+  {
+    "id": "dat.anand1999::ai::n1i::all",
+    "manual": "manuals/dat.anand1999.txt",
+    "fields": {
+      "ai": [
+        "*ai*         'numeric'    number of deaths in the treatment group"
+      ],
+      "n1i": [
+        "*n1i*        'numeric'    number of patients in the treatment group"
+      ]
+    }
+  },
+  {
+    "id": "dat.anand1999::ci::n2i::all",
+    "manual": "manuals/dat.anand1999.txt",
+    "fields": {
+      "ci": [
+        "*ci*         'numeric'    number of deaths in the control group"
+      ],
+      "n2i": [
+        "*n2i*        'numeric'    number of patients in the control group"
+      ]
+    }
+  },
+  {
+    "id": "dat.axfors2021::hcq_arm_event::hcq_arm_total::all",
+    "manual": "manuals/dat.axfors2021.txt",
+    "fields": {
+      "hcq_arm_event": [
+        "*hcq_arm_event*      'numeric'    number of deaths in the treatment group"
+      ],
+      "hcq_arm_total": [
+        "*hcq_arm_total*      'numeric'    number of patients in the treatment group"
+      ]
+    }
+  },
+  {
+    "id": "dat.axfors2021::control_arm_event::control_arm_total::all",
+    "manual": "manuals/dat.axfors2021.txt",
+    "fields": {
+      "control_arm_event": [
+        "*control_arm_event*  'numeric'    number of deaths in the control group"
+      ],
+      "control_arm_total": [
+        "*control_arm_total*  'numeric'    number of patients in the control group"
+      ]
+    }
+  },
+  {
+    "id": "dat.baker2009::exac::total::Fluticasone",
+    "manual": "manuals/dat.baker2009.txt",
+    "fields": {
+      "exac": [
+        "*exac*       'numeric'    number of individuals with one or more COPD exacerbations"
+      ],
+      "total": [
+        "*total*      'numeric'    number of individuals"
+      ]
+    }
+  },
+  {
+    "id": "dat.baker2009::exac::total::Placebo",
+    "manual": "manuals/dat.baker2009.txt",
+    "fields": {
+      "exac": [
+        "*exac*       'numeric'    number of individuals with one or more COPD exacerbations"
+      ],
+      "total": [
+        "*total*      'numeric'    number of individuals"
+      ]
+    }
+  },
+  {
+    "id": "dat.baker2009::exac::total::Salmeterol",
+    "manual": "manuals/dat.baker2009.txt",
+    "fields": {
+      "exac": [
+        "*exac*       'numeric'    number of individuals with one or more COPD exacerbations"
+      ],
+      "total": [
+        "*total*      'numeric'    number of individuals"
+      ]
+    }
+  },
+  {
+    "id": "dat.baker2009::exac::total::Tiotropium",
+    "manual": "manuals/dat.baker2009.txt",
+    "fields": {
+      "exac": [
+        "*exac*       'numeric'    number of individuals with one or more COPD exacerbations"
+      ],
+      "total": [
+        "*total*      'numeric'    number of individuals"
+      ]
+    }
+  },
+  {
+    "id": "dat.baker2009::exac::total::Fluticasone+Salmeterol",
+    "manual": "manuals/dat.baker2009.txt",
+    "fields": {
+      "exac": [
+        "*exac*       'numeric'    number of individuals with one or more COPD exacerbations"
+      ],
+      "total": [
+        "*total*      'numeric'    number of individuals"
+      ]
+    }
+  },
+  {
+    "id": "dat.baker2009::exac::total::Formoterol",
+    "manual": "manuals/dat.baker2009.txt",
+    "fields": {
+      "exac": [
+        "*exac*       'numeric'    number of individuals with one or more COPD exacerbations"
+      ],
+      "total": [
+        "*total*      'numeric'    number of individuals"
+      ]
+    }
+  },
+  {
+    "id": "dat.baker2009::exac::total::Budesonide",
+    "manual": "manuals/dat.baker2009.txt",
+    "fields": {
+      "exac": [
+        "*exac*       'numeric'    number of individuals with one or more COPD exacerbations"
+      ],
+      "total": [
+        "*total*      'numeric'    number of individuals"
+      ]
+    }
+  },
+  {
+    "id": "dat.baker2009::exac::total::Budesonide+Formoterol",
+    "manual": "manuals/dat.baker2009.txt",
+    "fields": {
+      "exac": [
+        "*exac*       'numeric'    number of individuals with one or more COPD exacerbations"
+      ],
+      "total": [
+        "*total*      'numeric'    number of individuals"
+      ]
+    }
+  },
+  {
+    "id": "dat.bartos2023::same::flips::all",
+    "manual": "manuals/dat.bartos2023.txt",
+    "fields": {
+      "same": [
+        "*same*    'numeric'    number of flips where the coin landed on the same side as where it started"
+      ],
+      "flips": [
+        "*flips*   'numeric'    total number of flips"
+      ]
+    }
+  },
+  {
+    "id": "dat.bartos2023::hsame::hsame+hdiff::all",
+    "manual": "manuals/dat.bartos2023.txt",
+    "fields": {
+      "hsame": [
+        "*hsame*   'numeric'    number of flips where the coin landed on heads and on the same side as where it started"
+      ],
+      "hdiff": [
+        "*hdiff*   'numeric'    number of flips where the coin landed on heads and on the different side as where it started"
+      ]
+    }
+  },
+  {
+    "id": "dat.bartos2023::tsame::tsame+tdiff::all",
+    "manual": "manuals/dat.bartos2023.txt",
+    "fields": {
+      "tsame": [
+        "*tsame*   'numeric'    number of flips where the coin landed on tails and on the same side as where it started"
+      ],
+      "tdiff": [
+        "*tdiff*   'numeric'    number of flips where the coin landed on tails and on the different side as where it started"
+      ]
+    }
+  },
+  {
+    "id": "dat.bassler2004::Ee::Ne::all",
+    "manual": "manuals/dat.bassler2004.txt",
+    "fields": {
+      "Ee": [
+        "*Ee*     'integer'    number of children with treament success (ketotifen group)"
+      ],
+      "Ne": [
+        "*Ne*     'integer'    number of children (ketotifen group)"
+      ]
+    }
+  },
+  {
+    "id": "dat.bassler2004::Ec::Nc::all",
+    "manual": "manuals/dat.bassler2004.txt",
+    "fields": {
+      "Ec": [
+        "*Ec*     'integer'    number of children with treament success (control group)"
+      ],
+      "Nc": [
+        "*Nc*     'integer'    number of children (control group)"
+      ]
+    }
+  },
+  {
+    "id": "dat.bcg::tpos::tpos+tneg::all",
+    "manual": "manuals/dat.bcg.txt",
+    "fields": {
+      "tpos": [
+        "*tpos*    'numeric'    number of TB positive cases in the treated (vaccinated) group"
+      ],
+      "tneg": [
+        "*tneg*    'numeric'    number of TB negative cases in the treated (vaccinated) group"
+      ]
+    }
+  },
+  {
+    "id": "dat.bcg::cpos::cpos+cneg::all",
+    "manual": "manuals/dat.bcg.txt",
+    "fields": {
+      "cpos": [
+        "*cpos*    'numeric'    number of TB positive cases in the control (non-vaccinated) group"
+      ],
+      "cneg": [
+        "*cneg*    'numeric'    number of TB negative cases in the control (non-vaccinated) group"
+      ]
+    }
+  },
+  {
+    "id": "dat.bornmann2007::waward::wtotal::all",
+    "manual": "manuals/dat.bornmann2007.txt",
+    "fields": {
+      "waward": [
+        "*waward*      'numeric'    number of women who received a grant/fellowship award"
+      ],
+      "wtotal": [
+        "*wtotal*      'numeric'    number of women who applied for an award"
+      ]
+    }
+  },
+  {
+    "id": "dat.bornmann2007::maward::mtotal::all",
+    "manual": "manuals/dat.bornmann2007.txt",
+    "fields": {
+      "maward": [
+        "*maward*      'numeric'    number of men who received a grant/fellowship award"
+      ],
+      "mtotal": [
+        "*mtotal*      'numeric'    number of men who applied for an award"
+      ]
+    }
+  },
+  {
+    "id": "dat.bourassa1996::lh.le::lh.le+lh.re::all",
+    "manual": "manuals/dat.bourassa1996.txt",
+    "fields": {
+      "lh.le": [
+        "*lh.le*         'numeric'    number of left-handed left-eyed individuals"
+      ],
+      "lh.re": [
+        "*lh.re*         'numeric'    number of left-handed right-eyed individuals"
+      ]
+    }
+  },
+  {
+    "id": "dat.bourassa1996::rh.le::rh.le+rh.re::all",
+    "manual": "manuals/dat.bourassa1996.txt",
+    "fields": {
+      "rh.le": [
+        "*rh.le*         'numeric'    number of right-handed left-eyed individuals"
+      ],
+      "rh.re": [
+        "*rh.re*         'numeric'    number of right-handed right-eyed individuals"
+      ]
+    }
+  },
+  {
+    "id": "dat.cannon2006::ep1t::nt::all",
+    "manual": "manuals/dat.cannon2006.txt",
+    "fields": {
+      "ep1t": [
+        "*ep1t*   'numeric'    number of events in the high dose group for end point 1: coronary death or non-fatal myocardial infarction"
+      ],
+      "nt": [
+        "*nt*     'numeric'    number of patients in the high dose group"
+      ]
+    }
+  },
+  {
+    "id": "dat.cannon2006::ep2t::nt::all",
+    "manual": "manuals/dat.cannon2006.txt",
+    "fields": {
+      "ep2t": [
+        "*ep2t*   'numeric'    number of events in the high dose group for end point 2: coronary death or any cardiovascular event (MI, stroke, hospitalization for unstable angina, or revascularization)"
+      ],
+      "nt": [
+        "*nt*     'numeric'    number of patients in the high dose group"
+      ]
+    }
+  },
+  {
+    "id": "dat.cannon2006::ep3t::nt::all",
+    "manual": "manuals/dat.cannon2006.txt",
+    "fields": {
+      "ep3t": [
+        "*ep3t*   'numeric'    number of events in the high dose group for end point 3: cardiovascular death"
+      ],
+      "nt": [
+        "*nt*     'numeric'    number of patients in the high dose group"
+      ]
+    }
+  },
+  {
+    "id": "dat.cannon2006::ep4t::nt::all",
+    "manual": "manuals/dat.cannon2006.txt",
+    "fields": {
+      "ep4t": [
+        "*ep4t*   'numeric'    number of events in the high dose group for end point 4: non-cardiovascular death"
+      ],
+      "nt": [
+        "*nt*     'numeric'    number of patients in the high dose group"
+      ]
+    }
+  },
+  {
+    "id": "dat.cannon2006::ep5t::nt::all",
+    "manual": "manuals/dat.cannon2006.txt",
+    "fields": {
+      "ep5t": [
+        "*ep5t*   'numeric'    number of events in the high dose group for end point 5: deaths (all-cause mortality)"
+      ],
+      "nt": [
+        "*nt*     'numeric'    number of patients in the high dose group"
+      ]
+    }
+  },
+  {
+    "id": "dat.cannon2006::ep6t::nt::all",
+    "manual": "manuals/dat.cannon2006.txt",
+    "fields": {
+      "ep6t": [
+        "*ep6t*   'numeric'    number of events in the high dose group for end point 6: stroke"
+      ],
+      "nt": [
+        "*nt*     'numeric'    number of patients in the high dose group"
+      ]
+    }
+  },
+  {
+    "id": "dat.cannon2006::ep1c::nc::all",
+    "manual": "manuals/dat.cannon2006.txt",
+    "fields": {
+      "ep1c": [
+        "*ep1c*   'numeric'    number of events in the standard dose group for end point 1: coronary death or non-fatal myocardial infarction"
+      ],
+      "nc": [
+        "*nc*     'numeric'    number of patients in the standard dose group"
+      ]
+    }
+  },
+  {
+    "id": "dat.cannon2006::ep2c::nc::all",
+    "manual": "manuals/dat.cannon2006.txt",
+    "fields": {
+      "ep2c": [
+        "*ep2c*   'numeric'    number of events in the standard dose group for end point 2: coronary death or any cardiovascular event (MI, stroke, hospitalization for unstable angina, or revascularization)"
+      ],
+      "nc": [
+        "*nc*     'numeric'    number of patients in the standard dose group"
+      ]
+    }
+  },
+  {
+    "id": "dat.cannon2006::ep3c::nc::all",
+    "manual": "manuals/dat.cannon2006.txt",
+    "fields": {
+      "ep3c": [
+        "*ep3c*   'numeric'    number of events in the standard dose group for end point 3: cardiovascular death"
+      ],
+      "nc": [
+        "*nc*     'numeric'    number of patients in the standard dose group"
+      ]
+    }
+  },
+  {
+    "id": "dat.cannon2006::ep4c::nc::all",
+    "manual": "manuals/dat.cannon2006.txt",
+    "fields": {
+      "ep4c": [
+        "*ep4c*   'numeric'    number of events in the standard dose group for end point 4: non-cardiovascular death"
+      ],
+      "nc": [
+        "*nc*     'numeric'    number of patients in the standard dose group"
+      ]
+    }
+  },
+  {
+    "id": "dat.cannon2006::ep5c::nc::all",
+    "manual": "manuals/dat.cannon2006.txt",
+    "fields": {
+      "ep5c": [
+        "*ep5c*   'numeric'    number of events in the standard dose group for end point 5: deaths (all-cause mortality)"
+      ],
+      "nc": [
+        "*nc*     'numeric'    number of patients in the standard dose group"
+      ]
+    }
+  },
+  {
+    "id": "dat.cannon2006::ep6c::nc::all",
+    "manual": "manuals/dat.cannon2006.txt",
+    "fields": {
+      "ep6c": [
+        "*ep6c*   'numeric'    number of events in the standard dose group for end point 6: stroke"
+      ],
+      "nc": [
+        "*nc*     'numeric'    number of patients in the standard dose group"
+      ]
+    }
+  },
+  {
+    "id": "dat.chiarito2020::p2y12.mi::p2y12.total::all",
+    "manual": "manuals/dat.chiarito2020.txt",
+    "fields": {
+      "p2y12.mi": [
+        "*p2y12.mi*                'numeric'    number of patients with myocardial infarction in experimental group"
+      ],
+      "p2y12.total": [
+        "*p2y12.total*             'numeric'    total number of patients experimental group"
+      ]
+    }
+  },
+  {
+    "id": "dat.chiarito2020::p2y12.stroke::p2y12.total::all",
+    "manual": "manuals/dat.chiarito2020.txt",
+    "fields": {
+      "p2y12.stroke": [
+        "*p2y12.stroke*            'numeric'    number of patients with stroke in experimental group"
+      ],
+      "p2y12.total": [
+        "*p2y12.total*             'numeric'    total number of patients experimental group"
+      ]
+    }
+  },
+  {
+    "id": "dat.chiarito2020::p2y12.death::p2y12.total::all",
+    "manual": "manuals/dat.chiarito2020.txt",
+    "fields": {
+      "p2y12.death": [
+        "*p2y12.death*             'numeric'    number of deaths in experimental group"
+      ],
+      "p2y12.total": [
+        "*p2y12.total*             'numeric'    total number of patients experimental group"
+      ]
+    }
+  },
+  {
+    "id": "dat.chiarito2020::p2y12.vdeath::p2y12.total::all",
+    "manual": "manuals/dat.chiarito2020.txt",
+    "fields": {
+      "p2y12.vdeath": [
+        "*p2y12.vdeath*            'numeric'    number of vascular deaths in experimental group"
+      ],
+      "p2y12.total": [
+        "*p2y12.total*             'numeric'    total number of patients experimental group"
+      ]
+    }
+  },
+  {
+    "id": "dat.chiarito2020::aspirin.mi::aspirin.total::all",
+    "manual": "manuals/dat.chiarito2020.txt",
+    "fields": {
+      "aspirin.mi": [
+        "*aspirin.mi*              'numeric'    number of patients with myocardial infarction in control group"
+      ],
+      "aspirin.total": [
+        "*aspirin.total*           'numeric'    total number of patients in control group"
+      ]
+    }
+  },
+  {
+    "id": "dat.chiarito2020::aspirin.stroke::aspirin.total::all",
+    "manual": "manuals/dat.chiarito2020.txt",
+    "fields": {
+      "aspirin.stroke": [
+        "*aspirin.stroke*          'numeric'    number of patients with stroke in control group"
+      ],
+      "aspirin.total": [
+        "*aspirin.total*           'numeric'    total number of patients in control group"
+      ]
+    }
+  },
+  {
+    "id": "dat.chiarito2020::aspirin.death::aspirin.total::all",
+    "manual": "manuals/dat.chiarito2020.txt",
+    "fields": {
+      "aspirin.death": [
+        "*aspirin.death*           'numeric'    number of deaths in control group"
+      ],
+      "aspirin.total": [
+        "*aspirin.total*           'numeric'    total number of patients in control group"
+      ]
+    }
+  },
+  {
+    "id": "dat.chiarito2020::aspirin.vdeath::aspirin.total::all",
+    "manual": "manuals/dat.chiarito2020.txt",
+    "fields": {
+      "aspirin.vdeath": [
+        "*aspirin.vdeath*          'numeric'    number of vascular deaths in control group"
+      ],
+      "aspirin.total": [
+        "*aspirin.total*           'numeric'    total number of patients in control group"
+      ]
+    }
+  },
+  {
+    "id": "dat.colditz1994::tpos::tpos+tneg::all",
+    "manual": "manuals/dat.colditz1994.txt",
+    "fields": {
+      "tpos": [
+        "*tpos*    'numeric'    number of TB positive cases in the treated (vaccinated) group"
+      ],
+      "tneg": [
+        "*tneg*    'numeric'    number of TB negative cases in the treated (vaccinated) group"
+      ]
+    }
+  },
+  {
+    "id": "dat.colditz1994::cpos::cpos+cneg::all",
+    "manual": "manuals/dat.colditz1994.txt",
+    "fields": {
+      "cpos": [
+        "*cpos*    'numeric'    number of TB positive cases in the control (non-vaccinated) group"
+      ],
+      "cneg": [
+        "*cneg*    'numeric'    number of TB negative cases in the control (non-vaccinated) group"
+      ]
+    }
+  },
+  {
+    "id": "dat.collins1985a::b.xti::nti::all",
+    "manual": "manuals/dat.collins1985a.txt",
+    "fields": {
+      "b.xti": [
+        "*b.xti*  'numeric'    number of patients in treatment group with persistent or recurrent bleedings"
+      ],
+      "nti": [
+        "*nti*    'numeric'    number of patients in treatment group"
+      ]
+    }
+  },
+  {
+    "id": "dat.collins1985a::o.xti::nti::all",
+    "manual": "manuals/dat.collins1985a.txt",
+    "fields": {
+      "o.xti": [
+        "*o.xti*  'numeric'    number of patients in treatment group in need of operation"
+      ],
+      "nti": [
+        "*nti*    'numeric'    number of patients in treatment group"
+      ]
+    }
+  },
+  {
+    "id": "dat.collins1985a::d.xti::nti::all",
+    "manual": "manuals/dat.collins1985a.txt",
+    "fields": {
+      "d.xti": [
+        "*d.xti*  'numeric'    number of patients in treatment group that died"
+      ],
+      "nti": [
+        "*nti*    'numeric'    number of patients in treatment group"
+      ]
+    }
+  },
+  {
+    "id": "dat.collins1985a::b.xci::nci::all",
+    "manual": "manuals/dat.collins1985a.txt",
+    "fields": {
+      "b.xci": [
+        "*b.xci*  'numeric'    number of patients in control group with persistent or recurrent bleedings"
+      ],
+      "nci": [
+        "*nci*    'numeric'    number of patients in control group"
+      ]
+    }
+  },
+  {
+    "id": "dat.collins1985a::o.xci::nci::all",
+    "manual": "manuals/dat.collins1985a.txt",
+    "fields": {
+      "o.xci": [
+        "*o.xci*  'numeric'    number of patients in control group in need of operation"
+      ],
+      "nci": [
+        "*nci*    'numeric'    number of patients in control group"
+      ]
+    }
+  },
+  {
+    "id": "dat.collins1985a::d.xci::nci::all",
+    "manual": "manuals/dat.collins1985a.txt",
+    "fields": {
+      "d.xci": [
+        "*d.xci*  'numeric'    number of patients in control group that died"
+      ],
+      "nci": [
+        "*nci*    'numeric'    number of patients in control group"
+      ]
+    }
+  },
+  {
+    "id": "dat.collins1985b::pre.xti::pre.nti::all",
+    "manual": "manuals/dat.collins1985b.txt",
+    "fields": {
+      "pre.xti": [
+        "*pre.xti*  'numeric'    number of women in treatment group with any form of pre-eclampsia"
+      ],
+      "pre.nti": [
+        "*pre.nti*  'numeric'    number of women in treatment group followed up for pre-eclampsia outcome"
+      ]
+    }
+  },
+  {
+    "id": "dat.collins1985b::ped.xti::fup.nti::all",
+    "manual": "manuals/dat.collins1985b.txt",
+    "fields": {
+      "ped.xti": [
+        "*ped.xti*  'numeric'    number of perinatal deaths in treatment group"
+      ],
+      "fup.nti": [
+        "*fup.nti*  'numeric'    number of women in treatment group followed up for mortality outcomes"
+      ]
+    }
+  },
+  {
+    "id": "dat.collins1985b::stb.xti::fup.nti::all",
+    "manual": "manuals/dat.collins1985b.txt",
+    "fields": {
+      "stb.xti": [
+        "*stb.xti*  'numeric'    number of stillbirths in treatment group"
+      ],
+      "fup.nti": [
+        "*fup.nti*  'numeric'    number of women in treatment group followed up for mortality outcomes"
+      ]
+    }
+  },
+  {
+    "id": "dat.collins1985b::ned.xti::fup.nti::all",
+    "manual": "manuals/dat.collins1985b.txt",
+    "fields": {
+      "ned.xti": [
+        "*ned.xti*  'numeric'    number of neonatal deaths in treatment group"
+      ],
+      "fup.nti": [
+        "*fup.nti*  'numeric'    number of women in treatment group followed up for mortality outcomes"
+      ]
+    }
+  },
+  {
+    "id": "dat.collins1985b::pre.xci::pre.nci::all",
+    "manual": "manuals/dat.collins1985b.txt",
+    "fields": {
+      "pre.xci": [
+        "*pre.xci*  'numeric'    number of women in control/placebo group with any form of pre-eclampsia"
+      ],
+      "pre.nci": [
+        "*pre.nci*  'numeric'    number of women in control/placebo group followed up for pre-eclampsia outcome"
+      ]
+    }
+  },
+  {
+    "id": "dat.collins1985b::ped.xci::fup.nci::all",
+    "manual": "manuals/dat.collins1985b.txt",
+    "fields": {
+      "ped.xci": [
+        "*ped.xci*  'numeric'    number of perinatal deaths in control/placebo group"
+      ],
+      "fup.nci": [
+        "*fup.nci*  'numeric'    number of women in control/placebo group followed up for mortality outcomes"
+      ]
+    }
+  },
+  {
+    "id": "dat.collins1985b::stb.xci::fup.nci::all",
+    "manual": "manuals/dat.collins1985b.txt",
+    "fields": {
+      "stb.xci": [
+        "*stb.xci*  'numeric'    number of stillbirths in control/placebo group"
+      ],
+      "fup.nci": [
+        "*fup.nci*  'numeric'    number of women in control/placebo group followed up for mortality outcomes"
+      ]
+    }
+  },
+  {
+    "id": "dat.collins1985b::ned.xci::fup.nci::all",
+    "manual": "manuals/dat.collins1985b.txt",
+    "fields": {
+      "ned.xci": [
+        "*ned.xci*  'numeric'    number of neonatal deaths in control/placebo group"
+      ],
+      "fup.nci": [
+        "*fup.nci*  'numeric'    number of women in control/placebo group followed up for mortality outcomes"
+      ]
+    }
+  },
+  {
+    "id": "dat.crisafulli2020::cases::total::all",
+    "manual": "manuals/dat.crisafulli2020.txt",
+    "fields": {
+      "cases": [
+        "*cases*       'integer'    number of DMD cases"
+      ],
+      "total": [
+        "*total*       'integer'    corresponding total population"
+      ]
+    }
+  },
+  {
+    "id": "dat.dagostino1998::xt::nt::rnic1",
+    "manual": "manuals/dat.dagostino1998.txt",
+    "fields": {
+      "xt": [
+        "*xt*        'numeric'    number of patients reaching the therapy goal in the treatment group"
+      ],
+      "nt": [
+        "*nt*        'numeric'    sample size of the treatment group for measuring the outcome"
+      ]
+    }
+  },
+  {
+    "id": "dat.dagostino1998::xt::nt::rnic2",
+    "manual": "manuals/dat.dagostino1998.txt",
+    "fields": {
+      "xt": [
+        "*xt*        'numeric'    number of patients reaching the therapy goal in the treatment group"
+      ],
+      "nt": [
+        "*nt*        'numeric'    sample size of the treatment group for measuring the outcome"
+      ]
+    }
+  },
+  {
+    "id": "dat.dagostino1998::xt::nt::rngoal1",
+    "manual": "manuals/dat.dagostino1998.txt",
+    "fields": {
+      "xt": [
+        "*xt*        'numeric'    number of patients reaching the therapy goal in the treatment group"
+      ],
+      "nt": [
+        "*nt*        'numeric'    sample size of the treatment group for measuring the outcome"
+      ]
+    }
+  },
+  {
+    "id": "dat.dagostino1998::xt::nt::rngoal2",
+    "manual": "manuals/dat.dagostino1998.txt",
+    "fields": {
+      "xt": [
+        "*xt*        'numeric'    number of patients reaching the therapy goal in the treatment group"
+      ],
+      "nt": [
+        "*nt*        'numeric'    sample size of the treatment group for measuring the outcome"
+      ]
+    }
+  },
+  {
+    "id": "dat.dagostino1998::xt::nt::snic1",
+    "manual": "manuals/dat.dagostino1998.txt",
+    "fields": {
+      "xt": [
+        "*xt*        'numeric'    number of patients reaching the therapy goal in the treatment group"
+      ],
+      "nt": [
+        "*nt*        'numeric'    sample size of the treatment group for measuring the outcome"
+      ]
+    }
+  },
+  {
+    "id": "dat.dagostino1998::xt::nt::snic2",
+    "manual": "manuals/dat.dagostino1998.txt",
+    "fields": {
+      "xt": [
+        "*xt*        'numeric'    number of patients reaching the therapy goal in the treatment group"
+      ],
+      "nt": [
+        "*nt*        'numeric'    sample size of the treatment group for measuring the outcome"
+      ]
+    }
+  },
+  {
+    "id": "dat.dagostino1998::xt::nt::sngoal1",
+    "manual": "manuals/dat.dagostino1998.txt",
+    "fields": {
+      "xt": [
+        "*xt*        'numeric'    number of patients reaching the therapy goal in the treatment group"
+      ],
+      "nt": [
+        "*nt*        'numeric'    sample size of the treatment group for measuring the outcome"
+      ]
+    }
+  },
+  {
+    "id": "dat.dagostino1998::xt::nt::sngoal2",
+    "manual": "manuals/dat.dagostino1998.txt",
+    "fields": {
+      "xt": [
+        "*xt*        'numeric'    number of patients reaching the therapy goal in the treatment group"
+      ],
+      "nt": [
+        "*nt*        'numeric'    sample size of the treatment group for measuring the outcome"
+      ]
+    }
+  },
+  {
+    "id": "dat.dagostino1998::xc::nc::rnic1",
+    "manual": "manuals/dat.dagostino1998.txt",
+    "fields": {
+      "xc": [
+        "*xc*        'numeric'    number of patients reaching the therapy goal in the control (placebo) group"
+      ],
+      "nc": [
+        "*nc*        'numeric'    sample size of the control group for measuring the outcome"
+      ]
+    }
+  },
+  {
+    "id": "dat.dagostino1998::xc::nc::rnic2",
+    "manual": "manuals/dat.dagostino1998.txt",
+    "fields": {
+      "xc": [
+        "*xc*        'numeric'    number of patients reaching the therapy goal in the control (placebo) group"
+      ],
+      "nc": [
+        "*nc*        'numeric'    sample size of the control group for measuring the outcome"
+      ]
+    }
+  },
+  {
+    "id": "dat.dagostino1998::xc::nc::rngoal1",
+    "manual": "manuals/dat.dagostino1998.txt",
+    "fields": {
+      "xc": [
+        "*xc*        'numeric'    number of patients reaching the therapy goal in the control (placebo) group"
+      ],
+      "nc": [
+        "*nc*        'numeric'    sample size of the control group for measuring the outcome"
+      ]
+    }
+  },
+  {
+    "id": "dat.dagostino1998::xc::nc::rngoal2",
+    "manual": "manuals/dat.dagostino1998.txt",
+    "fields": {
+      "xc": [
+        "*xc*        'numeric'    number of patients reaching the therapy goal in the control (placebo) group"
+      ],
+      "nc": [
+        "*nc*        'numeric'    sample size of the control group for measuring the outcome"
+      ]
+    }
+  },
+  {
+    "id": "dat.dagostino1998::xc::nc::snic1",
+    "manual": "manuals/dat.dagostino1998.txt",
+    "fields": {
+      "xc": [
+        "*xc*        'numeric'    number of patients reaching the therapy goal in the control (placebo) group"
+      ],
+      "nc": [
+        "*nc*        'numeric'    sample size of the control group for measuring the outcome"
+      ]
+    }
+  },
+  {
+    "id": "dat.dagostino1998::xc::nc::snic2",
+    "manual": "manuals/dat.dagostino1998.txt",
+    "fields": {
+      "xc": [
+        "*xc*        'numeric'    number of patients reaching the therapy goal in the control (placebo) group"
+      ],
+      "nc": [
+        "*nc*        'numeric'    sample size of the control group for measuring the outcome"
+      ]
+    }
+  },
+  {
+    "id": "dat.dagostino1998::xc::nc::sngoal1",
+    "manual": "manuals/dat.dagostino1998.txt",
+    "fields": {
+      "xc": [
+        "*xc*        'numeric'    number of patients reaching the therapy goal in the control (placebo) group"
+      ],
+      "nc": [
+        "*nc*        'numeric'    sample size of the control group for measuring the outcome"
+      ]
+    }
+  },
+  {
+    "id": "dat.dagostino1998::xc::nc::sngoal2",
+    "manual": "manuals/dat.dagostino1998.txt",
+    "fields": {
+      "xc": [
+        "*xc*        'numeric'    number of patients reaching the therapy goal in the control (placebo) group"
+      ],
+      "nc": [
+        "*nc*        'numeric'    sample size of the control group for measuring the outcome"
+      ]
+    }
+  },
+  {
+    "id": "dat.damico2009::xt::nt::all",
+    "manual": "manuals/dat.damico2009.txt",
+    "fields": {
+      "xt": [
+        "*xt*       'numeric'    number of RTIs in the treatment group"
+      ],
+      "nt": [
+        "*nt*       'numeric'    number of patients in the treatment group"
+      ]
+    }
+  },
+  {
+    "id": "dat.damico2009::xc::nc::all",
+    "manual": "manuals/dat.damico2009.txt",
+    "fields": {
+      "xc": [
+        "*xc*       'numeric'    number of RTIs in the control group"
+      ],
+      "nc": [
+        "*nc*       'numeric'    number of patients in the control group"
+      ]
+    }
+  },
+  {
+    "id": "dat.debruin2009::xi::ni::all",
+    "manual": "manuals/dat.debruin2009.txt",
+    "fields": {
+      "xi": [
+        "*xi*         'numeric'    number of patients with an undetectable viral load in standard care group"
+      ],
+      "ni": [
+        "*ni*         'numeric'    number of patients in the standard care group"
+      ]
+    }
+  },
+  {
+    "id": "dat.dogliotti2014::stroke::total::VKAs",
+    "manual": "manuals/dat.dogliotti2014.txt",
+    "fields": {
+      "stroke": [
+        "*stroke*     'numeric'    number of strokes"
+      ],
+      "total": [
+        "*total*      'numeric'    number of individuals"
+      ]
+    }
+  },
+  {
+    "id": "dat.dogliotti2014::stroke::total::Aspirin",
+    "manual": "manuals/dat.dogliotti2014.txt",
+    "fields": {
+      "stroke": [
+        "*stroke*     'numeric'    number of strokes"
+      ],
+      "total": [
+        "*total*      'numeric'    number of individuals"
+      ]
+    }
+  },
+  {
+    "id": "dat.dogliotti2014::stroke::total::Placebo/Control",
+    "manual": "manuals/dat.dogliotti2014.txt",
+    "fields": {
+      "stroke": [
+        "*stroke*     'numeric'    number of strokes"
+      ],
+      "total": [
+        "*total*      'numeric'    number of individuals"
+      ]
+    }
+  },
+  {
+    "id": "dat.dogliotti2014::stroke::total::Aspirin+Clopidogtrel",
+    "manual": "manuals/dat.dogliotti2014.txt",
+    "fields": {
+      "stroke": [
+        "*stroke*     'numeric'    number of strokes"
+      ],
+      "total": [
+        "*total*      'numeric'    number of individuals"
+      ]
+    }
+  },
+  {
+    "id": "dat.dogliotti2014::stroke::total::Dabigatran 110mg",
+    "manual": "manuals/dat.dogliotti2014.txt",
+    "fields": {
+      "stroke": [
+        "*stroke*     'numeric'    number of strokes"
+      ],
+      "total": [
+        "*total*      'numeric'    number of individuals"
+      ]
+    }
+  },
+  {
+    "id": "dat.dogliotti2014::stroke::total::Dabigatran 150mg",
+    "manual": "manuals/dat.dogliotti2014.txt",
+    "fields": {
+      "stroke": [
+        "*stroke*     'numeric'    number of strokes"
+      ],
+      "total": [
+        "*total*      'numeric'    number of individuals"
+      ]
+    }
+  },
+  {
+    "id": "dat.dogliotti2014::stroke::total::Rivaroxaban",
+    "manual": "manuals/dat.dogliotti2014.txt",
+    "fields": {
+      "stroke": [
+        "*stroke*     'numeric'    number of strokes"
+      ],
+      "total": [
+        "*total*      'numeric'    number of individuals"
+      ]
+    }
+  },
+  {
+    "id": "dat.dogliotti2014::stroke::total::Apixaban",
+    "manual": "manuals/dat.dogliotti2014.txt",
+    "fields": {
+      "stroke": [
+        "*stroke*     'numeric'    number of strokes"
+      ],
+      "total": [
+        "*total*      'numeric'    number of individuals"
+      ]
+    }
+  },
+  {
+    "id": "dat.dong2013::death::randomized::TIO-SMI",
+    "manual": "manuals/dat.dong2013.txt",
+    "fields": {
+      "death": [
+        "*death*       'integer'    mortality"
+      ],
+      "randomized": [
+        "*randomized*  'integer'    number of individuals"
+      ]
+    }
+  },
+  {
+    "id": "dat.dong2013::death::randomized::Placebo",
+    "manual": "manuals/dat.dong2013.txt",
+    "fields": {
+      "death": [
+        "*death*       'integer'    mortality"
+      ],
+      "randomized": [
+        "*randomized*  'integer'    number of individuals"
+      ]
+    }
+  },
+  {
+    "id": "dat.dong2013::death::randomized::TIO-HH",
+    "manual": "manuals/dat.dong2013.txt",
+    "fields": {
+      "death": [
+        "*death*       'integer'    mortality"
+      ],
+      "randomized": [
+        "*randomized*  'integer'    number of individuals"
+      ]
+    }
+  },
+  {
+    "id": "dat.dong2013::death::randomized::LABA",
+    "manual": "manuals/dat.dong2013.txt",
+    "fields": {
+      "death": [
+        "*death*       'integer'    mortality"
+      ],
+      "randomized": [
+        "*randomized*  'integer'    number of individuals"
+      ]
+    }
+  },
+  {
+    "id": "dat.dong2013::death::randomized::LABA-ICS",
+    "manual": "manuals/dat.dong2013.txt",
+    "fields": {
+      "death": [
+        "*death*       'integer'    mortality"
+      ],
+      "randomized": [
+        "*randomized*  'integer'    number of individuals"
+      ]
+    }
+  },
+  {
+    "id": "dat.dong2013::death::randomized::ICS",
+    "manual": "manuals/dat.dong2013.txt",
+    "fields": {
+      "death": [
+        "*death*       'integer'    mortality"
+      ],
+      "randomized": [
+        "*randomized*  'integer'    number of individuals"
+      ]
+    }
+  },
+  {
+    "id": "dat.dorn2007::x.a::n.a::all",
+    "manual": "manuals/dat.dorn2007.txt",
+    "fields": {
+      "x.a": [
+        "*x.a*       'numeric'    number of responders in the active treatment group"
+      ],
+      "n.a": [
+        "*n.a*       'numeric'    number of participants in the active treatment group"
+      ]
+    }
+  },
+  {
+    "id": "dat.dorn2007::x.p::n.p::all",
+    "manual": "manuals/dat.dorn2007.txt",
+    "fields": {
+      "x.p": [
+        "*x.p*       'numeric'    number of responders in the placebo group"
+      ],
+      "n.p": [
+        "*n.p*       'numeric'    number of participants in the placebo group"
+      ]
+    }
+  },
+  {
+    "id": "dat.egger2001::ai::n1i::all",
+    "manual": "manuals/dat.egger2001.txt",
+    "fields": {
+      "ai": [
+        "*ai*     'numeric'    number of deaths in the magnesium group"
+      ],
+      "n1i": [
+        "*n1i*    'numeric'    number of patients in the magnesium group"
+      ]
+    }
+  },
+  {
+    "id": "dat.egger2001::ci::n2i::all",
+    "manual": "manuals/dat.egger2001.txt",
+    "fields": {
+      "ci": [
+        "*ci*     'numeric'    number of deaths in the control group"
+      ],
+      "n2i": [
+        "*n2i*    'numeric'    number of patients in the control group"
+      ]
+    }
+  },
+  {
+    "id": "dat.feng2019::depr::n::all",
+    "manual": "manuals/dat.feng2019.txt",
+    "fields": {
+      "depr": [
+        "*depr*           'integer'    subjects with depression"
+      ],
+      "n": [
+        "*n*              'integer'    sample size"
+      ]
+    }
+  },
+  {
+    "id": "dat.fine1993::e1i::nei::all",
+    "manual": "manuals/dat.fine1993.txt",
+    "fields": {
+      "e1i": [
+        "*e1i*    'numeric'  number of survivors at 6 months in the experimental group"
+      ],
+      "nei": [
+        "*nei*    'numeric'  sample size in the experimental group receiving radiotherapy plus adjuvant chemotherapy"
+      ]
+    }
+  },
+  {
+    "id": "dat.fine1993::e2i::nei::all",
+    "manual": "manuals/dat.fine1993.txt",
+    "fields": {
+      "e2i": [
+        "*e2i*    'numeric'  number of survivors at 12 months in the experimental group"
+      ],
+      "nei": [
+        "*nei*    'numeric'  sample size in the experimental group receiving radiotherapy plus adjuvant chemotherapy"
+      ]
+    }
+  },
+  {
+    "id": "dat.fine1993::e3i::nei::all",
+    "manual": "manuals/dat.fine1993.txt",
+    "fields": {
+      "e3i": [
+        "*e3i*    'numeric'  number of survivors at 18 months in the experimental group"
+      ],
+      "nei": [
+        "*nei*    'numeric'  sample size in the experimental group receiving radiotherapy plus adjuvant chemotherapy"
+      ]
+    }
+  },
+  {
+    "id": "dat.fine1993::e4i::nei::all",
+    "manual": "manuals/dat.fine1993.txt",
+    "fields": {
+      "e4i": [
+        "*e4i*    'numeric'  number of survivors at 24 months in the experimental group"
+      ],
+      "nei": [
+        "*nei*    'numeric'  sample size in the experimental group receiving radiotherapy plus adjuvant chemotherapy"
+      ]
+    }
+  },
+  {
+    "id": "dat.fine1993::c1i::nci::all",
+    "manual": "manuals/dat.fine1993.txt",
+    "fields": {
+      "c1i": [
+        "*c1i*    'numeric'  number of survivors at 6 months in the control group"
+      ],
+      "nci": [
+        "*nci*    'numeric'  sample size in the control group receiving radiotherapy alone"
+      ]
+    }
+  },
+  {
+    "id": "dat.fine1993::c2i::nci::all",
+    "manual": "manuals/dat.fine1993.txt",
+    "fields": {
+      "c2i": [
+        "*c2i*    'numeric'  number of survivors at 12 months in the control group"
+      ],
+      "nci": [
+        "*nci*    'numeric'  sample size in the control group receiving radiotherapy alone"
+      ]
+    }
+  },
+  {
+    "id": "dat.fine1993::c3i::nci::all",
+    "manual": "manuals/dat.fine1993.txt",
+    "fields": {
+      "c3i": [
+        "*c3i*    'numeric'  number of survivors at 18 months in the control group"
+      ],
+      "nci": [
+        "*nci*    'numeric'  sample size in the control group receiving radiotherapy alone"
+      ]
+    }
+  },
+  {
+    "id": "dat.fine1993::c4i::nci::all",
+    "manual": "manuals/dat.fine1993.txt",
+    "fields": {
+      "c4i": [
+        "*c4i*    'numeric'  number of survivors at 24 months in the control group"
+      ],
+      "nci": [
+        "*nci*    'numeric'  sample size in the control group receiving radiotherapy alone"
+      ]
+    }
+  },
+  {
+    "id": "dat.frank2008::bc.ins.ins::bc.ins.ins+bc.ins.del+bc.del.del::all",
+    "manual": "manuals/dat.frank2008.txt",
+    "fields": {
+      "bc.ins.ins": [
+        "*bc.ins.ins*  'numeric'    number of cases who have a homozygous insertion polymorphism"
+      ],
+      "bc.ins.del": [
+        "*bc.ins.del*  'numeric'    number of cases who have a heterozygous insertion/deletion polymorphism"
+      ],
+      "bc.del.del": [
+        "*bc.del.del*  'numeric'    number of cases who have a homozygous deletion polymorphism"
+      ]
+    }
+  },
+  {
+    "id": "dat.frank2008::bc.ins.del::bc.ins.ins+bc.ins.del+bc.del.del::all",
+    "manual": "manuals/dat.frank2008.txt",
+    "fields": {
+      "bc.ins.del": [
+        "*bc.ins.del*  'numeric'    number of cases who have a heterozygous insertion/deletion polymorphism"
+      ],
+      "bc.ins.ins": [
+        "*bc.ins.ins*  'numeric'    number of cases who have a homozygous insertion polymorphism"
+      ],
+      "bc.del.del": [
+        "*bc.del.del*  'numeric'    number of cases who have a homozygous deletion polymorphism"
+      ]
+    }
+  },
+  {
+    "id": "dat.frank2008::bc.del.del::bc.ins.ins+bc.ins.del+bc.del.del::all",
+    "manual": "manuals/dat.frank2008.txt",
+    "fields": {
+      "bc.del.del": [
+        "*bc.del.del*  'numeric'    number of cases who have a homozygous deletion polymorphism"
+      ],
+      "bc.ins.ins": [
+        "*bc.ins.ins*  'numeric'    number of cases who have a homozygous insertion polymorphism"
+      ],
+      "bc.ins.del": [
+        "*bc.ins.del*  'numeric'    number of cases who have a heterozygous insertion/deletion polymorphism"
+      ]
+    }
+  },
+  {
+    "id": "dat.frank2008::ct.ins.ins::ct.ins.ins+ct.ins.del+ct.del.del::all",
+    "manual": "manuals/dat.frank2008.txt",
+    "fields": {
+      "ct.ins.ins": [
+        "*ct.ins.ins*  'numeric'    number of controls who have a homozygous insertion polymorphism"
+      ],
+      "ct.ins.del": [
+        "*ct.ins.del*  'numeric'    number of controls who are heterozygous insertion/deletion polymorphism"
+      ],
+      "ct.del.del": [
+        "*ct.del.del*  'numeric'    number of controls who have a homozygous deletion polymorphism"
+      ]
+    }
+  },
+  {
+    "id": "dat.frank2008::ct.ins.del::ct.ins.ins+ct.ins.del+ct.del.del::all",
+    "manual": "manuals/dat.frank2008.txt",
+    "fields": {
+      "ct.ins.del": [
+        "*ct.ins.del*  'numeric'    number of controls who are heterozygous insertion/deletion polymorphism"
+      ],
+      "ct.ins.ins": [
+        "*ct.ins.ins*  'numeric'    number of controls who have a homozygous insertion polymorphism"
+      ],
+      "ct.del.del": [
+        "*ct.del.del*  'numeric'    number of controls who have a homozygous deletion polymorphism"
+      ]
+    }
+  },
+  {
+    "id": "dat.frank2008::ct.del.del::ct.ins.ins+ct.ins.del+ct.del.del::all",
+    "manual": "manuals/dat.frank2008.txt",
+    "fields": {
+      "ct.del.del": [
+        "*ct.del.del*  'numeric'    number of controls who have a homozygous deletion polymorphism"
+      ],
+      "ct.ins.ins": [
+        "*ct.ins.ins*  'numeric'    number of controls who have a homozygous insertion polymorphism"
+      ],
+      "ct.ins.del": [
+        "*ct.ins.del*  'numeric'    number of controls who are heterozygous insertion/deletion polymorphism"
+      ]
+    }
+  },
+  {
+    "id": "dat.gibson2002::ai::n1i::all",
+    "manual": "manuals/dat.gibson2002.txt",
+    "fields": {
+      "ai": [
+        "*ai*      'numeric'    number of participants who had one or more days off work/school in the intervention group"
+      ],
+      "n1i": [
+        "*n1i*     'numeric'    number of participants in the intervention group"
+      ]
+    }
+  },
+  {
+    "id": "dat.gibson2002::ci::n2i::all",
+    "manual": "manuals/dat.gibson2002.txt",
+    "fields": {
+      "ci": [
+        "*ci*      'numeric'    number of participants who had one or more days off work/school in the control/comparison group"
+      ],
+      "n2i": [
+        "*n2i*     'numeric'    number of participants in the control/comparison group"
+      ]
+    }
+  },
+  {
+    "id": "dat.graves2010::ai::n1i::all",
+    "manual": "manuals/dat.graves2010.txt",
+    "fields": {
+      "ai": [
+        "*ai*     'numeric'    number of cholera cases in the vaccinated group"
+      ],
+      "n1i": [
+        "*n1i*    'numeric'    number of individuals in the vaccinated group"
+      ]
+    }
+  },
+  {
+    "id": "dat.graves2010::ci::n2i::all",
+    "manual": "manuals/dat.graves2010.txt",
+    "fields": {
+      "ci": [
+        "*ci*     'numeric'    number of cholera cases in the placebo group"
+      ],
+      "n2i": [
+        "*n2i*    'numeric'    number of individuals in the placebo group"
+      ]
+    }
+  },
+  {
+    "id": "dat.greb2008::Ee::Ne::all",
+    "manual": "manuals/dat.greb2008.txt",
+    "fields": {
+      "Ee": [
+        "*Ee*     'integer'    complete responses (high-dose chemotherapy)"
+      ],
+      "Ne": [
+        "*Ne*     'integer'    number of patients (high-dose chemotherapy)"
+      ]
+    }
+  },
+  {
+    "id": "dat.greb2008::Ec::Nc::all",
+    "manual": "manuals/dat.greb2008.txt",
+    "fields": {
+      "Ec": [
+        "*Ec*     'integer'    complete responses (standard chemotherapy)"
+      ],
+      "Nc": [
+        "*Nc*     'integer'    number of patients (standard chemotherapy)"
+      ]
+    }
+  },
+  {
+    "id": "dat.gurusamy2011::death::n::Control/Placebo",
+    "manual": "manuals/dat.gurusamy2011.txt",
+    "fields": {
+      "death": [
+        "*death*      'integer'    mortality at 60 days post-transplantation"
+      ],
+      "n": [
+        "*n*          'integer'    number of individuals"
+      ]
+    }
+  },
+  {
+    "id": "dat.gurusamy2011::death::n::Aprotonin",
+    "manual": "manuals/dat.gurusamy2011.txt",
+    "fields": {
+      "death": [
+        "*death*      'integer'    mortality at 60 days post-transplantation"
+      ],
+      "n": [
+        "*n*          'integer'    number of individuals"
+      ]
+    }
+  },
+  {
+    "id": "dat.gurusamy2011::death::n::Tranexamic acid",
+    "manual": "manuals/dat.gurusamy2011.txt",
+    "fields": {
+      "death": [
+        "*death*      'integer'    mortality at 60 days post-transplantation"
+      ],
+      "n": [
+        "*n*          'integer'    number of individuals"
+      ]
+    }
+  },
+  {
+    "id": "dat.gurusamy2011::death::n::EACA",
+    "manual": "manuals/dat.gurusamy2011.txt",
+    "fields": {
+      "death": [
+        "*death*      'integer'    mortality at 60 days post-transplantation"
+      ],
+      "n": [
+        "*n*          'integer'    number of individuals"
+      ]
+    }
+  },
+  {
+    "id": "dat.gurusamy2011::death::n::Antithrombin III",
+    "manual": "manuals/dat.gurusamy2011.txt",
+    "fields": {
+      "death": [
+        "*death*      'integer'    mortality at 60 days post-transplantation"
+      ],
+      "n": [
+        "*n*          'integer'    number of individuals"
+      ]
+    }
+  },
+  {
+    "id": "dat.gurusamy2011::death::n::rFVIIa",
+    "manual": "manuals/dat.gurusamy2011.txt",
+    "fields": {
+      "death": [
+        "*death*      'integer'    mortality at 60 days post-transplantation"
+      ],
+      "n": [
+        "*n*          'integer'    number of individuals"
+      ]
+    }
+  },
+  {
+    "id": "dat.gurusamy2011::death::n::Solvent detergent plasma",
+    "manual": "manuals/dat.gurusamy2011.txt",
+    "fields": {
+      "death": [
+        "*death*      'integer'    mortality at 60 days post-transplantation"
+      ],
+      "n": [
+        "*n*          'integer'    number of individuals"
+      ]
+    }
+  },
+  {
+    "id": "dat.hahn2001::ai::n1i::all",
+    "manual": "manuals/dat.hahn2001.txt",
+    "fields": {
+      "ai": [
+        "*ai*     'numeric'    number of children requiring unscheduled intravenous infusion in the reduced rehydration solution group"
+      ],
+      "n1i": [
+        "*n1i*    'numeric'    number of children in the reduced rehydration solution group"
+      ]
+    }
+  },
+  {
+    "id": "dat.hahn2001::ci::n2i::all",
+    "manual": "manuals/dat.hahn2001.txt",
+    "fields": {
+      "ci": [
+        "*ci*     'numeric'    number of children requiring unscheduled intravenous infusion in the standard rehydration solution group"
+      ],
+      "n2i": [
+        "*n2i*    'numeric'    number of children in the standard rehydration solution group"
+      ]
+    }
+  },
+  {
+    "id": "dat.hannum2020::xi::ni::all",
+    "manual": "manuals/dat.hannum2020.txt",
+    "fields": {
+      "xi": [
+        "*xi*                    'numeric'    number of Covid-19 positive patients in the study with olfactory loss"
+      ],
+      "ni": [
+        "*ni*                    'numeric'    number of Covid-19 positive patients in the study"
+      ]
+    }
+  },
+  {
+    "id": "dat.hart1999::x1i::n1i::all",
+    "manual": "manuals/dat.hart1999.txt",
+    "fields": {
+      "x1i": [
+        "*x1i*       'numeric'    number of strokes in the warfarin group"
+      ],
+      "n1i": [
+        "*n1i*       'numeric'    number of patients in the warfarin group"
+      ]
+    }
+  },
+  {
+    "id": "dat.hart1999::x2i::n2i::all",
+    "manual": "manuals/dat.hart1999.txt",
+    "fields": {
+      "x2i": [
+        "*x2i*       'numeric'    number of strokes in the placebo/control group"
+      ],
+      "n2i": [
+        "*n2i*       'numeric'    number of patients in the placebo/control group"
+      ]
+    }
+  },
+  {
+    "id": "dat.hartmannboyce2018::x.nrt::n.nrt::all",
+    "manual": "manuals/dat.hartmannboyce2018.txt",
+    "fields": {
+      "x.nrt": [
+        "*x.nrt*      'numeric'    number of participants in the NRT group who were abstinent at the follow-up"
+      ],
+      "n.nrt": [
+        "*n.nrt*      'numeric'    number of participants in the NRT group"
+      ]
+    }
+  },
+  {
+    "id": "dat.hartmannboyce2018::x.ctrl::n.ctrl::all",
+    "manual": "manuals/dat.hartmannboyce2018.txt",
+    "fields": {
+      "x.ctrl": [
+        "*x.ctrl*     'numeric'    number of participants in the control group who were abstinent at the follow-up"
+      ],
+      "n.ctrl": [
+        "*n.ctrl*     'numeric'    number of participants in the control group"
+      ]
+    }
+  },
+  {
+    "id": "dat.hasselblad1998::xi::ni::no_contact",
+    "manual": "manuals/dat.hasselblad1998.txt",
+    "fields": {
+      "xi": [
+        "*xi*       'numeric'    number of individuals abstinent"
+      ],
+      "ni": [
+        "*ni*       'numeric'    number of individuals in group"
+      ]
+    }
+  },
+  {
+    "id": "dat.hasselblad1998::xi::ni::ind_counseling",
+    "manual": "manuals/dat.hasselblad1998.txt",
+    "fields": {
+      "xi": [
+        "*xi*       'numeric'    number of individuals abstinent"
+      ],
+      "ni": [
+        "*ni*       'numeric'    number of individuals in group"
+      ]
+    }
+  },
+  {
+    "id": "dat.hasselblad1998::xi::ni::grp_counseling",
+    "manual": "manuals/dat.hasselblad1998.txt",
+    "fields": {
+      "xi": [
+        "*xi*       'numeric'    number of individuals abstinent"
+      ],
+      "ni": [
+        "*ni*       'numeric'    number of individuals in group"
+      ]
+    }
+  },
+  {
+    "id": "dat.hasselblad1998::xi::ni::self_help",
+    "manual": "manuals/dat.hasselblad1998.txt",
+    "fields": {
+      "xi": [
+        "*xi*       'numeric'    number of individuals abstinent"
+      ],
+      "ni": [
+        "*ni*       'numeric'    number of individuals in group"
+      ]
+    }
+  },
+  {
+    "id": "dat.higgins2008::resp.halo::resp.halo+fail.halo::all",
+    "manual": "manuals/dat.higgins2008.txt",
+    "fields": {
+      "resp.halo": [
+        "*resp.halo*  'integer'    number of responders (haloperidol group)"
+      ],
+      "fail.halo": [
+        "*fail.halo*  'integer'    number of failures (haloperidol group)"
+      ]
+    }
+  },
+  {
+    "id": "dat.higgins2008::resp.plac::resp.plac+fail.plac::all",
+    "manual": "manuals/dat.higgins2008.txt",
+    "fields": {
+      "resp.plac": [
+        "*resp.plac*  'integer'    number of responders (placebo group)"
+      ],
+      "fail.plac": [
+        "*fail.plac*  'integer'    number of failures (placebo group)"
+      ]
+    }
+  },
+  {
+    "id": "dat.hine1989::ai::n1i::all",
+    "manual": "manuals/dat.hine1989.txt",
+    "fields": {
+      "ai": [
+        "*ai*      'numeric'    number of deaths in lidocaine group"
+      ],
+      "n1i": [
+        "*n1i*     'numeric'    number of patients in lidocaine group"
+      ]
+    }
+  },
+  {
+    "id": "dat.hine1989::ci::n2i::all",
+    "manual": "manuals/dat.hine1989.txt",
+    "fields": {
+      "ci": [
+        "*ci*      'numeric'    number of deaths in control group"
+      ],
+      "n2i": [
+        "*n2i*     'numeric'    number of patients in control group"
+      ]
+    }
+  },
+  {
+    "id": "dat.karner2014::tiotropium.exa::tiotropium.total::all",
+    "manual": "manuals/dat.karner2014.txt",
+    "fields": {
+      "tiotropium.exa": [
+        "*tiotropium.exa*      'numeric'    number of patients with >=1 exacerbation in the treatment group"
+      ],
+      "tiotropium.total": [
+        "*tiotropium.total*    'numeric'    total number of patients in the treatment group"
+      ]
+    }
+  },
+  {
+    "id": "dat.karner2014::tiotropium.sexa::tiotropium.total::all",
+    "manual": "manuals/dat.karner2014.txt",
+    "fields": {
+      "tiotropium.sexa": [
+        "*tiotropium.sexa*     'numeric'    number of patients with >=1 _severe_ exacerbation in the treatment group"
+      ],
+      "tiotropium.total": [
+        "*tiotropium.total*    'numeric'    total number of patients in the treatment group"
+      ]
+    }
+  },
+  {
+    "id": "dat.karner2014::tiotropium.hospi::tiotropium.total::all",
+    "manual": "manuals/dat.karner2014.txt",
+    "fields": {
+      "tiotropium.hospi": [
+        "*tiotropium.hospi*    'numeric'    number of patients with >=1 hospitalization (all-cause) in the treatment group"
+      ],
+      "tiotropium.total": [
+        "*tiotropium.total*    'numeric'    total number of patients in the treatment group"
+      ]
+    }
+  },
+  {
+    "id": "dat.karner2014::tiotropium.deaths::tiotropium.total::all",
+    "manual": "manuals/dat.karner2014.txt",
+    "fields": {
+      "tiotropium.deaths": [
+        "*tiotropium.deaths*   'numeric'    number of deaths in the treatment group"
+      ],
+      "tiotropium.total": [
+        "*tiotropium.total*    'numeric'    total number of patients in the treatment group"
+      ]
+    }
+  },
+  {
+    "id": "dat.karner2014::tiotropium.sae::tiotropium.total::all",
+    "manual": "manuals/dat.karner2014.txt",
+    "fields": {
+      "tiotropium.sae": [
+        "*tiotropium.sae*      'numeric'    number of patients with >=1 serious adverse event (non-fatal) in the treatment group"
+      ],
+      "tiotropium.total": [
+        "*tiotropium.total*    'numeric'    total number of patients in the treatment group"
+      ]
+    }
+  },
+  {
+    "id": "dat.karner2014::tiotropium.dropout::tiotropium.total::all",
+    "manual": "manuals/dat.karner2014.txt",
+    "fields": {
+      "tiotropium.dropout": [
+        "*tiotropium.dropout*  'numeric'    number of withdrawals in the treatment group"
+      ],
+      "tiotropium.total": [
+        "*tiotropium.total*    'numeric'    total number of patients in the treatment group"
+      ]
+    }
+  },
+  {
+    "id": "dat.karner2014::placebo.exa::placebo.total::all",
+    "manual": "manuals/dat.karner2014.txt",
+    "fields": {
+      "placebo.exa": [
+        "*placebo.exa*         'numeric'    number of patients with >=1 exacerbation in the control group"
+      ],
+      "placebo.total": [
+        "*placebo.total*       'numeric'    total number of patients in the control group"
+      ]
+    }
+  },
+  {
+    "id": "dat.karner2014::placebo.sexa::placebo.total::all",
+    "manual": "manuals/dat.karner2014.txt",
+    "fields": {
+      "placebo.sexa": [
+        "*placebo.sexa*        'numeric'    number of patients with >=1 _severe_ exacerbation in the control group"
+      ],
+      "placebo.total": [
+        "*placebo.total*       'numeric'    total number of patients in the control group"
+      ]
+    }
+  },
+  {
+    "id": "dat.karner2014::placebo.hospi::placebo.total::all",
+    "manual": "manuals/dat.karner2014.txt",
+    "fields": {
+      "placebo.hospi": [
+        "*placebo.hospi*       'numeric'    number of patients with >=1 hospitalization (all-cause) in the control group"
+      ],
+      "placebo.total": [
+        "*placebo.total*       'numeric'    total number of patients in the control group"
+      ]
+    }
+  },
+  {
+    "id": "dat.karner2014::placebo.deaths::placebo.total::all",
+    "manual": "manuals/dat.karner2014.txt",
+    "fields": {
+      "placebo.deaths": [
+        "*placebo.deaths*      'numeric'    number of deaths in the control group"
+      ],
+      "placebo.total": [
+        "*placebo.total*       'numeric'    total number of patients in the control group"
+      ]
+    }
+  },
+  {
+    "id": "dat.karner2014::placebo.sae::placebo.total::all",
+    "manual": "manuals/dat.karner2014.txt",
+    "fields": {
+      "placebo.sae": [
+        "*placebo.sae*         'numeric'    number of patients with >=1 serious adverse event (non-fatal) in the control group"
+      ],
+      "placebo.total": [
+        "*placebo.total*       'numeric'    total number of patients in the control group"
+      ]
+    }
+  },
+  {
+    "id": "dat.karner2014::placebo.dropout::placebo.total::all",
+    "manual": "manuals/dat.karner2014.txt",
+    "fields": {
+      "placebo.dropout": [
+        "*placebo.dropout*     'numeric'    number of withdrawals in the control group"
+      ],
+      "placebo.total": [
+        "*placebo.total*       'numeric'    total number of patients in the control group"
+      ]
+    }
+  },
+  {
+    "id": "dat.kearon1998::tp::np::all",
+    "manual": "manuals/dat.kearon1998.txt",
+    "fields": {
+      "tp": [
+        "*tp*        'numeric'    number of true positives"
+      ],
+      "np": [
+        "*np*        'numeric'    number of positive patients (cases)"
+      ]
+    }
+  },
+  {
+    "id": "dat.kearon1998::tn::nn::all",
+    "manual": "manuals/dat.kearon1998.txt",
+    "fields": {
+      "tn": [
+        "*tn*        'numeric'    number of true negatives"
+      ],
+      "nn": [
+        "*nn*        'numeric'    number of negative patients (non-cases)"
+      ]
+    }
+  },
+  {
+    "id": "dat.landenberger2005::n.ctrl.rec::n.ctrl.rec+n.ctrl.non::all",
+    "manual": "manuals/dat.landenberger2005.txt",
+    "fields": {
+      "n.ctrl.rec": [
+        "*n.ctrl.rec*        'numeric'    number of recidivists in the control group"
+      ],
+      "n.ctrl.non": [
+        "*n.ctrl.non*        'numeric'    number of non-recidivists in the control group"
+      ]
+    }
+  },
+  {
+    "id": "dat.landenberger2005::n.cbt.rec::n.cbt.rec+n.cbt.non::all",
+    "manual": "manuals/dat.landenberger2005.txt",
+    "fields": {
+      "n.cbt.rec": [
+        "*n.cbt.rec*         'numeric'    number of recidivists in the CBT group"
+      ],
+      "n.cbt.non": [
+        "*n.cbt.non*         'numeric'    number of non-recidivists in the CBT group"
+      ]
+    }
+  },
+  {
+    "id": "dat.laopaiboon2015::ai::n1i::all",
+    "manual": "manuals/dat.laopaiboon2015.txt",
+    "fields": {
+      "ai": [
+        "*ai*       'numeric'    number of clinical failures in the group treated with azithromycin"
+      ],
+      "n1i": [
+        "*n1i*      'numeric'    number of patients in the group treated with azithromycin"
+      ]
+    }
+  },
+  {
+    "id": "dat.laopaiboon2015::ci::n2i::all",
+    "manual": "manuals/dat.laopaiboon2015.txt",
+    "fields": {
+      "ci": [
+        "*ci*       'numeric'    number of clinical failures in the group treated with amoxycillin or amoxyclav"
+      ],
+      "n2i": [
+        "*n2i*      'numeric'    number of patients in the group treated with amoxycillin or amoxyclav"
+      ]
+    }
+  },
+  {
+    "id": "dat.lau1992::ai::n1i::all",
+    "manual": "manuals/dat.lau1992.txt",
+    "fields": {
+      "ai": [
+        "*ai*     'numeric'    number of deaths in the streptokinase group"
+      ],
+      "n1i": [
+        "*n1i*    'numeric'    number of patients in the streptokinase group"
+      ]
+    }
+  },
+  {
+    "id": "dat.lau1992::ci::n2i::all",
+    "manual": "manuals/dat.lau1992.txt",
+    "fields": {
+      "ci": [
+        "*ci*     'numeric'    number of deaths in the control group"
+      ],
+      "n2i": [
+        "*n2i*    'numeric'    number of patients in the control group"
+      ]
+    }
+  },
+  {
+    "id": "dat.lee2004::ai::n1i::all",
+    "manual": "manuals/dat.lee2004.txt",
+    "fields": {
+      "ai": [
+        "*ai*     'numeric'    number of patients experiencing nausea in the treatment group"
+      ],
+      "n1i": [
+        "*n1i*    'numeric'    total number of patients in treatment group"
+      ]
+    }
+  },
+  {
+    "id": "dat.lee2004::ci::n2i::all",
+    "manual": "manuals/dat.lee2004.txt",
+    "fields": {
+      "ci": [
+        "*ci*     'numeric'    number of patients experiencing nausea in the sham group"
+      ],
+      "n2i": [
+        "*n2i*    'numeric'    total number of patients in the sham group"
+      ]
+    }
+  },
+  {
+    "id": "dat.li2007::ai::n1i::all",
+    "manual": "manuals/dat.li2007.txt",
+    "fields": {
+      "ai": [
+        "*ai*     'numeric'    number of deaths in the magnesium group"
+      ],
+      "n1i": [
+        "*n1i*    'numeric'    number of patients in the magnesium group"
+      ]
+    }
+  },
+  {
+    "id": "dat.li2007::ci::n2i::all",
+    "manual": "manuals/dat.li2007.txt",
+    "fields": {
+      "ci": [
+        "*ci*     'numeric'    number of deaths in the control group"
+      ],
+      "n2i": [
+        "*n2i*    'numeric'    number of patients in the control group"
+      ]
+    }
+  },
+  {
+    "id": "dat.linde2005::ai::n1i::all",
+    "manual": "manuals/dat.linde2005.txt",
+    "fields": {
+      "ai": [
+        "*ai*        'numeric'    number of responses in treatment group"
+      ],
+      "n1i": [
+        "*n1i*       'numeric'    number of patients in treatment group"
+      ]
+    }
+  },
+  {
+    "id": "dat.linde2005::ci::n2i::all",
+    "manual": "manuals/dat.linde2005.txt",
+    "fields": {
+      "ci": [
+        "*ci*        'numeric'    number of responses in placebo group"
+      ],
+      "n2i": [
+        "*n2i*       'numeric'    number of patients in placebo group"
+      ]
+    }
+  },
+  {
+    "id": "dat.linde2015::resp1::n1::all",
+    "manual": "manuals/dat.linde2015.txt",
+    "fields": {
+      "resp1": [
+        "*resp1*       'integer'    number of early responder (arm 1)"
+      ],
+      "n1": [
+        "*n1*          'integer'    number of patients (arm 1)"
+      ]
+    }
+  },
+  {
+    "id": "dat.linde2015::remi1::n1::all",
+    "manual": "manuals/dat.linde2015.txt",
+    "fields": {
+      "remi1": [
+        "*remi1*       'integer'    number of early remissions (arm 1)"
+      ],
+      "n1": [
+        "*n1*          'integer'    number of patients (arm 1)"
+      ]
+    }
+  },
+  {
+    "id": "dat.linde2015::loss1::n1::all",
+    "manual": "manuals/dat.linde2015.txt",
+    "fields": {
+      "loss1": [
+        "*loss1*       'integer'    number of patients loss to follow-up (arm 1)"
+      ],
+      "n1": [
+        "*n1*          'integer'    number of patients (arm 1)"
+      ]
+    }
+  },
+  {
+    "id": "dat.linde2015::loss.ae1::n1::all",
+    "manual": "manuals/dat.linde2015.txt",
+    "fields": {
+      "loss.ae1": [
+        "*loss.ae1*    'integer'    number of patients loss to follow-up due to adverse events (arm 1)"
+      ],
+      "n1": [
+        "*n1*          'integer'    number of patients (arm 1)"
+      ]
+    }
+  },
+  {
+    "id": "dat.linde2015::ae1::n1::all",
+    "manual": "manuals/dat.linde2015.txt",
+    "fields": {
+      "ae1": [
+        "*ae1*         'integer'    number of patients with adverse events (arm 1)"
+      ],
+      "n1": [
+        "*n1*          'integer'    number of patients (arm 1)"
+      ]
+    }
+  },
+  {
+    "id": "dat.linde2015::resp2::n2::all",
+    "manual": "manuals/dat.linde2015.txt",
+    "fields": {
+      "resp2": [
+        "*resp2*       'integer'    number of early responder (arm 2)"
+      ],
+      "n2": [
+        "*n2*          'integer'    number of patients (arm 2)"
+      ]
+    }
+  },
+  {
+    "id": "dat.linde2015::remi2::n2::all",
+    "manual": "manuals/dat.linde2015.txt",
+    "fields": {
+      "remi2": [
+        "*remi2*       'integer'    number of early remissions (arm 2)"
+      ],
+      "n2": [
+        "*n2*          'integer'    number of patients (arm 2)"
+      ]
+    }
+  },
+  {
+    "id": "dat.linde2015::loss2::n2::all",
+    "manual": "manuals/dat.linde2015.txt",
+    "fields": {
+      "loss2": [
+        "*loss2*       'integer'    number of patients loss to follow-up (arm 2)"
+      ],
+      "n2": [
+        "*n2*          'integer'    number of patients (arm 2)"
+      ]
+    }
+  },
+  {
+    "id": "dat.linde2015::loss.ae2::n2::all",
+    "manual": "manuals/dat.linde2015.txt",
+    "fields": {
+      "loss.ae2": [
+        "*loss.ae2*    'integer'    number of patients loss to follow-up due to adverse events (arm 2)"
+      ],
+      "n2": [
+        "*n2*          'integer'    number of patients (arm 2)"
+      ]
+    }
+  },
+  {
+    "id": "dat.linde2015::ae2::n2::all",
+    "manual": "manuals/dat.linde2015.txt",
+    "fields": {
+      "ae2": [
+        "*ae2*         'integer'    number of patients with adverse events (arm 2)"
+      ],
+      "n2": [
+        "*n2*          'integer'    number of patients (arm 2)"
+      ]
+    }
+  },
+  {
+    "id": "dat.linde2015::resp3::n3::all",
+    "manual": "manuals/dat.linde2015.txt",
+    "fields": {
+      "resp3": [
+        "*resp3*       'integer'    number of early responder (arm 3)"
+      ],
+      "n3": [
+        "*n3*          'integer'    number of patients (arm 3)"
+      ]
+    }
+  },
+  {
+    "id": "dat.linde2015::remi3::n3::all",
+    "manual": "manuals/dat.linde2015.txt",
+    "fields": {
+      "remi3": [
+        "*remi3*       'integer'    number of early remissions (arm 3)"
+      ],
+      "n3": [
+        "*n3*          'integer'    number of patients (arm 3)"
+      ]
+    }
+  },
+  {
+    "id": "dat.linde2015::loss3::n3::all",
+    "manual": "manuals/dat.linde2015.txt",
+    "fields": {
+      "loss3": [
+        "*loss3*       'integer'    number of patients loss to follow-up (arm 3)"
+      ],
+      "n3": [
+        "*n3*          'integer'    number of patients (arm 3)"
+      ]
+    }
+  },
+  {
+    "id": "dat.linde2015::loss.ae3::n3::all",
+    "manual": "manuals/dat.linde2015.txt",
+    "fields": {
+      "loss.ae3": [
+        "*loss.ae3*    'integer'    number of patients loss to follow-up due to adverse events (arm 3)"
+      ],
+      "n3": [
+        "*n3*          'integer'    number of patients (arm 3)"
+      ]
+    }
+  },
+  {
+    "id": "dat.linde2015::ae3::n3::all",
+    "manual": "manuals/dat.linde2015.txt",
+    "fields": {
+      "ae3": [
+        "*ae3*         'integer'    number of patients with adverse events (arm 3)"
+      ],
+      "n3": [
+        "*n3*          'integer'    number of patients (arm 3)"
+      ]
+    }
+  },
+  {
+    "id": "dat.linde2016::resp::n::SNRI",
+    "manual": "manuals/dat.linde2016.txt",
+    "fields": {
+      "resp": [
+        "*resp*      'numeric'    number of responders"
+      ],
+      "n": [
+        "*n*         'numeric'    number of patients"
+      ]
+    }
+  },
+  {
+    "id": "dat.linde2016::resp::n::Placebo",
+    "manual": "manuals/dat.linde2016.txt",
+    "fields": {
+      "resp": [
+        "*resp*      'numeric'    number of responders"
+      ],
+      "n": [
+        "*n*         'numeric'    number of patients"
+      ]
+    }
+  },
+  {
+    "id": "dat.linde2016::resp::n::TCA",
+    "manual": "manuals/dat.linde2016.txt",
+    "fields": {
+      "resp": [
+        "*resp*      'numeric'    number of responders"
+      ],
+      "n": [
+        "*n*         'numeric'    number of patients"
+      ]
+    }
+  },
+  {
+    "id": "dat.linde2016::resp::n::Face-to-face CBT",
+    "manual": "manuals/dat.linde2016.txt",
+    "fields": {
+      "resp": [
+        "*resp*      'numeric'    number of responders"
+      ],
+      "n": [
+        "*n*         'numeric'    number of patients"
+      ]
+    }
+  },
+  {
+    "id": "dat.linde2016::resp::n::UC",
+    "manual": "manuals/dat.linde2016.txt",
+    "fields": {
+      "resp": [
+        "*resp*      'numeric'    number of responders"
+      ],
+      "n": [
+        "*n*         'numeric'    number of patients"
+      ]
+    }
+  },
+  {
+    "id": "dat.linde2016::resp::n::Ind drug",
+    "manual": "manuals/dat.linde2016.txt",
+    "fields": {
+      "resp": [
+        "*resp*      'numeric'    number of responders"
+      ],
+      "n": [
+        "*n*         'numeric'    number of patients"
+      ]
+    }
+  },
+  {
+    "id": "dat.linde2016::resp::n::Other face-to-face",
+    "manual": "manuals/dat.linde2016.txt",
+    "fields": {
+      "resp": [
+        "*resp*      'numeric'    number of responders"
+      ],
+      "n": [
+        "*n*         'numeric'    number of patients"
+      ]
+    }
+  },
+  {
+    "id": "dat.linde2016::resp::n::Self-help CBT",
+    "manual": "manuals/dat.linde2016.txt",
+    "fields": {
+      "resp": [
+        "*resp*      'numeric'    number of responders"
+      ],
+      "n": [
+        "*n*         'numeric'    number of patients"
+      ]
+    }
+  },
+  {
+    "id": "dat.linde2016::resp::n::SSRI",
+    "manual": "manuals/dat.linde2016.txt",
+    "fields": {
+      "resp": [
+        "*resp*      'numeric'    number of responders"
+      ],
+      "n": [
+        "*n*         'numeric'    number of patients"
+      ]
+    }
+  },
+  {
+    "id": "dat.linde2016::resp::n::Face-to-face interpsy",
+    "manual": "manuals/dat.linde2016.txt",
+    "fields": {
+      "resp": [
+        "*resp*      'numeric'    number of responders"
+      ],
+      "n": [
+        "*n*         'numeric'    number of patients"
+      ]
+    }
+  },
+  {
+    "id": "dat.linde2016::resp::n::Face-to-face PST",
+    "manual": "manuals/dat.linde2016.txt",
+    "fields": {
+      "resp": [
+        "*resp*      'numeric'    number of responders"
+      ],
+      "n": [
+        "*n*         'numeric'    number of patients"
+      ]
+    }
+  },
+  {
+    "id": "dat.linde2016::resp::n::Face-to-face PST + SSRI",
+    "manual": "manuals/dat.linde2016.txt",
+    "fields": {
+      "resp": [
+        "*resp*      'numeric'    number of responders"
+      ],
+      "n": [
+        "*n*         'numeric'    number of patients"
+      ]
+    }
+  },
+  {
+    "id": "dat.linde2016::resp::n::NaSSa",
+    "manual": "manuals/dat.linde2016.txt",
+    "fields": {
+      "resp": [
+        "*resp*      'numeric'    number of responders"
+      ],
+      "n": [
+        "*n*         'numeric'    number of patients"
+      ]
+    }
+  },
+  {
+    "id": "dat.linde2016::resp::n::rMAO-A",
+    "manual": "manuals/dat.linde2016.txt",
+    "fields": {
+      "resp": [
+        "*resp*      'numeric'    number of responders"
+      ],
+      "n": [
+        "*n*         'numeric'    number of patients"
+      ]
+    }
+  },
+  {
+    "id": "dat.linde2016::resp::n::Hypericum",
+    "manual": "manuals/dat.linde2016.txt",
+    "fields": {
+      "resp": [
+        "*resp*      'numeric'    number of responders"
+      ],
+      "n": [
+        "*n*         'numeric'    number of patients"
+      ]
+    }
+  },
+  {
+    "id": "dat.linde2016::resp::n::Remote CBT",
+    "manual": "manuals/dat.linde2016.txt",
+    "fields": {
+      "resp": [
+        "*resp*      'numeric'    number of responders"
+      ],
+      "n": [
+        "*n*         'numeric'    number of patients"
+      ]
+    }
+  },
+  {
+    "id": "dat.linde2016::resp::n::Face-to-face interpsy + SSRI",
+    "manual": "manuals/dat.linde2016.txt",
+    "fields": {
+      "resp": [
+        "*resp*      'numeric'    number of responders"
+      ],
+      "n": [
+        "*n*         'numeric'    number of patients"
+      ]
+    }
+  },
+  {
+    "id": "dat.linde2016::resp::n::Low-dose SARI",
+    "manual": "manuals/dat.linde2016.txt",
+    "fields": {
+      "resp": [
+        "*resp*      'numeric'    number of responders"
+      ],
+      "n": [
+        "*n*         'numeric'    number of patients"
+      ]
+    }
+  },
+  {
+    "id": "dat.linde2016::resp::n::No contact CBT",
+    "manual": "manuals/dat.linde2016.txt",
+    "fields": {
+      "resp": [
+        "*resp*      'numeric'    number of responders"
+      ],
+      "n": [
+        "*n*         'numeric'    number of patients"
+      ]
+    }
+  },
+  {
+    "id": "dat.linde2016::resp::n::Face-to-face CBT + SSRI",
+    "manual": "manuals/dat.linde2016.txt",
+    "fields": {
+      "resp": [
+        "*resp*      'numeric'    number of responders"
+      ],
+      "n": [
+        "*n*         'numeric'    number of patients"
+      ]
+    }
+  },
+  {
+    "id": "dat.linde2016::resp::n::Face-to-face psychodyn",
+    "manual": "manuals/dat.linde2016.txt",
+    "fields": {
+      "resp": [
+        "*resp*      'numeric'    number of responders"
+      ],
+      "n": [
+        "*n*         'numeric'    number of patients"
+      ]
+    }
+  },
+  {
+    "id": "dat.linde2016::resp::n::NRI",
+    "manual": "manuals/dat.linde2016.txt",
+    "fields": {
+      "resp": [
+        "*resp*      'numeric'    number of responders"
+      ],
+      "n": [
+        "*n*         'numeric'    number of patients"
+      ]
+    }
+  },
+  {
+    "id": "dat.metap$cholest::dtreat::ntreat::all",
+    "manual": "manuals/dat.metap.txt",
+    "fields": {
+      "dtreat": [
+        "*dtreat*    'numeric'  number of deaths in the treated group"
+      ],
+      "ntreat": [
+        "*ntreat*    'numeric'  number of patients in the treated group",
+        "*ntreat*  'numeric'    treated group sample sizes"
+      ]
+    }
+  },
+  {
+    "id": "dat.metap$cholest::dcontrol::ncontrol::all",
+    "manual": "manuals/dat.metap.txt",
+    "fields": {
+      "dcontrol": [
+        "*dcontrol*  'numeric'  number of deaths in the control group"
+      ],
+      "ncontrol": [
+        "*ncontrol*  'numeric'  number of patients in the control group"
+      ]
+    }
+  },
+  {
+    "id": "dat.moore1998::Ee::Ne::all",
+    "manual": "manuals/dat.moore1998.txt",
+    "fields": {
+      "Ee": [
+        "*Ee*          'integer'    number of treatment successes (NSAIDS group)"
+      ],
+      "Ne": [
+        "*Ne*          'integer'    number of patients (NSAIDS group)"
+      ]
+    }
+  },
+  {
+    "id": "dat.moore1998::Ec::Nc::all",
+    "manual": "manuals/dat.moore1998.txt",
+    "fields": {
+      "Ec": [
+        "*Ec*          'integer'    number of treatment successes (control group)"
+      ],
+      "Nc": [
+        "*Nc*          'integer'    number of patients (control group)"
+      ]
+    }
+  },
+  {
+    "id": "dat.nielweise2007::ai::n1i::all",
+    "manual": "manuals/dat.nielweise2007.txt",
+    "fields": {
+      "ai": [
+        "*ai*      'numeric'    number of CRBSIs in patients receiving an anti-infective catheter"
+      ],
+      "n1i": [
+        "*n1i*     'numeric'    number of patients receiving an anti-infective catheter"
+      ]
+    }
+  },
+  {
+    "id": "dat.nielweise2007::ci::n2i::all",
+    "manual": "manuals/dat.nielweise2007.txt",
+    "fields": {
+      "ci": [
+        "*ci*      'numeric'    number of CRBSIs in patients receiving a standard catheter"
+      ],
+      "n2i": [
+        "*n2i*     'numeric'    number of patients receiving a standard catheter"
+      ]
+    }
+  },
+  {
+    "id": "dat.nissen2007::treat.infarction::treat.total::all",
+    "manual": "manuals/dat.nissen2007.txt",
+    "fields": {
+      "treat.infarction": [
+        "*treat.infarction*  'numeric'    number of patients with myocardial infarction in the treatment group"
+      ],
+      "treat.total": [
+        "*treat.total*       'numeric'    total number of patients in the treatment group"
+      ]
+    }
+  },
+  {
+    "id": "dat.nissen2007::treat.death::treat.total::all",
+    "manual": "manuals/dat.nissen2007.txt",
+    "fields": {
+      "treat.death": [
+        "*treat.death*       'numeric'    number of deaths in the treatment group"
+      ],
+      "treat.total": [
+        "*treat.total*       'numeric'    total number of patients in the treatment group"
+      ]
+    }
+  },
+  {
+    "id": "dat.nissen2007::cont.infarction::cont.total::all",
+    "manual": "manuals/dat.nissen2007.txt",
+    "fields": {
+      "cont.infarction": [
+        "*cont.infarction*   'numeric'    number of patients with myocardial infarction in the control group"
+      ],
+      "cont.total": [
+        "*cont.total*        'numeric'    total number of patients in the control group"
+      ]
+    }
+  },
+  {
+    "id": "dat.nissen2007::cont.death::cont.total::all",
+    "manual": "manuals/dat.nissen2007.txt",
+    "fields": {
+      "cont.death": [
+        "*cont.death*        'numeric'    number of deaths in the control group"
+      ],
+      "cont.total": [
+        "*cont.total*        'numeric'    total number of patients in the control group"
+      ]
+    }
+  },
+  {
+    "id": "dat.obrien2003::cases::total::all",
+    "manual": "manuals/dat.obrien2003.txt",
+    "fields": {
+      "cases": [
+        "*cases*   'numeric'    number of preeclampsia cases in the BMI group"
+      ],
+      "total": [
+        "*total*   'numeric'    number of individuals in the BMI group"
+      ]
+    }
+  },
+  {
+    "id": "dat.pagliaro1992::xi::ni::beta-blockers",
+    "manual": "manuals/dat.pagliaro1992.txt",
+    "fields": {
+      "xi": [
+        "*xi*     'numeric'    number of patients with first bleeding"
+      ],
+      "ni": [
+        "*ni*     'numeric'    number of patients treated"
+      ]
+    }
+  },
+  {
+    "id": "dat.pagliaro1992::xi::ni::sclerotherapy",
+    "manual": "manuals/dat.pagliaro1992.txt",
+    "fields": {
+      "xi": [
+        "*xi*     'numeric'    number of patients with first bleeding"
+      ],
+      "ni": [
+        "*ni*     'numeric'    number of patients treated"
+      ]
+    }
+  },
+  {
+    "id": "dat.pagliaro1992::xi::ni::control",
+    "manual": "manuals/dat.pagliaro1992.txt",
+    "fields": {
+      "xi": [
+        "*xi*     'numeric'    number of patients with first bleeding"
+      ],
+      "ni": [
+        "*ni*     'numeric'    number of patients treated"
+      ]
+    }
+  },
+  {
+    "id": "dat.pritz1997::xi::ni::all",
+    "manual": "manuals/dat.pritz1997.txt",
+    "fields": {
+      "xi": [
+        "*xi*       'numeric'    number of patients that improved with hyperdynamic therapy"
+      ],
+      "ni": [
+        "*ni*       'numeric'    total number of patients treated"
+      ]
+    }
+  },
+  {
+    "id": "dat.quan2000::Ee::Ne::all",
+    "manual": "manuals/dat.quan2000.txt",
+    "fields": {
+      "Ee": [
+        "*Ee*     'integer'    fatal cerebrovascular events (pharmacotherapy)"
+      ],
+      "Ne": [
+        "*Ne*     'integer'    number of patients (pharmacotherapy)"
+      ]
+    }
+  },
+  {
+    "id": "dat.quan2000::Ec::Nc::all",
+    "manual": "manuals/dat.quan2000.txt",
+    "fields": {
+      "Ec": [
+        "*Ec*     'integer'    fatal cerebrovascular events (control)"
+      ],
+      "Nc": [
+        "*Nc*     'integer'    number of patients (control)"
+      ]
+    }
+  },
+  {
+    "id": "dat.rivera2025::TP::TP+FN::all",
+    "manual": "manuals/dat.rivera2025.txt",
+    "fields": {
+      "TP": [
+        "*TP*           'integer'    number of true positives"
+      ],
+      "FN": [
+        "*FN*           'integer'    number of false negatives"
+      ]
+    }
+  },
+  {
+    "id": "dat.rivera2025::TN::TN+FP::all",
+    "manual": "manuals/dat.rivera2025.txt",
+    "fields": {
+      "TN": [
+        "*TN*           'integer'    number of true negatives"
+      ],
+      "FP": [
+        "*FP*           'integer'    number of false positives"
+      ]
+    }
+  },
+  {
+    "id": "dat.roever2022::events::total::all",
+    "manual": "manuals/dat.roever2022.txt",
+    "fields": {
+      "events": [
+        "*events*  'integer'    number of DLTs"
+      ],
+      "total": [
+        "*total*   'integer'    number of patients exposed"
+      ]
+    }
+  },
+  {
+    "id": "dat.thompson1999::ihd.cont::ihd.cont+noihd.cont::all",
+    "manual": "manuals/dat.thompson1999.txt",
+    "fields": {
+      "ihd.cont": [
+        "*ihd.cont*    'integer'  number of ischaemic heart disease (control group)"
+      ],
+      "noihd.cont": [
+        "*noihd.cont*  'integer'  number of non-events (control group)"
+      ]
+    }
+  },
+  {
+    "id": "dat.thompson1999::ihd.exp::ihd.exp+noihd.exp::all",
+    "manual": "manuals/dat.thompson1999.txt",
+    "fields": {
+      "ihd.exp": [
+        "*ihd.exp*     'integer'  number of ischaemic heart disease (treated group)"
+      ],
+      "noihd.exp": [
+        "*noihd.exp*   'integer'  number of non-events (treated group)"
+      ]
+    }
+  },
+  {
+    "id": "dat.tian2009::deaths::n::Rosiglitazone",
+    "manual": "manuals/dat.tian2009.txt",
+    "fields": {
+      "deaths": [
+        "*deaths*                 'integer'    Number of deaths"
+      ],
+      "n": [
+        "*n*                      'integer'    Number of patients with information on outcomes"
+      ]
+    }
+  },
+  {
+    "id": "dat.tian2009::deaths::n::Control",
+    "manual": "manuals/dat.tian2009.txt",
+    "fields": {
+      "deaths": [
+        "*deaths*                 'integer'    Number of deaths"
+      ],
+      "n": [
+        "*n*                      'integer'    Number of patients with information on outcomes"
+      ]
+    }
+  },
+  {
+    "id": "dat.tian2009::infarcts::n::Rosiglitazone",
+    "manual": "manuals/dat.tian2009.txt",
+    "fields": {
+      "infarcts": [
+        "*infarcts*               'integer'    Number of myocardial infarctions"
+      ],
+      "n": [
+        "*n*                      'integer'    Number of patients with information on outcomes"
+      ]
+    }
+  },
+  {
+    "id": "dat.tian2009::infarcts::n::Control",
+    "manual": "manuals/dat.tian2009.txt",
+    "fields": {
+      "infarcts": [
+        "*infarcts*               'integer'    Number of myocardial infarctions"
+      ],
+      "n": [
+        "*n*                      'integer'    Number of patients with information on outcomes"
+      ]
+    }
+  },
+  {
+    "id": "dat.ursino2021::events::total::all",
+    "manual": "manuals/dat.ursino2021.txt",
+    "fields": {
+      "events": [
+        "*events*  'integer'    number of DLTs"
+      ],
+      "total": [
+        "*total*   'integer'    number of patients exposed"
+      ]
+    }
+  },
+  {
+    "id": "dat.vanhowe1999::non.pos::non.pos+non.neg::all",
+    "manual": "manuals/dat.vanhowe1999.txt",
+    "fields": {
+      "non.pos": [
+        "*non.pos*   'numeric'    number of non-circumcised HIV positive cases"
+      ],
+      "non.neg": [
+        "*non.neg*   'numeric'    number of non-circumcised HIV negative cases"
+      ]
+    }
+  },
+  {
+    "id": "dat.vanhowe1999::cir.pos::cir.pos+cir.neg::all",
+    "manual": "manuals/dat.vanhowe1999.txt",
+    "fields": {
+      "cir.pos": [
+        "*cir.pos*   'numeric'    number of circumcised HIV positive cases"
+      ],
+      "cir.neg": [
+        "*cir.neg*   'numeric'    number of circumcised HIV negative cases"
+      ]
+    }
+  },
+  {
+    "id": "dat.viechtbauer2021::xTi::nTi::all",
+    "manual": "manuals/dat.viechtbauer2021.txt",
+    "fields": {
+      "xTi": [
+        "*xTi*    'numeric'  number of patients in the treatment group with remission"
+      ],
+      "nTi": [
+        "*nTi*    'numeric'  number of patients in the treatment group"
+      ]
+    }
+  },
+  {
+    "id": "dat.viechtbauer2021::xCi::nCi::all",
+    "manual": "manuals/dat.viechtbauer2021.txt",
+    "fields": {
+      "xCi": [
+        "*xCi*    'numeric'  number of patients in the control group with remission"
+      ],
+      "nCi": [
+        "*nCi*    'numeric'  number of patients in the control group"
+      ]
+    }
+  },
+  {
+    "id": "dat.woods2010::r::N::Salmeterol",
+    "manual": "manuals/dat.woods2010.txt",
+    "fields": {
+      "r": [
+        "*r*          'integer'    number of deaths"
+      ],
+      "N": [
+        "*N*          'integer'    number of patients"
+      ]
+    }
+  },
+  {
+    "id": "dat.woods2010::r::N::Placebo",
+    "manual": "manuals/dat.woods2010.txt",
+    "fields": {
+      "r": [
+        "*r*          'integer'    number of deaths"
+      ],
+      "N": [
+        "*N*          'integer'    number of patients"
+      ]
+    }
+  },
+  {
+    "id": "dat.woods2010::r::N::Fluticasone",
+    "manual": "manuals/dat.woods2010.txt",
+    "fields": {
+      "r": [
+        "*r*          'integer'    number of deaths"
+      ],
+      "N": [
+        "*N*          'integer'    number of patients"
+      ]
+    }
+  },
+  {
+    "id": "dat.woods2010::r::N::SFC",
+    "manual": "manuals/dat.woods2010.txt",
+    "fields": {
+      "r": [
+        "*r*          'integer'    number of deaths"
+      ],
+      "N": [
+        "*N*          'integer'    number of patients"
+      ]
+    }
+  },
+  {
+    "id": "dat.yusuf1985::ai::n1i::all",
+    "manual": "manuals/dat.yusuf1985.txt",
+    "fields": {
+      "ai": [
+        "*ai*     'numeric'    number of deaths/reinfarctions in treatment group"
+      ],
+      "n1i": [
+        "*n1i*    'numeric'    number of patients in treatment group"
+      ]
+    }
+  },
+  {
+    "id": "dat.yusuf1985::ci::n2i::all",
+    "manual": "manuals/dat.yusuf1985.txt",
+    "fields": {
+      "ci": [
+        "*ci*     'numeric'    number of deaths/reinfarctions in control group"
+      ],
+      "n2i": [
+        "*n2i*    'numeric'    number of patients in control group"
+      ]
+    }
+  }
+]

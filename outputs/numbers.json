@@ -1,0 +1,252 @@
+{
+  "datasets_enumerated": {
+    "value": 114,
+    "source": "data/manifest.json",
+    "transformation": "count entries"
+  },
+  "datasets_used": {
+    "value": 62,
+    "source": "data/manifest.json",
+    "transformation": "count status=used"
+  },
+  "datasets_excluded": {
+    "value": 52,
+    "source": "data/manifest.json",
+    "transformation": "count status=excluded"
+  },
+  "analyses": {
+    "value": 240,
+    "source": "data/corpus.json",
+    "transformation": "sum analyses; analyses/arms may overlap"
+  },
+  "rows": {
+    "value": 4768,
+    "source": "data/corpus.json",
+    "transformation": "sum rows; analyses/arms may overlap"
+  },
+  "zero_event_rows": {
+    "value": 478,
+    "source": "data/corpus.json",
+    "transformation": "sum zero_event_rows; analyses/arms may overlap"
+  },
+  "all_event_rows": {
+    "value": 23,
+    "source": "data/corpus.json",
+    "transformation": "sum all_event_rows; analyses/arms may overlap"
+  },
+  "configurations": {
+    "value": 2160,
+    "source": "data/corpus.json",
+    "transformation": "sum configurations; analyses/arms may overlap"
+  },
+  "successful": {
+    "value": 1962,
+    "source": "results/reference.json",
+    "transformation": "count status=ok"
+  },
+  "refusals": {
+    "value": 198,
+    "source": "results/reference.json",
+    "transformation": "count status=refused"
+  },
+  "checks": {
+    "value": 298116,
+    "source": "results/reference.json + app-patched.json + app.json",
+    "transformation": "recompute full primary comparison"
+  },
+  "passed": {
+    "value": 298116,
+    "source": "results/reference.json + app-patched.json + app.json",
+    "transformation": "recompute full primary comparison"
+  },
+  "before_passed": {
+    "value": 237911,
+    "source": "results/reference.json + app-patched.json + app.json",
+    "transformation": "recompute full primary comparison"
+  },
+  "meta_checks": {
+    "value": 8046,
+    "source": "results/meta-reference.json + app-patched.json",
+    "transformation": "recompute secondary comparison"
+  },
+  "meta_passed": {
+    "value": 7432,
+    "source": "results/meta-reference.json + app-patched.json",
+    "transformation": "recompute secondary comparison"
+  },
+  "max_status": {
+    "value": 0,
+    "source": "results/reference.json + app-patched.json",
+    "transformation": "maximum relative difference for status"
+  },
+  "max_mu_re": {
+    "value": 1.440785877150696e-15,
+    "source": "results/reference.json + app-patched.json",
+    "transformation": "maximum relative difference for mu_re"
+  },
+  "max_seRE": {
+    "value": 6.106226635438361e-16,
+    "source": "results/reference.json + app-patched.json",
+    "transformation": "maximum relative difference for seRE"
+  },
+  "max_tau2": {
+    "value": 4.5303204736917725e-15,
+    "source": "results/reference.json + app-patched.json",
+    "transformation": "maximum relative difference for tau2"
+  },
+  "max_Q": {
+    "value": 2.3141067508736556e-14,
+    "source": "results/reference.json + app-patched.json",
+    "transformation": "maximum relative difference for Q"
+  },
+  "max_df": {
+    "value": 0,
+    "source": "results/reference.json + app-patched.json",
+    "transformation": "maximum relative difference for df"
+  },
+  "max_i2": {
+    "value": 2.100543865231401e-14,
+    "source": "results/reference.json + app-patched.json",
+    "transformation": "maximum relative difference for i2"
+  },
+  "max_k": {
+    "value": 0,
+    "source": "results/reference.json + app-patched.json",
+    "transformation": "maximum relative difference for k"
+  },
+  "max_lo": {
+    "value": 1.4184638608631378e-15,
+    "source": "results/reference.json + app-patched.json",
+    "transformation": "maximum relative difference for lo"
+  },
+  "max_hi": {
+    "value": 1.4638216782346601e-15,
+    "source": "results/reference.json + app-patched.json",
+    "transformation": "maximum relative difference for hi"
+  },
+  "max_piLo": {
+    "value": 1.9340085088970227e-13,
+    "source": "results/reference.json + app-patched.json",
+    "transformation": "maximum relative difference for piLo"
+  },
+  "max_piHi": {
+    "value": 3.632649736573512e-13,
+    "source": "results/reference.json + app-patched.json",
+    "transformation": "maximum relative difference for piHi"
+  },
+  "max_poolP": {
+    "value": 3.6637359812630166e-15,
+    "source": "results/reference.json + app-patched.json",
+    "transformation": "maximum relative difference for poolP"
+  },
+  "max_poolLo": {
+    "value": 1.4432899320127035e-15,
+    "source": "results/reference.json + app-patched.json",
+    "transformation": "maximum relative difference for poolLo"
+  },
+  "max_poolHi": {
+    "value": 2.220446049250313e-15,
+    "source": "results/reference.json + app-patched.json",
+    "transformation": "maximum relative difference for poolHi"
+  },
+  "max_poolPiLo": {
+    "value": 7.72715225139109e-14,
+    "source": "results/reference.json + app-patched.json",
+    "transformation": "maximum relative difference for poolPiLo"
+  },
+  "max_poolPiHi": {
+    "value": 8.876233081878127e-14,
+    "source": "results/reference.json + app-patched.json",
+    "transformation": "maximum relative difference for poolPiHi"
+  },
+  "max_yi": {
+    "value": 2.1820096582259427e-16,
+    "source": "results/reference.json + app-patched.json",
+    "transformation": "maximum relative difference for yi"
+  },
+  "max_vi": {
+    "value": 0,
+    "source": "results/reference.json + app-patched.json",
+    "transformation": "maximum relative difference for vi"
+  },
+  "max_study_lo": {
+    "value": 1.2542744620702706e-12,
+    "source": "results/reference.json + app-patched.json",
+    "transformation": "maximum relative difference for study_lo"
+  },
+  "max_study_hi": {
+    "value": 1.2484457911909885e-12,
+    "source": "results/reference.json + app-patched.json",
+    "transformation": "maximum relative difference for study_hi"
+  },
+  "max_study_rel": {
+    "value": 4.003676082781863e-11,
+    "source": "results/reference.json + app-patched.json",
+    "transformation": "maximum relative difference for study_rel"
+  },
+  "max_study_p": {
+    "value": 0,
+    "source": "results/reference.json + app-patched.json",
+    "transformation": "maximum relative difference for study_p"
+  },
+  "max_ui_row_count": {
+    "value": 0,
+    "source": "results/reference.json + app-patched.json",
+    "transformation": "maximum relative difference for ui_row_count"
+  },
+  "max_ui_forest_diamond": {
+    "value": 0,
+    "source": "results/reference.json + app-patched.json",
+    "transformation": "maximum relative difference for ui_forest_diamond"
+  },
+  "max_ui_pooled_text": {
+    "value": 0,
+    "source": "results/reference.json + app-patched.json",
+    "transformation": "maximum relative difference for ui_pooled_text"
+  },
+  "max_ui_prediction_text": {
+    "value": 0,
+    "source": "results/reference.json + app-patched.json",
+    "transformation": "maximum relative difference for ui_prediction_text"
+  },
+  "version_R": {
+    "value": "R version 4.6.0 (2026-04-24 ucrt)",
+    "source": "results/versions.json",
+    "transformation": "source runtime metadata"
+  },
+  "version_metafor": {
+    "value": "5.2.1",
+    "source": "results/versions.json",
+    "transformation": "source runtime metadata"
+  },
+  "version_metadat": {
+    "value": "1.6.0",
+    "source": "results/versions.json",
+    "transformation": "source runtime metadata"
+  },
+  "version_meta": {
+    "value": "8.5.0",
+    "source": "results/versions.json",
+    "transformation": "source runtime metadata"
+  },
+  "version_catalogue": {
+    "value": 114,
+    "source": "results/versions.json",
+    "transformation": "source runtime metadata"
+  },
+  "version_datasets_used": {
+    "value": 62,
+    "source": "results/versions.json",
+    "transformation": "source runtime metadata"
+  },
+  "version_analyses": {
+    "value": 240,
+    "source": "results/versions.json",
+    "transformation": "source runtime metadata"
+  },
+  "version_configurations": {
+    "value": 2160,
+    "source": "results/versions.json",
+    "transformation": "source runtime metadata"
+  }
+}

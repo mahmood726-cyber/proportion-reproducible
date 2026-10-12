@@ -1,0 +1,47 @@
+{
+  "datasets_enumerated": {
+    "value": 114
+  },
+  "datasets_used": {
+    "value": 62
+  },
+  "datasets_excluded": {
+    "value": 52
+  },
+  "analyses": {
+    "value": 240
+  },
+  "rows": {
+    "value": 4768
+  },
+  "zero_event_rows": {
+    "value": 478
+  },
+  "all_event_rows": {
+    "value": 23
+  },
+  "configurations": {
+    "value": 2160
+  },
+  "successful": {
+    "value": 1962
+  },
+  "refusals": {
+    "value": 198
+  },
+  "checks": {
+    "value": 298116
+  },
+  "passed": {
+    "value": 298116
+  },
+  "before_passed": {
+    "value": 237911
+  },
+  "meta_checks": {
+    "value": 8046
+  },
+  "meta_passed": {
+    "value": 7432
+  }
+}

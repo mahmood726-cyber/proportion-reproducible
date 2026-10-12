@@ -1,0 +1,229 @@
+{
+  "transport": "Playwright same-origin routes serving exact archive file bytes; no listening server",
+  "serverRequests": [
+    {
+      "path": "/proportion-ma/index.html",
+      "status": 200
+    },
+    {
+      "path": "/shared/forced-colors.css",
+      "status": 200
+    },
+    {
+      "path": "/hub/app-style.css",
+      "status": 200
+    },
+    {
+      "path": "/hub/shared/csv-upload.js",
+      "status": 200
+    },
+    {
+      "path": "/hub/shared/chart-download.js",
+      "status": 200
+    },
+    {
+      "path": "/hub/shared/axis-controls.js",
+      "status": 200
+    },
+    {
+      "path": "/hub/shared/results-export.js",
+      "status": 200
+    },
+    {
+      "path": "/hub/shared/url-state.js",
+      "status": 200
+    },
+    {
+      "path": "/hub/shared/reset-undo.js",
+      "status": 200
+    },
+    {
+      "path": "/hub/shared/tooltips.js",
+      "status": 200
+    },
+    {
+      "path": "/shared/ma-core.js",
+      "status": 200
+    },
+    {
+      "path": "/shared/build-info.js",
+      "status": 200
+    },
+    {
+      "path": "/shared/ma-studies-v1.js",
+      "status": 200
+    },
+    {
+      "path": "/shared/truthcert-export.js",
+      "status": 200
+    },
+    {
+      "path": "/shared/truthcert-ui.js",
+      "status": 200
+    },
+    {
+      "path": "/shared/autosave.js",
+      "status": 200
+    },
+    {
+      "path": "/hub/shared/glossary.json",
+      "status": 200
+    },
+    {
+      "path": "/hub/shared/a11y-landmarks.js",
+      "status": 200
+    },
+    {
+      "path": "/shared/alm-validate.js",
+      "status": 200
+    },
+    {
+      "path": "/proportion-ma/validate/adapter.js",
+      "status": 200
+    },
+    {
+      "path": "/shared/webr-runner.js",
+      "status": 200
+    },
+    {
+      "path": "/r-shiny/shinylive/webr/repo/manifest.json",
+      "status": 200
+    },
+    {
+      "path": "/r-shiny/shinylive/webr/packages/metafor/metafor_4.8-0.tgz",
+      "status": 200
+    },
+    {
+      "path": "/r-shiny/shinylive/webr/packages/Matrix/Matrix_1.7-5.tgz",
+      "status": 200
+    },
+    {
+      "path": "/r-shiny/shinylive/webr/packages/lattice/lattice_0.22-9.tgz",
+      "status": 200
+    },
+    {
+      "path": "/r-shiny/shinylive/webr/packages/metadat/metadat_1.4-0.tgz",
+      "status": 200
+    },
+    {
+      "path": "/r-shiny/shinylive/webr/packages/mathjaxr/mathjaxr_2.0-0.tgz",
+      "status": 200
+    },
+    {
+      "path": "/r-shiny/shinylive/webr/packages/numDeriv/numDeriv_2016.8-1.1.tgz",
+      "status": 200
+    },
+    {
+      "path": "/r-shiny/shinylive/webr/packages/nlme/nlme_3.1-169.tgz",
+      "status": 200
+    },
+    {
+      "path": "/r-shiny/shinylive/webr/packages/pbapply/pbapply_1.7-4.tgz",
+      "status": 200
+    },
+    {
+      "path": "/r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/digest_0.6.39.tgz",
+      "status": 200
+    },
+    {
+      "path": "/r-shiny/shinylive/webr/webr.mjs",
+      "status": 200
+    },
+    {
+      "path": "/r-shiny/shinylive/webr/webr-worker.js",
+      "status": 200
+    },
+    {
+      "path": "/r-shiny/shinylive/webr/R.js",
+      "status": 200
+    },
+    {
+      "path": "/r-shiny/shinylive/webr/R.wasm",
+      "status": 200
+    },
+    {
+      "path": "/r-shiny/shinylive/webr/libRblas.so",
+      "status": 200
+    },
+    {
+      "path": "/r-shiny/shinylive/webr/vfs/usr/lib/R/library/translations/DESCRIPTION",
+      "status": 200
+    },
+    {
+      "path": "/r-shiny/shinylive/webr/libRlapack.so",
+      "status": 200
+    },
+    {
+      "path": "/r-shiny/shinylive/webr/vfs/usr/lib/R/share.js.metadata",
+      "status": 200
+    },
+    {
+      "path": "/r-shiny/shinylive/webr/vfs/usr/lib/R/share.data.gz",
+      "status": 200
+    },
+    {
+      "path": "/proportion-ma/validate/corpus/corpus.json",
+      "status": 200
+    },
+    {
+      "path": "/proportion-ma/validate/corpus/reference.json",
+      "status": 200
+    }
+  ],
+  "liveChecks": 16,
+  "livePassed": 16,
+  "versions": {
+    "R": "R version 4.5.1 (2025-06-13)",
+    "webR": "0.5.5",
+    "metafor": "4.8-0"
+  },
+  "corpusChecks": 298116,
+  "corpusPassed": 298116,
+  "errors": [],
+  "missing": [],
+  "outside": [],
+  "assetPaths": [
+    "hub/app-style.css",
+    "hub/shared/a11y-landmarks.js",
+    "hub/shared/axis-controls.js",
+    "hub/shared/chart-download.js",
+    "hub/shared/csv-upload.js",
+    "hub/shared/glossary.json",
+    "hub/shared/reset-undo.js",
+    "hub/shared/results-export.js",
+    "hub/shared/tooltips.js",
+    "hub/shared/url-state.js",
+    "proportion-ma/index.html",
+    "proportion-ma/validate/adapter.js",
+    "proportion-ma/validate/corpus/corpus.json",
+    "proportion-ma/validate/corpus/reference.json",
+    "r-shiny/shinylive/webr/R.js",
+    "r-shiny/shinylive/webr/R.wasm",
+    "r-shiny/shinylive/webr/libRblas.so",
+    "r-shiny/shinylive/webr/libRlapack.so",
+    "r-shiny/shinylive/webr/packages/Matrix/Matrix_1.7-5.tgz",
+    "r-shiny/shinylive/webr/packages/lattice/lattice_0.22-9.tgz",
+    "r-shiny/shinylive/webr/packages/mathjaxr/mathjaxr_2.0-0.tgz",
+    "r-shiny/shinylive/webr/packages/metadat/metadat_1.4-0.tgz",
+    "r-shiny/shinylive/webr/packages/metafor/metafor_4.8-0.tgz",
+    "r-shiny/shinylive/webr/packages/nlme/nlme_3.1-169.tgz",
+    "r-shiny/shinylive/webr/packages/numDeriv/numDeriv_2016.8-1.1.tgz",
+    "r-shiny/shinylive/webr/packages/pbapply/pbapply_1.7-4.tgz",
+    "r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/digest_0.6.39.tgz",
+    "r-shiny/shinylive/webr/repo/manifest.json",
+    "r-shiny/shinylive/webr/vfs/usr/lib/R/library/translations/DESCRIPTION",
+    "r-shiny/shinylive/webr/vfs/usr/lib/R/share.data.gz",
+    "r-shiny/shinylive/webr/vfs/usr/lib/R/share.js.metadata",
+    "r-shiny/shinylive/webr/webr-worker.js",
+    "r-shiny/shinylive/webr/webr.mjs",
+    "shared/alm-validate.js",
+    "shared/autosave.js",
+    "shared/build-info.js",
+    "shared/forced-colors.css",
+    "shared/ma-core.js",
+    "shared/ma-studies-v1.js",
+    "shared/truthcert-export.js",
+    "shared/truthcert-ui.js",
+    "shared/webr-runner.js"
+  ]
+}
