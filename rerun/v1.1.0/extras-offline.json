@@ -1,0 +1,39 @@
+{
+  "checks": 7248,
+  "passed": 7248,
+  "failed": [],
+  "refusals": [
+    "dat.cannon2006::ep2c::nc::all",
+    "dat.collins1985b::stb.xci::fup.nci::all",
+    "dat.dagostino1998::xt::nt::rnic1",
+    "dat.dagostino1998::xt::nt::rnic2",
+    "dat.dagostino1998::xt::nt::snic1",
+    "dat.dagostino1998::xt::nt::snic2",
+    "dat.dagostino1998::xc::nc::rnic1",
+    "dat.dagostino1998::xc::nc::rnic2",
+    "dat.dagostino1998::xc::nc::snic1",
+    "dat.dagostino1998::xc::nc::snic2",
+    "dat.dogliotti2014::stroke::total::Dabigatran 110mg",
+    "dat.dogliotti2014::stroke::total::Dabigatran 150mg",
+    "dat.dogliotti2014::stroke::total::Rivaroxaban",
+    "dat.dong2013::death::randomized::TIO-SMI",
+    "dat.gurusamy2011::death::n::Control/Placebo",
+    "dat.gurusamy2011::death::n::EACA",
+    "dat.gurusamy2011::death::n::Antithrombin III",
+    "dat.gurusamy2011::death::n::Solvent detergent plasma",
+    "dat.hart1999::x2i::n2i::all",
+    "dat.linde2016::resp::n::Ind drug",
+    "dat.linde2016::resp::n::Face-to-face PST + SSRI",
+    "dat.linde2016::resp::n::Face-to-face interpsy + SSRI",
+    "dat.linde2016::resp::n::Face-to-face CBT + SSRI",
+    "dat.linde2016::resp::n::Face-to-face psychodyn",
+    "dat.linde2016::resp::n::NRI",
+    "dat.woods2010::r::N::Salmeterol",
+    "dat.woods2010::r::N::Fluticasone",
+    "dat.woods2010::r::N::SFC"
+  ],
+  "maxima": {},
+  "summaryLines": [
+    "Pinned native metafor versus meta results; every status, refusal, numerical field, displayed field and JSON result checked. This offline tier replays archived fits; it does not rerun the optimiser. No GLMM plot is drawn."
+  ]
+}

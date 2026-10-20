@@ -1,0 +1,61 @@
+R version 4.6.0 (2026-04-24 ucrt)
+metafor 5.2.1; paper 5.2-1
+Recomputed: escalc, rma, pooled CI/PI, inverse transforms, yi/vi, study CP limits, proportions and weights.
+Replayed: four archived browser DOM checks per successful fit; no browser is run.
+           quantity checks passed     largest_difference   tolerance
+             status   2160   2160 0.0000000000000000e+00           0
+              mu_re   1962   1962 1.4407858771506960e-15 1e-09;1e-06
+               seRE   1962   1962 6.1062266354383610e-16 1e-09;1e-06
+               tau2   1962   1962 4.5303204736917725e-15 1e-09;1e-06
+                  Q   1962   1962 2.3141067508736556e-14       1e-09
+                 df   1962   1962 0.0000000000000000e+00       1e-09
+                 i2   1962   1962 2.1005438652314009e-14       1e-09
+                  k   1962   1962 0.0000000000000000e+00       1e-09
+                 lo   1962   1962 1.4184638608631378e-15 1e-09;1e-06
+                 hi   1962   1962 1.4638216782346601e-15 1e-09;1e-06
+               piLo   1962   1962 1.9340085088970227e-13 1e-09;1e-06
+               piHi   1962   1962 3.6326497365735122e-13 1e-09;1e-06
+              poolP   1962   1962 3.6637359812630166e-15 1e-09;1e-06
+             poolLo   1962   1962 1.4432899320127035e-15 1e-09;1e-06
+             poolHi   1962   1962 2.2204460492503131e-15 1e-09;1e-06
+           poolPiLo   1962   1962 7.7271522513910895e-14 1e-09;1e-06
+           poolPiHi   1962   1962 8.8762330818781265e-14 1e-09;1e-06
+                 yi  42786  42786 2.1820096582259427e-16       1e-09
+                 vi  42786  42786 0.0000000000000000e+00       1e-09
+           study_lo  42786  42786 1.2542744620702706e-12       1e-09
+           study_hi  42786  42786 1.2484457911909885e-12       1e-09
+          study_rel  42786  42786 4.0036760827818629e-11 1e-09;1e-06
+            study_p  42786  42786 0.0000000000000000e+00       1e-09
+       ui_row_count   1962   1962 0.0000000000000000e+00           0
+  ui_forest_diamond   1962   1962 0.0000000000000000e+00           0
+     ui_pooled_text   1962   1962 0.0000000000000000e+00           0
+ ui_prediction_text   1962   1962 0.0000000000000000e+00           0
+                                              Mode
+                                      recomputed R
+                                      recomputed R
+                                      recomputed R
+                                      recomputed R
+                                      recomputed R
+                                      recomputed R
+                                      recomputed R
+                                      recomputed R
+                                      recomputed R
+                                      recomputed R
+                                      recomputed R
+                                      recomputed R
+                                      recomputed R
+                                      recomputed R
+                                      recomputed R
+                                      recomputed R
+                                      recomputed R
+                                      recomputed R
+                                      recomputed R
+                                      recomputed R
+                                      recomputed R
+                                      recomputed R
+                                      recomputed R
+ replayed archived browser DOM versus recomputed R
+ replayed archived browser DOM versus recomputed R
+ replayed archived browser DOM versus recomputed R
+ replayed archived browser DOM versus recomputed R
+298116/298116 checks pass

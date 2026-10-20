@@ -1,0 +1,999 @@
+{
+  "archive_version": "1.1.0",
+  "allmeta_version": "1.8.0",
+  "allmeta_commit": "1cb3f8409c7af75ed41f7e1811f9c502f900fc79",
+  "allmeta_doi": "10.5281/zenodo.23515177",
+  "supplied_candidate_commit": "d04b0a9",
+  "supplied_extras_main_commit": "739a107",
+  "status": "Release run completed on 2026-10-20, RUN_EXIT 0; exact Git blob copies verified. See provenance/release-run.json; runtime evidence used the pre-finalization checkout. Final manifest checks must also pass.",
+  "original_app_sha256": {
+    "favicon.ico": "0819e1a719839929514c4922af536995d0327f5f1a636e2c91106e7f728641d7",
+    "hub/app-style.css": "475254903d40eebe241574975f1ddff13808c8ad478c17137fda449a3952361f",
+    "hub/shared/a11y-landmarks.js": "a9b35c71c500b0fe4e5a080f23c9dbb11c5462663a0d44e4557f782149e5f8ea",
+    "hub/shared/axis-controls.js": "1620bdc94620df10a41abe91c388de6a91f03367dd3719cb77ce2776ab553806",
+    "hub/shared/chart-download.js": "eae1a1856a1e2c2b791eb3ab8042ea160a3536fdbbaec1b2b8d5afcde5c58887",
+    "hub/shared/csv-upload.js": "10911a32651c52e504cae20783e05819ec0a9e9b958151fed9592021234180d0",
+    "hub/shared/glossary.json": "16e134407092859538b7c1215b8f40ae5c6ce8c4bae49c4cf953cf7260a228ce",
+    "hub/shared/reset-undo.js": "0ef224c3e8a53dca6364cdbdfa8a0f24dc5e0e8805180651781106e0a2af1ee8",
+    "hub/shared/results-export.js": "8fd30b46fc6e0d09b98326f69edf14757659dbcf2cf1434ca8c5de60c057cc71",
+    "hub/shared/tooltips.js": "cd9fd2d82a5d5402915737de9aaef7caa0f506ca0550e0f18f078c67b3078393",
+    "hub/shared/url-state.js": "f15ee8a8c29faf1c3878f6be7de17559c83bf2e1621a711f146b1b4896772f4b",
+    "proportion-ma/index.html": "8cdbd8363c3d09df377968099cab10941842ded2840502ed5b01af0ca40638bf",
+    "proportion-ma/validate/MANIFEST.json": "f799409ebbb45e110bce178c298f4d5d5201605d05acb7654d38a65394d48d2b",
+    "proportion-ma/validate/README.md": "4f9c58ddcf66ad662d2af52c2b87218567895f71967a44a2ad6e9658dbf9e69b",
+    "proportion-ma/validate/adapter.js": "95a77fd8e51812c213ecc9cc9a57e9017751b92e47eab0459370f861728fc898",
+    "proportion-ma/validate/corpus/corpus.json": "23bf51d1343e49fdcbd08ed612844f25418767ed5b9a9a5af43adddbf792e249",
+    "proportion-ma/validate/corpus/reference.json": "1e0f22fc0bfe2ad7eda7b6bf9443fa2c5d7901ddb0e8360296e94392a4b6c57c",
+    "r-shiny/shinylive/webr/R.js": "6be6efac86d73a8b27fcd05a69a52f335bd0dee1f6bca30bdb3e61cef0934bc3",
+    "r-shiny/shinylive/webr/R.wasm": "b2e87bafe6245e72b50044dd5678303981491c275a393a30dcaec903dea8a500",
+    "r-shiny/shinylive/webr/esbuild.d.ts": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6",
+    "r-shiny/shinylive/webr/libRblas.so": "d4e703f3ae2783d2f63464fe49a9db44e4db48adedd042b54a5a2c74b7f67825",
+    "r-shiny/shinylive/webr/libRlapack.so": "aedceeaf3bae382dc242afd9c84f9169c8ebaa8cc8130e0e7e4167be5a2a5244",
+    "r-shiny/shinylive/webr/library.data.gz": "e085881f95d3adc7aa9c987914f8fcc3134dfdaa11f54f1f8f866933df97dd57",
+    "r-shiny/shinylive/webr/library.js.metadata": "732f130e9f48966c45e8f1365d497ec4609483699c54992ce6d8038e5b69ba6b",
+    "r-shiny/shinylive/webr/packages/Matrix/Matrix_1.7-5.tgz": "408f6f9226d1849eddefbd00c866c4836ccc1803e6ab5bdfc107d5170585685c",
+    "r-shiny/shinylive/webr/packages/lattice/lattice_0.22-9.tgz": "ba5d01351d5a75dbf9193c03ba33ef7141dc27aea835c9dc9e0b1c41544b0822",
+    "r-shiny/shinylive/webr/packages/mathjaxr/mathjaxr_2.0-0.tgz": "0309e3ecbf1363c09f7434c3a02275f98436367d57f20f448090d73bc507945e",
+    "r-shiny/shinylive/webr/packages/metadat/metadat_1.4-0.tgz": "581a0d76b2c0b4a22baa017fee61750740f7a13a22c5a546971d5a64f410a7b2",
+    "r-shiny/shinylive/webr/packages/metafor/metafor_4.8-0.tgz": "746f8ab2d0d85b03a3f07ead0340193a04defd1f871dd6511dd758a9f2ff28b0",
+    "r-shiny/shinylive/webr/packages/nlme/nlme_3.1-169.tgz": "cb1b992c11ec78fe4529441ab6e684c3a9929661b86890cec3beff7f45ebdb61",
+    "r-shiny/shinylive/webr/packages/numDeriv/numDeriv_2016.8-1.1.tgz": "d4a872a6f04de8b74fbc24e479152916f87618295b092930f00ec3ce83b7f866",
+    "r-shiny/shinylive/webr/packages/pbapply/pbapply_1.7-4.tgz": "a256290bd68d1e73b129c9483c7746d71c32e62a0cc25bfe595ce7b6a8b495ff",
+    "r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/digest_0.6.39.tgz": "3aaa3c2acf4af9fd93c78db33878aaff91568da71c7de14e30a6baafcac0c6b9",
+    "r-shiny/shinylive/webr/repo/manifest.json": "85a9b98b29897ecbb77f28eb2ced570952a6e8bde629467fe44d1e05913d137c",
+    "r-shiny/shinylive/webr/vfs/usr/lib/R/library/translations/DESCRIPTION": "3863da20361a5ebd0166fe8de4872ddddf8f1a46a485cafc5e027d6bc5468df5",
+    "r-shiny/shinylive/webr/vfs/usr/lib/R/share.data.gz": "0d3350121013e15fc1543607f3af82d1b34057fb3bf4c7f8912580a9cc87e300",
+    "r-shiny/shinylive/webr/vfs/usr/lib/R/share.js.metadata": "7fa877cc68a6410f54206ae7c0a9a6bafa8a66f5dd18abe08a922171eec58097",
+    "r-shiny/shinylive/webr/webr-worker.js": "434e12ea66cfc92a3b45ca8af59b9fad3a85ba2595fddf8dbab99a49316d43b8",
+    "r-shiny/shinylive/webr/webr.cjs": "2babb1d0828bd43005cd64bf4fc419d547c7478eeebd7669bd2f2271188d227b",
+    "r-shiny/shinylive/webr/webr.mjs": "1cd2e5403247dcb378c1ce6a0d89b7edda214d3167c07a1d3f611d211d5d47dc",
+    "shared/alm-validate.js": "7cd2e03dc2ab53b1a2b5e27e948b1956c898b006a5bff8d9caf7baa00c8bcb67",
+    "shared/autosave.js": "18bcc6c10f6177482b2f8453bede3f92887d7e6729413862cc903891405d23e8",
+    "shared/build-info.js": "7d3448e4ac2d56e5efb666fc34fd4675752a5ea95129f4de15072722644e997c",
+    "shared/forced-colors.css": "a967581cb9dfe03bcd6158264353dd8c3fff386d2919143587aa507a24e0c39c",
+    "shared/ma-core.js": "6b2e4e8dc1c4c12482985f8ae90a80e85ffb9bb731063ac18f52ad5cefb30ca4",
+    "shared/ma-studies-v1.js": "0710fcb7284e1c837810e4d388d5538836d55483d6b014c6e7f864c44bf26bf6",
+    "shared/truthcert-export.js": "d1cc2ff8584d2915bb0414e78e03ab22eccb68e4867a34193fe30ecfe6fdfefc",
+    "shared/truthcert-ui.js": "4326f44530fd523e183a24c5b8bf993b9594d10250ab24a3debc13f4bf251468",
+    "shared/webr-runner.js": "89972c80b2565a13b94f9ed7b9fbf61bec6797203a7e75e63b789dd02c645827"
+  },
+  "candidate_app_sha256": {
+    "favicon.ico": "0819e1a719839929514c4922af536995d0327f5f1a636e2c91106e7f728641d7",
+    "hub/app-style.css": "905dba05ebb123f3c3baec8b5691830b48eb9c9092648f5cba71be0efc6a12a6",
+    "hub/shared/a11y-landmarks.js": "f7a89f3c72dd80f666d16d52592a7e60f45fba62efc9dfeb4c2faf7fb0e8b5a2",
+    "hub/shared/analysis-lifecycle.js": "e8a5ff3fd7908469013e17a881083def5451f30a075f34584db8b9c086652afa",
+    "hub/shared/axis-controls.js": "7a5dd1033ee1b348eaedbffd2e14fdf8b1bd1d24318ab9e680c442e693613291",
+    "hub/shared/chart-download.js": "7c21d0236af0515f7d8b424853d1c06f83f9e06327c82fdcadf1018a5fd5d883",
+    "hub/shared/csv-upload.js": "392d1cfb6f8633978e978f37d90f795828ad0d03ac642edbedfca2bcc439de34",
+    "hub/shared/glossary.ar.json": "918cfd779291fc1df829d58f6f92f30f520c70206c59a2df3176d7a26752f533",
+    "hub/shared/glossary.es.json": "33038d3067deea675d67ed5caaa1c6e9a760a6a60821e8386a6e7c41ad17988b",
+    "hub/shared/glossary.json": "ff96263d3e828de5f681a814418487257dfc5625417c1aed8e87a7e3339672d8",
+    "hub/shared/glossary.zh.json": "d04e7d3e3acbeceb51b8c1d7c3dcc3a7f762266c7c003e7700a19095472504ea",
+    "hub/shared/plot-export.js": "c8423a5ead0fdf213a7798eee68245407e4e4a95f0b25c83b020b57ba4c1d0f1",
+    "hub/shared/reset-undo.js": "467e815bc5129c09125f736c61eb0a0e12b8375b7d63d868921ec6224e028ce5",
+    "hub/shared/results-export.js": "aa484e6bd3cbe2098e677e171b07fdc82ab73027637d56e3b59635aa831b545d",
+    "hub/shared/tooltips.js": "bbd9b0e117877c089549208d4d2b2d6dde0aa9c7ff8c02e3c035c22ee1e678e3",
+    "hub/shared/url-state.js": "f15ee8a8c29faf1c3878f6be7de17559c83bf2e1621a711f146b1b4896772f4b",
+    "hub/shared/vendor/jspdf.min.js": "98ccf17aa10c20bb1301762618fcc9b6ab3a4e7f26b6071d64d0b41154df3875",
+    "proportion-ma/index.html": "56b762ffc1e881e2bf2534bc9eb21b2f3d3b0354820f67a6061679779556a901",
+    "proportion-ma/plus-core.js": "92636fee3b6eee645d70e12ab45fcee708fcd0d10f979ccbeb92e5ba4583961d",
+    "proportion-ma/plus-parity.js": "bdb6afb594735337f714025c5d0f6ecacc1cccb6a40b744db16d158eabfd2233",
+    "proportion-ma/plus-ui.js": "9dc09ef9fea6fe2660ee5e289ebcc52a4a894894d1788c37cbc3dae4094afa39",
+    "proportion-ma/validate/adapter.js": "269e98130b7bc1a9732011cc059fb1fa73f160cd9fa43a1e9ef8d3df43a92b74",
+    "proportion-ma/validate/corpus/corpus.json": "23bf51d1343e49fdcbd08ed612844f25418767ed5b9a9a5af43adddbf792e249",
+    "proportion-ma/validate/corpus/reference.json": "1e0f22fc0bfe2ad7eda7b6bf9443fa2c5d7901ddb0e8360296e94392a4b6c57c",
+    "proportion-ma/validate/MANIFEST-plus.json": "dd8a5290b7f2467b7dfe5e7de474cc462878e401b1de09ec2c55e8037fc04800",
+    "proportion-ma/validate/MANIFEST.json": "f799409ebbb45e110bce178c298f4d5d5201605d05acb7654d38a65394d48d2b",
+    "proportion-ma/validate/plus-adapter.js": "f6fe181c7fe4591686081e321b3b1213de21b5d685661d55eacec38dfacf6985",
+    "proportion-ma/validate/plus-corpus/comparison-plus.json": "d176b2191f2dbbe76574575fd069fa1b27d49a5087445dbad8b4ee5a8cf9b5ad",
+    "proportion-ma/validate/plus-corpus/corpus.json": "23bf51d1343e49fdcbd08ed612844f25418767ed5b9a9a5af43adddbf792e249",
+    "proportion-ma/validate/plus-corpus/manifest.json": "b984b2ae740aedcd7320fe11fd3339f97a2dcc868f7689cae8ca837c2546d00d",
+    "proportion-ma/validate/plus-corpus/reference-plus.json": "fea923fffac087d15fbdda573210d2859a361710ab15777735bbb8a14e3e25f1",
+    "proportion-ma/validate/plus-corpus/row-audit.json": "bd64bb073d5fa08103caf7def08ca47c63654022cb778bfcca38c82d5eac0318",
+    "proportion-ma/validate/plus-corpus/versions-plus.json": "9de0af278c9696f46ba6747bb8c283754cc5031becc6a7f7352e7c2696f765cf",
+    "proportion-ma/validate/plus-pins.js": "b3c702530417bb02ff559af079450932d6c57bbc8331a3002250ddd3e6478eae",
+    "proportion-ma/validate/README.md": "4f9c58ddcf66ad662d2af52c2b87218567895f71967a44a2ad6e9658dbf9e69b",
+    "r-shiny/shinylive/webr/esbuild.d.ts": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+    "r-shiny/shinylive/webr/library.data.gz": "e085881f95d3adc7aa9c987914f8fcc3134dfdaa11f54f1f8f866933df97dd57",
+    "r-shiny/shinylive/webr/library.js.metadata": "5f913740641af3c621bcc4ef2959d2ad67a121c21d437429ea61e2d68acd26c5",
+    "r-shiny/shinylive/webr/libRblas.so": "d4e703f3ae2783d2f63464fe49a9db44e4db48adedd042b54a5a2c74b7f67825",
+    "r-shiny/shinylive/webr/libRlapack.so": "aedceeaf3bae382dc242afd9c84f9169c8ebaa8cc8130e0e7e4167be5a2a5244",
+    "r-shiny/shinylive/webr/packages/boot/boot_1.3-32.tgz": "acde682846ea7b021301e9369e9d0c4d9022e1b004d57fee45bf3947d9216e2c",
+    "r-shiny/shinylive/webr/packages/lattice/lattice_0.22-9.tgz": "ba5d01351d5a75dbf9193c03ba33ef7141dc27aea835c9dc9e0b1c41544b0822",
+    "r-shiny/shinylive/webr/packages/MASS/MASS_7.3-65.tgz": "e04bbb219fa9d8bec2e175d5609cfbc01268ca619ee4d850bfc261ef0960984f",
+    "r-shiny/shinylive/webr/packages/mathjaxr/mathjaxr_2.0-0.tgz": "0309e3ecbf1363c09f7434c3a02275f98436367d57f20f448090d73bc507945e",
+    "r-shiny/shinylive/webr/packages/Matrix/Matrix_1.7-5.tgz": "408f6f9226d1849eddefbd00c866c4836ccc1803e6ab5bdfc107d5170585685c",
+    "r-shiny/shinylive/webr/packages/metadat/metadat_1.4-0.tgz": "581a0d76b2c0b4a22baa017fee61750740f7a13a22c5a546971d5a64f410a7b2",
+    "r-shiny/shinylive/webr/packages/metafor/metafor_4.8-0.tgz": "746f8ab2d0d85b03a3f07ead0340193a04defd1f871dd6511dd758a9f2ff28b0",
+    "r-shiny/shinylive/webr/packages/nlme/nlme_3.1-169.tgz": "cb1b992c11ec78fe4529441ab6e684c3a9929661b86890cec3beff7f45ebdb61",
+    "r-shiny/shinylive/webr/packages/numDeriv/numDeriv_2016.8-1.1.tgz": "d4a872a6f04de8b74fbc24e479152916f87618295b092930f00ec3ce83b7f866",
+    "r-shiny/shinylive/webr/packages/pbapply/pbapply_1.7-4.tgz": "a256290bd68d1e73b129c9483c7746d71c32e62a0cc25bfe595ce7b6a8b495ff",
+    "r-shiny/shinylive/webr/R.js": "76b046ea4e8ab0fd1268db9000bcaf65004f654d969231d339598cdc6d4c80cc",
+    "r-shiny/shinylive/webr/R.wasm": "b2e87bafe6245e72b50044dd5678303981491c275a393a30dcaec903dea8a500",
+    "r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/digest_0.6.39.tgz": "3aaa3c2acf4af9fd93c78db33878aaff91568da71c7de14e30a6baafcac0c6b9",
+    "r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/lme4_2.0-1.tgz": "5a0253b2758d2103751eec82a31e8d8f4cd282e215303e2a97489824ebde2e9d",
+    "r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/minqa_1.2.8.tgz": "2c9386bfeaff81bc1a32157f67e51f95b3d3cd446d6940bdc8236eb50694f239",
+    "r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/nloptr_2.2.1.9000.tgz": "784adf01e61f5e62706ce2510b7eaf304a65aab735881889c31d26fa32bb25ac",
+    "r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/rbibutils_2.4.1.tgz": "f7e2a89289eb46793a79d79fe4477879f6466b710d3cf2c8a50d80fe49886a17",
+    "r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/Rcpp_1.1.1-1.1.tgz": "ed011570038e88749503fdcff69cff503692e1f759dbcc3f4e9c12f18ab70ff2",
+    "r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/RcppEigen_0.3.4.0.2.tgz": "723f1003212c227647226ae7b7979dbc1a9c4da90b87e728adbdaa5eb8f67554",
+    "r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/Rdpack_2.6.6.tgz": "bd00a9cb7543c7dc8357b4bbcf8b3d097ca938e5028bdf0de52f1c09095e5e91",
+    "r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/reformulas_0.4.4.tgz": "afdb1b5dd750144cfc2cc45de66aa0f9142d47f43b3af54a65572f3f2521fc56",
+    "r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/rlang_1.2.0.tgz": "4f9e79ebf4502da0df88338efab17e707ea9f9c1698f3863f89fb2315ab1fb90",
+    "r-shiny/shinylive/webr/repo/manifest.json": "4d356533f751abeea8d2e32ceb5948ef100aff865ce09a233b1f6c578ae53313",
+    "r-shiny/shinylive/webr/vfs/usr/lib/R/library/translations/DESCRIPTION": "60572e3af9d3e193ae059f13ff71dfbf2d5df92662d77a9225fe73c6e14e1a5a",
+    "r-shiny/shinylive/webr/vfs/usr/lib/R/share.data.gz": "0d3350121013e15fc1543607f3af82d1b34057fb3bf4c7f8912580a9cc87e300",
+    "r-shiny/shinylive/webr/vfs/usr/lib/R/share.js.metadata": "0aeec810fca7698d8813518a30e02b3b3ee9694c09361ea20132dbecbc14b93f",
+    "r-shiny/shinylive/webr/webr-worker.js": "02b331738a4948307e6ffa017dec510acf588472e9cddfb44a5e29a814a87435",
+    "r-shiny/shinylive/webr/webr.cjs": "5858c92d753e0f2fec942278c173e40b12de9ed1b39e8a40805eb2fd4f4da188",
+    "r-shiny/shinylive/webr/webr.mjs": "6a13290796384d4f16d6e5be359dd3c3e4b494f02411a8440cba0360bed42bb9",
+    "shared/alm-validate.js": "3edd60412195ed34a0890ffc68fa32401d2f375f8a1055cba68ed069afd61e85",
+    "shared/autosave.js": "919165910d2b46a674b5ec1c81c01bce4d3c0779a86232ec032c994274980f1c",
+    "shared/build-info.js": "232a5a903b1fcc451fede886d11688a80c0dce736d60a3613cc8ef5d41c94668",
+    "shared/forced-colors.css": "a26b396b0b5b683ea06fca129855e3aba34805348e2d8d4e811ef74b44f5e96e",
+    "shared/ma-core.js": "ec80f783258b3d49eaa6cabdd19bb794ddeead3db891602f694861188a303058",
+    "shared/ma-studies-v1.js": "416fce0f8ec6432e432c050f9bfc9005d74ac5ad389744198d8530ea6096cb11",
+    "shared/truthcert-export.js": "334cd22183ca60f18d8ab17ec335480bd352ea7f581ca89cdfabf5ee14fbf694",
+    "shared/truthcert-ui.js": "357c56ebb720e24b0fa63fe4933eb1df111032edf376285980269183c2da2ae7",
+    "shared/webr-runner.js": "ff7fb19de7d5c7678c809cb0bb6366763e861276b8b9fd848373aa028f978f32"
+  },
+  "validation_plus_source_sha256": {
+    "check-plus-diagnostics.mjs": "ac456b7ae8cef0e8064584ddb95eebe747c0874aee612b4e5d43a4c7b77093a7",
+    "check-plus.mjs": "c02dd85c71b3777fb1b280a838ca0c97f818f3aa032c1d8f39f3abd5e19f8947",
+    "compare-browser.mjs": "ba2c97db15db77d47e05636b07cc41038dfb125dd2faf5d42dc70a244e5137b3",
+    "diagnostics/host3-common-objectives.json": "f651a79812c82c3acdcff1ffa207de46d12bdcc0426dcec3f5e8279d2e9ebc34",
+    "diagnostics/host3-comparison.json": "72895c7e9b09f70c3d1fac0ec3919f950b489d5a73340cf7c26ee4aded3aadda",
+    "diagnostics/host3-summary.json": "e7e9706f8b42ef0c39b6a506de11c61b3dc7b36ec8baa5391269927e3efa54d6",
+    "diagnostics/README.md": "fb892383d2f82fa6cae5c56e0e03e362a297e089fb9648e89f386c3514923a05",
+    "diagnostics/trace-glmm.R": "74e0af5a6a3d4f5db3b2f2c9d9b77d8ca62a7d320d651218f8ddb4c08e8cbac2",
+    "generate-plus.R": "ef07c4cbf8e46fd3a3dcb4d734f627069a2c5a6f5cf0a827ac1aaf3059a81a6d",
+    "MANIFEST-plus.json": "dd8a5290b7f2467b7dfe5e7de474cc462878e401b1de09ec2c55e8037fc04800",
+    "plus-adapter.js": "f6fe181c7fe4591686081e321b3b1213de21b5d685661d55eacec38dfacf6985",
+    "plus-corpus/comparison-plus.json": "d176b2191f2dbbe76574575fd069fa1b27d49a5087445dbad8b4ee5a8cf9b5ad",
+    "plus-corpus/corpus.json": "23bf51d1343e49fdcbd08ed612844f25418767ed5b9a9a5af43adddbf792e249",
+    "plus-corpus/manifest.json": "b984b2ae740aedcd7320fe11fd3339f97a2dcc868f7689cae8ca837c2546d00d",
+    "plus-corpus/reference-plus.json": "fea923fffac087d15fbdda573210d2859a361710ab15777735bbb8a14e3e25f1",
+    "plus-corpus/row-audit.json": "bd64bb073d5fa08103caf7def08ca47c63654022cb778bfcca38c82d5eac0318",
+    "plus-corpus/versions-plus.json": "9de0af278c9696f46ba6747bb8c283754cc5031becc6a7f7352e7c2696f765cf",
+    "plus-pins.js": "b3c702530417bb02ff559af079450932d6c57bbc8331a3002250ddd3e6478eae",
+    "plus-source.R": "0c8d3bfcd7066bd3bad3a21abbfaccf905c42c12ce79cfae0d36ef649d07b5a2",
+    "README-plus-preparation.md": "497455c562e28f9cab117ae95231e0236aa183e94c5f1e683b87bfc8a9884ef3",
+    "README-plus.md": "efa6433c580d0b3d19f8cb2621ae3785503df0f2512c012815038cb3abf308de"
+  },
+  "dependency_edges": [
+    {
+      "from": "MANIFEST-plus.json",
+      "to": "proportion-ma/validate/plus-corpus/comparison-plus.json"
+    },
+    {
+      "from": "MANIFEST-plus.json",
+      "to": "proportion-ma/validate/plus-corpus/corpus.json"
+    },
+    {
+      "from": "MANIFEST-plus.json",
+      "to": "proportion-ma/validate/plus-corpus/manifest.json"
+    },
+    {
+      "from": "MANIFEST-plus.json",
+      "to": "proportion-ma/validate/plus-corpus/reference-plus.json"
+    },
+    {
+      "from": "MANIFEST-plus.json",
+      "to": "proportion-ma/validate/plus-corpus/row-audit.json"
+    },
+    {
+      "from": "MANIFEST-plus.json",
+      "to": "proportion-ma/validate/plus-corpus/versions-plus.json"
+    },
+    {
+      "from": "MANIFEST.json",
+      "to": "proportion-ma/validate/corpus/corpus.json"
+    },
+    {
+      "from": "MANIFEST.json",
+      "to": "proportion-ma/validate/corpus/reference.json"
+    },
+    {
+      "from": "hub/shared/chart-download.js new URL",
+      "to": "hub/shared/vendor/jspdf.min.js"
+    },
+    {
+      "from": "hub/shared/plot-export.js new URL",
+      "to": "hub/shared/vendor/jspdf.min.js"
+    },
+    {
+      "from": "index.html link",
+      "to": "hub/app-style.css"
+    },
+    {
+      "from": "index.html link",
+      "to": "shared/forced-colors.css"
+    },
+    {
+      "from": "index.html script",
+      "to": "hub/shared/a11y-landmarks.js"
+    },
+    {
+      "from": "index.html script",
+      "to": "hub/shared/analysis-lifecycle.js"
+    },
+    {
+      "from": "index.html script",
+      "to": "hub/shared/axis-controls.js"
+    },
+    {
+      "from": "index.html script",
+      "to": "hub/shared/csv-upload.js"
+    },
+    {
+      "from": "index.html script",
+      "to": "hub/shared/plot-export.js"
+    },
+    {
+      "from": "index.html script",
+      "to": "hub/shared/reset-undo.js"
+    },
+    {
+      "from": "index.html script",
+      "to": "hub/shared/results-export.js"
+    },
+    {
+      "from": "index.html script",
+      "to": "hub/shared/tooltips.js"
+    },
+    {
+      "from": "index.html script",
+      "to": "hub/shared/url-state.js"
+    },
+    {
+      "from": "index.html script",
+      "to": "proportion-ma/plus-core.js"
+    },
+    {
+      "from": "index.html script",
+      "to": "proportion-ma/plus-parity.js"
+    },
+    {
+      "from": "index.html script",
+      "to": "proportion-ma/plus-ui.js"
+    },
+    {
+      "from": "index.html script",
+      "to": "proportion-ma/validate/adapter.js"
+    },
+    {
+      "from": "index.html script",
+      "to": "proportion-ma/validate/plus-adapter.js"
+    },
+    {
+      "from": "index.html script",
+      "to": "proportion-ma/validate/plus-pins.js"
+    },
+    {
+      "from": "index.html script",
+      "to": "shared/alm-validate.js"
+    },
+    {
+      "from": "index.html script",
+      "to": "shared/autosave.js"
+    },
+    {
+      "from": "index.html script",
+      "to": "shared/build-info.js"
+    },
+    {
+      "from": "index.html script",
+      "to": "shared/ma-core.js"
+    },
+    {
+      "from": "index.html script",
+      "to": "shared/ma-studies-v1.js"
+    },
+    {
+      "from": "index.html script",
+      "to": "shared/truthcert-export.js"
+    },
+    {
+      "from": "index.html script",
+      "to": "shared/truthcert-ui.js"
+    },
+    {
+      "from": "index.html script",
+      "to": "shared/webr-runner.js"
+    },
+    {
+      "from": "shared/alm-validate.js new URL",
+      "to": "shared/webr-runner.js"
+    },
+    {
+      "from": "source-inspected dynamic URL",
+      "to": "hub/shared/glossary.ar.json"
+    },
+    {
+      "from": "source-inspected dynamic URL",
+      "to": "hub/shared/glossary.es.json"
+    },
+    {
+      "from": "source-inspected dynamic URL",
+      "to": "hub/shared/glossary.zh.json"
+    },
+    {
+      "from": "source-inspected dynamic URL",
+      "to": "hub/shared/vendor/jspdf.min.js"
+    },
+    {
+      "from": "validation pin manifest",
+      "to": "proportion-ma/validate/MANIFEST-plus.json"
+    },
+    {
+      "from": "validation pin manifest",
+      "to": "proportion-ma/validate/MANIFEST.json"
+    },
+    {
+      "from": "webR package MASS",
+      "to": "r-shiny/shinylive/webr/packages/MASS/MASS_7.3-65.tgz"
+    },
+    {
+      "from": "webR package Matrix",
+      "to": "r-shiny/shinylive/webr/packages/Matrix/Matrix_1.7-5.tgz"
+    },
+    {
+      "from": "webR package Rcpp",
+      "to": "r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/Rcpp_1.1.1-1.1.tgz"
+    },
+    {
+      "from": "webR package RcppEigen",
+      "to": "r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/RcppEigen_0.3.4.0.2.tgz"
+    },
+    {
+      "from": "webR package Rdpack",
+      "to": "r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/Rdpack_2.6.6.tgz"
+    },
+    {
+      "from": "webR package boot",
+      "to": "r-shiny/shinylive/webr/packages/boot/boot_1.3-32.tgz"
+    },
+    {
+      "from": "webR package digest",
+      "to": "r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/digest_0.6.39.tgz"
+    },
+    {
+      "from": "webR package lattice",
+      "to": "r-shiny/shinylive/webr/packages/lattice/lattice_0.22-9.tgz"
+    },
+    {
+      "from": "webR package lme4",
+      "to": "r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/lme4_2.0-1.tgz"
+    },
+    {
+      "from": "webR package mathjaxr",
+      "to": "r-shiny/shinylive/webr/packages/mathjaxr/mathjaxr_2.0-0.tgz"
+    },
+    {
+      "from": "webR package metadat",
+      "to": "r-shiny/shinylive/webr/packages/metadat/metadat_1.4-0.tgz"
+    },
+    {
+      "from": "webR package metafor",
+      "to": "r-shiny/shinylive/webr/packages/metafor/metafor_4.8-0.tgz"
+    },
+    {
+      "from": "webR package minqa",
+      "to": "r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/minqa_1.2.8.tgz"
+    },
+    {
+      "from": "webR package nlme",
+      "to": "r-shiny/shinylive/webr/packages/nlme/nlme_3.1-169.tgz"
+    },
+    {
+      "from": "webR package nloptr",
+      "to": "r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/nloptr_2.2.1.9000.tgz"
+    },
+    {
+      "from": "webR package numDeriv",
+      "to": "r-shiny/shinylive/webr/packages/numDeriv/numDeriv_2016.8-1.1.tgz"
+    },
+    {
+      "from": "webR package pbapply",
+      "to": "r-shiny/shinylive/webr/packages/pbapply/pbapply_1.7-4.tgz"
+    },
+    {
+      "from": "webR package rbibutils",
+      "to": "r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/rbibutils_2.4.1.tgz"
+    },
+    {
+      "from": "webR package reformulas",
+      "to": "r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/reformulas_0.4.4.tgz"
+    },
+    {
+      "from": "webR package rlang",
+      "to": "r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/rlang_1.2.0.tgz"
+    }
+  ],
+  "runtime_packages": [
+    "MASS",
+    "Matrix",
+    "Rcpp",
+    "RcppEigen",
+    "Rdpack",
+    "boot",
+    "digest",
+    "lattice",
+    "lme4",
+    "mathjaxr",
+    "metadat",
+    "metafor",
+    "minqa",
+    "nlme",
+    "nloptr",
+    "numDeriv",
+    "pbapply",
+    "rbibutils",
+    "reformulas",
+    "rlang"
+  ],
+  "dynamic_dependency_review": [
+    "hub/shared/tooltips.js",
+    "r-shiny/shinylive/webr/R.js",
+    "shared/alm-validate.js",
+    "shared/webr-runner.js"
+  ],
+  "external_literal_references": [],
+  "notes": [
+    "Historical preparation: Every pre-existing app asset was copied from the identical candidate path.",
+    "Historical preparation: Package closure follows webR runner dependency traversal for metafor and lme4.",
+    "Historical preparation: Optional glossary languages and dynamically loaded jsPDF are included.",
+    "Historical preparation: Upstream runtime bundles retain their conditional internal imports; browser replay remains required.",
+    "Historical preparation: Candidate shared/build-info.js still labels itself v1.7.0. It is retained byte-identically; release identity remains unresolved.",
+    "Historical preparation: Re-sync: three shared assets refreshed byte-for-byte from 1cb3f84; no newly loaded file missing; prior candidate notes and build stamp are historical. See resync and embedded_release_build_info."
+  ],
+  "embedded_candidate_build_info": {
+    "version": "v1.7.0",
+    "sha": "7899ce599bfdedecd4d13b8f35540d129906fb95",
+    "shortSha": "7899ce5",
+    "builtAt": "2026-10-18T13:18:54Z",
+    "interpretation": "Verbatim upstream build stamp; not the final v1.8.0 release identity."
+  },
+  "supplied_resync_commit": "1cb3f8409c7af75ed41f7e1811f9c502f900fc79",
+  "historical_candidate_run_status": "2026-10-20 run completed: all 25 labelled commands, RUN_EXIT 0; measured results and retained cross-runtime failures in rerun/v1.1.0/RUN_LOG.txt",
+  "resync": {
+    "app_files_checked": 78,
+    "extras_files_checked": 21,
+    "changes": [
+      {
+        "path": "app/hub/shared/results-export.js",
+        "source": "hub/shared/results-export.js",
+        "before": "8fd30b46fc6e0d09b98326f69edf14757659dbcf2cf1434ca8c5de60c057cc71",
+        "after": "16ffa76bc74275565214c2e142d7f0d0847a5a8eded2614efb04aa172acd71f4"
+      },
+      {
+        "path": "app/shared/alm-validate.js",
+        "source": "shared/alm-validate.js",
+        "before": "3de6a685c77fa26d68ae39b1da9619c5ada49fd22ef5170237268e1401a09fb7",
+        "after": "b451c1377164842466aa0d7ad4cb6dd7a1340456a61e891a01646b4375c4ed87"
+      },
+      {
+        "path": "app/shared/build-info.js",
+        "source": "shared/build-info.js",
+        "before": "f75a435e283d007883ce8fb2f66da7a1cf6132cd5a391a57419b137a69c9c238",
+        "after": "44c8a7d1e2cdad4d4b1c4806cffdd4f9817dc39161cd0de5374761a71bd19177"
+      }
+    ],
+    "missing_dependencies": [],
+    "scanned_text_files": [
+      "hub/app-style.css",
+      "hub/shared/a11y-landmarks.js",
+      "hub/shared/analysis-lifecycle.js",
+      "hub/shared/axis-controls.js",
+      "hub/shared/csv-upload.js",
+      "hub/shared/plot-export.js",
+      "hub/shared/reset-undo.js",
+      "hub/shared/results-export.js",
+      "hub/shared/tooltips.js",
+      "hub/shared/url-state.js",
+      "hub/shared/vendor/jspdf.min.js",
+      "proportion-ma/index.html",
+      "proportion-ma/plus-core.js",
+      "proportion-ma/plus-parity.js",
+      "proportion-ma/plus-ui.js",
+      "proportion-ma/validate/adapter.js",
+      "proportion-ma/validate/plus-adapter.js",
+      "proportion-ma/validate/plus-pins.js",
+      "shared/alm-validate.js",
+      "shared/autosave.js",
+      "shared/build-info.js",
+      "shared/forced-colors.css",
+      "shared/ma-core.js",
+      "shared/ma-studies-v1.js",
+      "shared/truthcert-export.js",
+      "shared/truthcert-ui.js",
+      "shared/webr-runner.js"
+    ],
+    "dependency_edges": [
+      {
+        "from": "MANIFEST-plus.json",
+        "to": "proportion-ma/validate/plus-corpus/comparison-plus.json"
+      },
+      {
+        "from": "MANIFEST-plus.json",
+        "to": "proportion-ma/validate/plus-corpus/corpus.json"
+      },
+      {
+        "from": "MANIFEST-plus.json",
+        "to": "proportion-ma/validate/plus-corpus/manifest.json"
+      },
+      {
+        "from": "MANIFEST-plus.json",
+        "to": "proportion-ma/validate/plus-corpus/reference-plus.json"
+      },
+      {
+        "from": "MANIFEST-plus.json",
+        "to": "proportion-ma/validate/plus-corpus/row-audit.json"
+      },
+      {
+        "from": "MANIFEST-plus.json",
+        "to": "proportion-ma/validate/plus-corpus/versions-plus.json"
+      },
+      {
+        "from": "MANIFEST.json",
+        "to": "proportion-ma/validate/corpus/corpus.json"
+      },
+      {
+        "from": "MANIFEST.json",
+        "to": "proportion-ma/validate/corpus/reference.json"
+      },
+      {
+        "from": "hub/shared/chart-download.js new URL",
+        "to": "hub/shared/vendor/jspdf.min.js"
+      },
+      {
+        "from": "hub/shared/plot-export.js",
+        "to": "hub/shared/vendor/jspdf.min.js"
+      },
+      {
+        "from": "hub/shared/plot-export.js new URL",
+        "to": "hub/shared/vendor/jspdf.min.js"
+      },
+      {
+        "from": "index.html link",
+        "to": "hub/app-style.css"
+      },
+      {
+        "from": "index.html link",
+        "to": "shared/forced-colors.css"
+      },
+      {
+        "from": "index.html script",
+        "to": "hub/shared/a11y-landmarks.js"
+      },
+      {
+        "from": "index.html script",
+        "to": "hub/shared/analysis-lifecycle.js"
+      },
+      {
+        "from": "index.html script",
+        "to": "hub/shared/axis-controls.js"
+      },
+      {
+        "from": "index.html script",
+        "to": "hub/shared/csv-upload.js"
+      },
+      {
+        "from": "index.html script",
+        "to": "hub/shared/plot-export.js"
+      },
+      {
+        "from": "index.html script",
+        "to": "hub/shared/reset-undo.js"
+      },
+      {
+        "from": "index.html script",
+        "to": "hub/shared/results-export.js"
+      },
+      {
+        "from": "index.html script",
+        "to": "hub/shared/tooltips.js"
+      },
+      {
+        "from": "index.html script",
+        "to": "hub/shared/url-state.js"
+      },
+      {
+        "from": "index.html script",
+        "to": "proportion-ma/plus-core.js"
+      },
+      {
+        "from": "index.html script",
+        "to": "proportion-ma/plus-parity.js"
+      },
+      {
+        "from": "index.html script",
+        "to": "proportion-ma/plus-ui.js"
+      },
+      {
+        "from": "index.html script",
+        "to": "proportion-ma/validate/adapter.js"
+      },
+      {
+        "from": "index.html script",
+        "to": "proportion-ma/validate/plus-adapter.js"
+      },
+      {
+        "from": "index.html script",
+        "to": "proportion-ma/validate/plus-pins.js"
+      },
+      {
+        "from": "index.html script",
+        "to": "shared/alm-validate.js"
+      },
+      {
+        "from": "index.html script",
+        "to": "shared/autosave.js"
+      },
+      {
+        "from": "index.html script",
+        "to": "shared/build-info.js"
+      },
+      {
+        "from": "index.html script",
+        "to": "shared/ma-core.js"
+      },
+      {
+        "from": "index.html script",
+        "to": "shared/ma-studies-v1.js"
+      },
+      {
+        "from": "index.html script",
+        "to": "shared/truthcert-export.js"
+      },
+      {
+        "from": "index.html script",
+        "to": "shared/truthcert-ui.js"
+      },
+      {
+        "from": "index.html script",
+        "to": "shared/webr-runner.js"
+      },
+      {
+        "from": "proportion-ma/index.html",
+        "to": "hub/app-style.css"
+      },
+      {
+        "from": "proportion-ma/index.html",
+        "to": "hub/shared/a11y-landmarks.js"
+      },
+      {
+        "from": "proportion-ma/index.html",
+        "to": "hub/shared/analysis-lifecycle.js"
+      },
+      {
+        "from": "proportion-ma/index.html",
+        "to": "hub/shared/axis-controls.js"
+      },
+      {
+        "from": "proportion-ma/index.html",
+        "to": "hub/shared/csv-upload.js"
+      },
+      {
+        "from": "proportion-ma/index.html",
+        "to": "hub/shared/plot-export.js"
+      },
+      {
+        "from": "proportion-ma/index.html",
+        "to": "hub/shared/reset-undo.js"
+      },
+      {
+        "from": "proportion-ma/index.html",
+        "to": "hub/shared/results-export.js"
+      },
+      {
+        "from": "proportion-ma/index.html",
+        "to": "hub/shared/tooltips.js"
+      },
+      {
+        "from": "proportion-ma/index.html",
+        "to": "hub/shared/url-state.js"
+      },
+      {
+        "from": "proportion-ma/index.html",
+        "to": "proportion-ma/plus-core.js"
+      },
+      {
+        "from": "proportion-ma/index.html",
+        "to": "proportion-ma/plus-parity.js"
+      },
+      {
+        "from": "proportion-ma/index.html",
+        "to": "proportion-ma/plus-ui.js"
+      },
+      {
+        "from": "proportion-ma/index.html",
+        "to": "proportion-ma/validate/adapter.js"
+      },
+      {
+        "from": "proportion-ma/index.html",
+        "to": "proportion-ma/validate/plus-adapter.js"
+      },
+      {
+        "from": "proportion-ma/index.html",
+        "to": "proportion-ma/validate/plus-pins.js"
+      },
+      {
+        "from": "proportion-ma/index.html",
+        "to": "shared/alm-validate.js"
+      },
+      {
+        "from": "proportion-ma/index.html",
+        "to": "shared/autosave.js"
+      },
+      {
+        "from": "proportion-ma/index.html",
+        "to": "shared/build-info.js"
+      },
+      {
+        "from": "proportion-ma/index.html",
+        "to": "shared/forced-colors.css"
+      },
+      {
+        "from": "proportion-ma/index.html",
+        "to": "shared/ma-core.js"
+      },
+      {
+        "from": "proportion-ma/index.html",
+        "to": "shared/ma-studies-v1.js"
+      },
+      {
+        "from": "proportion-ma/index.html",
+        "to": "shared/truthcert-export.js"
+      },
+      {
+        "from": "proportion-ma/index.html",
+        "to": "shared/truthcert-ui.js"
+      },
+      {
+        "from": "proportion-ma/index.html",
+        "to": "shared/webr-runner.js"
+      },
+      {
+        "from": "shared/alm-validate.js",
+        "to": "shared/webr-runner.js"
+      },
+      {
+        "from": "shared/alm-validate.js new URL",
+        "to": "shared/webr-runner.js"
+      },
+      {
+        "from": "source-inspected dynamic URL",
+        "to": "hub/shared/glossary.ar.json"
+      },
+      {
+        "from": "source-inspected dynamic URL",
+        "to": "hub/shared/glossary.es.json"
+      },
+      {
+        "from": "source-inspected dynamic URL",
+        "to": "hub/shared/glossary.zh.json"
+      },
+      {
+        "from": "source-inspected dynamic URL",
+        "to": "hub/shared/vendor/jspdf.min.js"
+      },
+      {
+        "from": "validation pin manifest",
+        "to": "proportion-ma/validate/MANIFEST-plus.json"
+      },
+      {
+        "from": "validation pin manifest",
+        "to": "proportion-ma/validate/MANIFEST.json"
+      },
+      {
+        "from": "webR package MASS",
+        "to": "r-shiny/shinylive/webr/packages/MASS/MASS_7.3-65.tgz"
+      },
+      {
+        "from": "webR package Matrix",
+        "to": "r-shiny/shinylive/webr/packages/Matrix/Matrix_1.7-5.tgz"
+      },
+      {
+        "from": "webR package Rcpp",
+        "to": "r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/Rcpp_1.1.1-1.1.tgz"
+      },
+      {
+        "from": "webR package RcppEigen",
+        "to": "r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/RcppEigen_0.3.4.0.2.tgz"
+      },
+      {
+        "from": "webR package Rdpack",
+        "to": "r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/Rdpack_2.6.6.tgz"
+      },
+      {
+        "from": "webR package boot",
+        "to": "r-shiny/shinylive/webr/packages/boot/boot_1.3-32.tgz"
+      },
+      {
+        "from": "webR package digest",
+        "to": "r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/digest_0.6.39.tgz"
+      },
+      {
+        "from": "webR package lattice",
+        "to": "r-shiny/shinylive/webr/packages/lattice/lattice_0.22-9.tgz"
+      },
+      {
+        "from": "webR package lme4",
+        "to": "r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/lme4_2.0-1.tgz"
+      },
+      {
+        "from": "webR package mathjaxr",
+        "to": "r-shiny/shinylive/webr/packages/mathjaxr/mathjaxr_2.0-0.tgz"
+      },
+      {
+        "from": "webR package metadat",
+        "to": "r-shiny/shinylive/webr/packages/metadat/metadat_1.4-0.tgz"
+      },
+      {
+        "from": "webR package metafor",
+        "to": "r-shiny/shinylive/webr/packages/metafor/metafor_4.8-0.tgz"
+      },
+      {
+        "from": "webR package minqa",
+        "to": "r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/minqa_1.2.8.tgz"
+      },
+      {
+        "from": "webR package nlme",
+        "to": "r-shiny/shinylive/webr/packages/nlme/nlme_3.1-169.tgz"
+      },
+      {
+        "from": "webR package nloptr",
+        "to": "r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/nloptr_2.2.1.9000.tgz"
+      },
+      {
+        "from": "webR package numDeriv",
+        "to": "r-shiny/shinylive/webr/packages/numDeriv/numDeriv_2016.8-1.1.tgz"
+      },
+      {
+        "from": "webR package pbapply",
+        "to": "r-shiny/shinylive/webr/packages/pbapply/pbapply_1.7-4.tgz"
+      },
+      {
+        "from": "webR package rbibutils",
+        "to": "r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/rbibutils_2.4.1.tgz"
+      },
+      {
+        "from": "webR package reformulas",
+        "to": "r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/reformulas_0.4.4.tgz"
+      },
+      {
+        "from": "webR package rlang",
+        "to": "r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/rlang_1.2.0.tgz"
+      }
+    ],
+    "external_literals": [],
+    "unresolved_literals": [],
+    "directory_urls": [
+      [
+        "shared/webr-runner.js",
+        "r-shiny/shinylive/webr"
+      ]
+    ],
+    "runtime_status": "PASS: release run 2026-10-20, RUN_EXIT 0; 27 documented cross-runtime failures retained.",
+    "source_identity_evidence": "TASK_resync.md and read-only allmeta HEAD",
+    "candidate_app_sha256_field": "Compatibility field pins current source bytes; blob_identity distinguishes restored Git blobs from pre-finalization checkout bytes."
+  },
+  "embedded_release_build_info": {
+    "version": "v1.8.0",
+    "sha": "42a94da2110a02200d0b5bff4c56f636b9cbffa9",
+    "shortSha": "42a94da",
+    "builtAt": "2026-10-20T20:32:27Z",
+    "interpretation": "Verbatim upstream build stamp, distinct from the confirmed v1.8.0 release commit."
+  },
+  "release_run": "provenance/release-run.json",
+  "allmeta_concept_doi": "10.5281/zenodo.20516880",
+  "blob_identity": {
+    "status": "PASS",
+    "commit": "1cb3f8409c7af75ed41f7e1811f9c502f900fc79",
+    "copy_map": "COPY_MAP.json",
+    "verified_files": 99,
+    "method": "git cat-file blob; binary byte-for-byte verification",
+    "sha256": {
+      "app/favicon.ico": "0819e1a719839929514c4922af536995d0327f5f1a636e2c91106e7f728641d7",
+      "app/hub/app-style.css": "905dba05ebb123f3c3baec8b5691830b48eb9c9092648f5cba71be0efc6a12a6",
+      "app/hub/shared/a11y-landmarks.js": "f7a89f3c72dd80f666d16d52592a7e60f45fba62efc9dfeb4c2faf7fb0e8b5a2",
+      "app/hub/shared/analysis-lifecycle.js": "e8a5ff3fd7908469013e17a881083def5451f30a075f34584db8b9c086652afa",
+      "app/hub/shared/axis-controls.js": "7a5dd1033ee1b348eaedbffd2e14fdf8b1bd1d24318ab9e680c442e693613291",
+      "app/hub/shared/chart-download.js": "7c21d0236af0515f7d8b424853d1c06f83f9e06327c82fdcadf1018a5fd5d883",
+      "app/hub/shared/csv-upload.js": "392d1cfb6f8633978e978f37d90f795828ad0d03ac642edbedfca2bcc439de34",
+      "app/hub/shared/glossary.ar.json": "918cfd779291fc1df829d58f6f92f30f520c70206c59a2df3176d7a26752f533",
+      "app/hub/shared/glossary.es.json": "33038d3067deea675d67ed5caaa1c6e9a760a6a60821e8386a6e7c41ad17988b",
+      "app/hub/shared/glossary.json": "ff96263d3e828de5f681a814418487257dfc5625417c1aed8e87a7e3339672d8",
+      "app/hub/shared/glossary.zh.json": "d04e7d3e3acbeceb51b8c1d7c3dcc3a7f762266c7c003e7700a19095472504ea",
+      "app/hub/shared/plot-export.js": "c8423a5ead0fdf213a7798eee68245407e4e4a95f0b25c83b020b57ba4c1d0f1",
+      "app/hub/shared/reset-undo.js": "467e815bc5129c09125f736c61eb0a0e12b8375b7d63d868921ec6224e028ce5",
+      "app/hub/shared/results-export.js": "aa484e6bd3cbe2098e677e171b07fdc82ab73027637d56e3b59635aa831b545d",
+      "app/hub/shared/tooltips.js": "bbd9b0e117877c089549208d4d2b2d6dde0aa9c7ff8c02e3c035c22ee1e678e3",
+      "app/hub/shared/url-state.js": "f15ee8a8c29faf1c3878f6be7de17559c83bf2e1621a711f146b1b4896772f4b",
+      "app/hub/shared/vendor/jspdf.min.js": "98ccf17aa10c20bb1301762618fcc9b6ab3a4e7f26b6071d64d0b41154df3875",
+      "app/proportion-ma/index.html": "56b762ffc1e881e2bf2534bc9eb21b2f3d3b0354820f67a6061679779556a901",
+      "app/proportion-ma/plus-core.js": "92636fee3b6eee645d70e12ab45fcee708fcd0d10f979ccbeb92e5ba4583961d",
+      "app/proportion-ma/plus-parity.js": "bdb6afb594735337f714025c5d0f6ecacc1cccb6a40b744db16d158eabfd2233",
+      "app/proportion-ma/plus-ui.js": "9dc09ef9fea6fe2660ee5e289ebcc52a4a894894d1788c37cbc3dae4094afa39",
+      "app/proportion-ma/validate/MANIFEST-plus.json": "dd8a5290b7f2467b7dfe5e7de474cc462878e401b1de09ec2c55e8037fc04800",
+      "app/proportion-ma/validate/MANIFEST.json": "f799409ebbb45e110bce178c298f4d5d5201605d05acb7654d38a65394d48d2b",
+      "app/proportion-ma/validate/README.md": "4f9c58ddcf66ad662d2af52c2b87218567895f71967a44a2ad6e9658dbf9e69b",
+      "app/proportion-ma/validate/adapter.js": "269e98130b7bc1a9732011cc059fb1fa73f160cd9fa43a1e9ef8d3df43a92b74",
+      "app/proportion-ma/validate/corpus/corpus.json": "23bf51d1343e49fdcbd08ed612844f25418767ed5b9a9a5af43adddbf792e249",
+      "app/proportion-ma/validate/corpus/reference.json": "1e0f22fc0bfe2ad7eda7b6bf9443fa2c5d7901ddb0e8360296e94392a4b6c57c",
+      "app/proportion-ma/validate/plus-adapter.js": "f6fe181c7fe4591686081e321b3b1213de21b5d685661d55eacec38dfacf6985",
+      "app/proportion-ma/validate/plus-corpus/comparison-plus.json": "d176b2191f2dbbe76574575fd069fa1b27d49a5087445dbad8b4ee5a8cf9b5ad",
+      "app/proportion-ma/validate/plus-corpus/corpus.json": "23bf51d1343e49fdcbd08ed612844f25418767ed5b9a9a5af43adddbf792e249",
+      "app/proportion-ma/validate/plus-corpus/manifest.json": "b984b2ae740aedcd7320fe11fd3339f97a2dcc868f7689cae8ca837c2546d00d",
+      "app/proportion-ma/validate/plus-corpus/reference-plus.json": "fea923fffac087d15fbdda573210d2859a361710ab15777735bbb8a14e3e25f1",
+      "app/proportion-ma/validate/plus-corpus/row-audit.json": "bd64bb073d5fa08103caf7def08ca47c63654022cb778bfcca38c82d5eac0318",
+      "app/proportion-ma/validate/plus-corpus/versions-plus.json": "9de0af278c9696f46ba6747bb8c283754cc5031becc6a7f7352e7c2696f765cf",
+      "app/proportion-ma/validate/plus-pins.js": "b3c702530417bb02ff559af079450932d6c57bbc8331a3002250ddd3e6478eae",
+      "app/r-shiny/shinylive/webr/R.js": "76b046ea4e8ab0fd1268db9000bcaf65004f654d969231d339598cdc6d4c80cc",
+      "app/r-shiny/shinylive/webr/R.wasm": "b2e87bafe6245e72b50044dd5678303981491c275a393a30dcaec903dea8a500",
+      "app/r-shiny/shinylive/webr/esbuild.d.ts": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+      "app/r-shiny/shinylive/webr/libRblas.so": "d4e703f3ae2783d2f63464fe49a9db44e4db48adedd042b54a5a2c74b7f67825",
+      "app/r-shiny/shinylive/webr/libRlapack.so": "aedceeaf3bae382dc242afd9c84f9169c8ebaa8cc8130e0e7e4167be5a2a5244",
+      "app/r-shiny/shinylive/webr/library.data.gz": "e085881f95d3adc7aa9c987914f8fcc3134dfdaa11f54f1f8f866933df97dd57",
+      "app/r-shiny/shinylive/webr/library.js.metadata": "5f913740641af3c621bcc4ef2959d2ad67a121c21d437429ea61e2d68acd26c5",
+      "app/r-shiny/shinylive/webr/packages/MASS/MASS_7.3-65.tgz": "e04bbb219fa9d8bec2e175d5609cfbc01268ca619ee4d850bfc261ef0960984f",
+      "app/r-shiny/shinylive/webr/packages/Matrix/Matrix_1.7-5.tgz": "408f6f9226d1849eddefbd00c866c4836ccc1803e6ab5bdfc107d5170585685c",
+      "app/r-shiny/shinylive/webr/packages/boot/boot_1.3-32.tgz": "acde682846ea7b021301e9369e9d0c4d9022e1b004d57fee45bf3947d9216e2c",
+      "app/r-shiny/shinylive/webr/packages/lattice/lattice_0.22-9.tgz": "ba5d01351d5a75dbf9193c03ba33ef7141dc27aea835c9dc9e0b1c41544b0822",
+      "app/r-shiny/shinylive/webr/packages/mathjaxr/mathjaxr_2.0-0.tgz": "0309e3ecbf1363c09f7434c3a02275f98436367d57f20f448090d73bc507945e",
+      "app/r-shiny/shinylive/webr/packages/metadat/metadat_1.4-0.tgz": "581a0d76b2c0b4a22baa017fee61750740f7a13a22c5a546971d5a64f410a7b2",
+      "app/r-shiny/shinylive/webr/packages/metafor/metafor_4.8-0.tgz": "746f8ab2d0d85b03a3f07ead0340193a04defd1f871dd6511dd758a9f2ff28b0",
+      "app/r-shiny/shinylive/webr/packages/nlme/nlme_3.1-169.tgz": "cb1b992c11ec78fe4529441ab6e684c3a9929661b86890cec3beff7f45ebdb61",
+      "app/r-shiny/shinylive/webr/packages/numDeriv/numDeriv_2016.8-1.1.tgz": "d4a872a6f04de8b74fbc24e479152916f87618295b092930f00ec3ce83b7f866",
+      "app/r-shiny/shinylive/webr/packages/pbapply/pbapply_1.7-4.tgz": "a256290bd68d1e73b129c9483c7746d71c32e62a0cc25bfe595ce7b6a8b495ff",
+      "app/r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/RcppEigen_0.3.4.0.2.tgz": "723f1003212c227647226ae7b7979dbc1a9c4da90b87e728adbdaa5eb8f67554",
+      "app/r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/Rcpp_1.1.1-1.1.tgz": "ed011570038e88749503fdcff69cff503692e1f759dbcc3f4e9c12f18ab70ff2",
+      "app/r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/Rdpack_2.6.6.tgz": "bd00a9cb7543c7dc8357b4bbcf8b3d097ca938e5028bdf0de52f1c09095e5e91",
+      "app/r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/digest_0.6.39.tgz": "3aaa3c2acf4af9fd93c78db33878aaff91568da71c7de14e30a6baafcac0c6b9",
+      "app/r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/lme4_2.0-1.tgz": "5a0253b2758d2103751eec82a31e8d8f4cd282e215303e2a97489824ebde2e9d",
+      "app/r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/minqa_1.2.8.tgz": "2c9386bfeaff81bc1a32157f67e51f95b3d3cd446d6940bdc8236eb50694f239",
+      "app/r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/nloptr_2.2.1.9000.tgz": "784adf01e61f5e62706ce2510b7eaf304a65aab735881889c31d26fa32bb25ac",
+      "app/r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/rbibutils_2.4.1.tgz": "f7e2a89289eb46793a79d79fe4477879f6466b710d3cf2c8a50d80fe49886a17",
+      "app/r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/reformulas_0.4.4.tgz": "afdb1b5dd750144cfc2cc45de66aa0f9142d47f43b3af54a65572f3f2521fc56",
+      "app/r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/rlang_1.2.0.tgz": "4f9e79ebf4502da0df88338efab17e707ea9f9c1698f3863f89fb2315ab1fb90",
+      "app/r-shiny/shinylive/webr/repo/manifest.json": "4d356533f751abeea8d2e32ceb5948ef100aff865ce09a233b1f6c578ae53313",
+      "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/translations/DESCRIPTION": "60572e3af9d3e193ae059f13ff71dfbf2d5df92662d77a9225fe73c6e14e1a5a",
+      "app/r-shiny/shinylive/webr/vfs/usr/lib/R/share.data.gz": "0d3350121013e15fc1543607f3af82d1b34057fb3bf4c7f8912580a9cc87e300",
+      "app/r-shiny/shinylive/webr/vfs/usr/lib/R/share.js.metadata": "0aeec810fca7698d8813518a30e02b3b3ee9694c09361ea20132dbecbc14b93f",
+      "app/r-shiny/shinylive/webr/webr-worker.js": "02b331738a4948307e6ffa017dec510acf588472e9cddfb44a5e29a814a87435",
+      "app/r-shiny/shinylive/webr/webr.cjs": "5858c92d753e0f2fec942278c173e40b12de9ed1b39e8a40805eb2fd4f4da188",
+      "app/r-shiny/shinylive/webr/webr.mjs": "6a13290796384d4f16d6e5be359dd3c3e4b494f02411a8440cba0360bed42bb9",
+      "app/shared/alm-validate.js": "3edd60412195ed34a0890ffc68fa32401d2f375f8a1055cba68ed069afd61e85",
+      "app/shared/autosave.js": "919165910d2b46a674b5ec1c81c01bce4d3c0779a86232ec032c994274980f1c",
+      "app/shared/build-info.js": "232a5a903b1fcc451fede886d11688a80c0dce736d60a3613cc8ef5d41c94668",
+      "app/shared/forced-colors.css": "a26b396b0b5b683ea06fca129855e3aba34805348e2d8d4e811ef74b44f5e96e",
+      "app/shared/ma-core.js": "ec80f783258b3d49eaa6cabdd19bb794ddeead3db891602f694861188a303058",
+      "app/shared/ma-studies-v1.js": "416fce0f8ec6432e432c050f9bfc9005d74ac5ad389744198d8530ea6096cb11",
+      "app/shared/truthcert-export.js": "334cd22183ca60f18d8ab17ec335480bd352ea7f581ca89cdfabf5ee14fbf694",
+      "app/shared/truthcert-ui.js": "357c56ebb720e24b0fa63fe4933eb1df111032edf376285980269183c2da2ae7",
+      "app/shared/webr-runner.js": "ff7fb19de7d5c7678c809cb0bb6366763e861276b8b9fd848373aa028f978f32",
+      "validation-plus/MANIFEST-plus.json": "dd8a5290b7f2467b7dfe5e7de474cc462878e401b1de09ec2c55e8037fc04800",
+      "validation-plus/README-plus-preparation.md": "497455c562e28f9cab117ae95231e0236aa183e94c5f1e683b87bfc8a9884ef3",
+      "validation-plus/README-plus.md": "efa6433c580d0b3d19f8cb2621ae3785503df0f2512c012815038cb3abf308de",
+      "validation-plus/check-plus-diagnostics.mjs": "ac456b7ae8cef0e8064584ddb95eebe747c0874aee612b4e5d43a4c7b77093a7",
+      "validation-plus/check-plus.mjs": "c02dd85c71b3777fb1b280a838ca0c97f818f3aa032c1d8f39f3abd5e19f8947",
+      "validation-plus/compare-browser.mjs": "ba2c97db15db77d47e05636b07cc41038dfb125dd2faf5d42dc70a244e5137b3",
+      "validation-plus/diagnostics/README.md": "fb892383d2f82fa6cae5c56e0e03e362a297e089fb9648e89f386c3514923a05",
+      "validation-plus/diagnostics/host3-common-objectives.json": "f651a79812c82c3acdcff1ffa207de46d12bdcc0426dcec3f5e8279d2e9ebc34",
+      "validation-plus/diagnostics/host3-comparison.json": "72895c7e9b09f70c3d1fac0ec3919f950b489d5a73340cf7c26ee4aded3aadda",
+      "validation-plus/diagnostics/host3-summary.json": "e7e9706f8b42ef0c39b6a506de11c61b3dc7b36ec8baa5391269927e3efa54d6",
+      "validation-plus/diagnostics/trace-glmm.R": "74e0af5a6a3d4f5db3b2f2c9d9b77d8ca62a7d320d651218f8ddb4c08e8cbac2",
+      "validation-plus/generate-plus.R": "ef07c4cbf8e46fd3a3dcb4d734f627069a2c5a6f5cf0a827ac1aaf3059a81a6d",
+      "validation-plus/plus-adapter.js": "f6fe181c7fe4591686081e321b3b1213de21b5d685661d55eacec38dfacf6985",
+      "validation-plus/plus-corpus/comparison-plus.json": "d176b2191f2dbbe76574575fd069fa1b27d49a5087445dbad8b4ee5a8cf9b5ad",
+      "validation-plus/plus-corpus/corpus.json": "23bf51d1343e49fdcbd08ed612844f25418767ed5b9a9a5af43adddbf792e249",
+      "validation-plus/plus-corpus/manifest.json": "b984b2ae740aedcd7320fe11fd3339f97a2dcc868f7689cae8ca837c2546d00d",
+      "validation-plus/plus-corpus/reference-plus.json": "fea923fffac087d15fbdda573210d2859a361710ab15777735bbb8a14e3e25f1",
+      "validation-plus/plus-corpus/row-audit.json": "bd64bb073d5fa08103caf7def08ca47c63654022cb778bfcca38c82d5eac0318",
+      "validation-plus/plus-corpus/versions-plus.json": "9de0af278c9696f46ba6747bb8c283754cc5031becc6a7f7352e7c2696f765cf",
+      "validation-plus/plus-pins.js": "b3c702530417bb02ff559af079450932d6c57bbc8331a3002250ddd3e6478eae",
+      "validation-plus/plus-source.R": "0c8d3bfcd7066bd3bad3a21abbfaccf905c42c12ce79cfae0d36ef649d07b5a2"
+    }
+  }
+}

@@ -1,0 +1,398 @@
+[
+  {
+    "archive_path": "app/favicon.ico",
+    "allmeta_path": "favicon.ico"
+  },
+  {
+    "archive_path": "app/hub/app-style.css",
+    "allmeta_path": "hub/app-style.css"
+  },
+  {
+    "archive_path": "app/hub/shared/a11y-landmarks.js",
+    "allmeta_path": "hub/shared/a11y-landmarks.js"
+  },
+  {
+    "archive_path": "app/hub/shared/analysis-lifecycle.js",
+    "allmeta_path": "hub/shared/analysis-lifecycle.js"
+  },
+  {
+    "archive_path": "app/hub/shared/axis-controls.js",
+    "allmeta_path": "hub/shared/axis-controls.js"
+  },
+  {
+    "archive_path": "app/hub/shared/chart-download.js",
+    "allmeta_path": "hub/shared/chart-download.js"
+  },
+  {
+    "archive_path": "app/hub/shared/csv-upload.js",
+    "allmeta_path": "hub/shared/csv-upload.js"
+  },
+  {
+    "archive_path": "app/hub/shared/glossary.ar.json",
+    "allmeta_path": "hub/shared/glossary.ar.json"
+  },
+  {
+    "archive_path": "app/hub/shared/glossary.es.json",
+    "allmeta_path": "hub/shared/glossary.es.json"
+  },
+  {
+    "archive_path": "app/hub/shared/glossary.json",
+    "allmeta_path": "hub/shared/glossary.json"
+  },
+  {
+    "archive_path": "app/hub/shared/glossary.zh.json",
+    "allmeta_path": "hub/shared/glossary.zh.json"
+  },
+  {
+    "archive_path": "app/hub/shared/plot-export.js",
+    "allmeta_path": "hub/shared/plot-export.js"
+  },
+  {
+    "archive_path": "app/hub/shared/reset-undo.js",
+    "allmeta_path": "hub/shared/reset-undo.js"
+  },
+  {
+    "archive_path": "app/hub/shared/results-export.js",
+    "allmeta_path": "hub/shared/results-export.js"
+  },
+  {
+    "archive_path": "app/hub/shared/tooltips.js",
+    "allmeta_path": "hub/shared/tooltips.js"
+  },
+  {
+    "archive_path": "app/hub/shared/url-state.js",
+    "allmeta_path": "hub/shared/url-state.js"
+  },
+  {
+    "archive_path": "app/hub/shared/vendor/jspdf.min.js",
+    "allmeta_path": "hub/shared/vendor/jspdf.min.js"
+  },
+  {
+    "archive_path": "app/proportion-ma/index.html",
+    "allmeta_path": "proportion-ma/index.html"
+  },
+  {
+    "archive_path": "app/proportion-ma/plus-core.js",
+    "allmeta_path": "proportion-ma/plus-core.js"
+  },
+  {
+    "archive_path": "app/proportion-ma/plus-parity.js",
+    "allmeta_path": "proportion-ma/plus-parity.js"
+  },
+  {
+    "archive_path": "app/proportion-ma/plus-ui.js",
+    "allmeta_path": "proportion-ma/plus-ui.js"
+  },
+  {
+    "archive_path": "app/proportion-ma/validate/MANIFEST-plus.json",
+    "allmeta_path": "proportion-ma/validate/MANIFEST-plus.json"
+  },
+  {
+    "archive_path": "app/proportion-ma/validate/MANIFEST.json",
+    "allmeta_path": "proportion-ma/validate/MANIFEST.json"
+  },
+  {
+    "archive_path": "app/proportion-ma/validate/README.md",
+    "allmeta_path": "proportion-ma/validate/README.md"
+  },
+  {
+    "archive_path": "app/proportion-ma/validate/adapter.js",
+    "allmeta_path": "proportion-ma/validate/adapter.js"
+  },
+  {
+    "archive_path": "app/proportion-ma/validate/corpus/corpus.json",
+    "allmeta_path": "proportion-ma/validate/corpus/corpus.json"
+  },
+  {
+    "archive_path": "app/proportion-ma/validate/corpus/reference.json",
+    "allmeta_path": "proportion-ma/validate/corpus/reference.json"
+  },
+  {
+    "archive_path": "app/proportion-ma/validate/plus-adapter.js",
+    "allmeta_path": "proportion-ma/validate/plus-adapter.js"
+  },
+  {
+    "archive_path": "app/proportion-ma/validate/plus-corpus/comparison-plus.json",
+    "allmeta_path": "proportion-ma/validate/plus-corpus/comparison-plus.json"
+  },
+  {
+    "archive_path": "app/proportion-ma/validate/plus-corpus/corpus.json",
+    "allmeta_path": "proportion-ma/validate/plus-corpus/corpus.json"
+  },
+  {
+    "archive_path": "app/proportion-ma/validate/plus-corpus/manifest.json",
+    "allmeta_path": "proportion-ma/validate/plus-corpus/manifest.json"
+  },
+  {
+    "archive_path": "app/proportion-ma/validate/plus-corpus/reference-plus.json",
+    "allmeta_path": "proportion-ma/validate/plus-corpus/reference-plus.json"
+  },
+  {
+    "archive_path": "app/proportion-ma/validate/plus-corpus/row-audit.json",
+    "allmeta_path": "proportion-ma/validate/plus-corpus/row-audit.json"
+  },
+  {
+    "archive_path": "app/proportion-ma/validate/plus-corpus/versions-plus.json",
+    "allmeta_path": "proportion-ma/validate/plus-corpus/versions-plus.json"
+  },
+  {
+    "archive_path": "app/proportion-ma/validate/plus-pins.js",
+    "allmeta_path": "proportion-ma/validate/plus-pins.js"
+  },
+  {
+    "archive_path": "app/r-shiny/shinylive/webr/R.js",
+    "allmeta_path": "r-shiny/shinylive/webr/R.js"
+  },
+  {
+    "archive_path": "app/r-shiny/shinylive/webr/R.wasm",
+    "allmeta_path": "r-shiny/shinylive/webr/R.wasm"
+  },
+  {
+    "archive_path": "app/r-shiny/shinylive/webr/esbuild.d.ts",
+    "allmeta_path": "r-shiny/shinylive/webr/esbuild.d.ts"
+  },
+  {
+    "archive_path": "app/r-shiny/shinylive/webr/libRblas.so",
+    "allmeta_path": "r-shiny/shinylive/webr/libRblas.so"
+  },
+  {
+    "archive_path": "app/r-shiny/shinylive/webr/libRlapack.so",
+    "allmeta_path": "r-shiny/shinylive/webr/libRlapack.so"
+  },
+  {
+    "archive_path": "app/r-shiny/shinylive/webr/library.data.gz",
+    "allmeta_path": "r-shiny/shinylive/webr/library.data.gz"
+  },
+  {
+    "archive_path": "app/r-shiny/shinylive/webr/library.js.metadata",
+    "allmeta_path": "r-shiny/shinylive/webr/library.js.metadata"
+  },
+  {
+    "archive_path": "app/r-shiny/shinylive/webr/packages/MASS/MASS_7.3-65.tgz",
+    "allmeta_path": "r-shiny/shinylive/webr/packages/MASS/MASS_7.3-65.tgz"
+  },
+  {
+    "archive_path": "app/r-shiny/shinylive/webr/packages/Matrix/Matrix_1.7-5.tgz",
+    "allmeta_path": "r-shiny/shinylive/webr/packages/Matrix/Matrix_1.7-5.tgz"
+  },
+  {
+    "archive_path": "app/r-shiny/shinylive/webr/packages/boot/boot_1.3-32.tgz",
+    "allmeta_path": "r-shiny/shinylive/webr/packages/boot/boot_1.3-32.tgz"
+  },
+  {
+    "archive_path": "app/r-shiny/shinylive/webr/packages/lattice/lattice_0.22-9.tgz",
+    "allmeta_path": "r-shiny/shinylive/webr/packages/lattice/lattice_0.22-9.tgz"
+  },
+  {
+    "archive_path": "app/r-shiny/shinylive/webr/packages/mathjaxr/mathjaxr_2.0-0.tgz",
+    "allmeta_path": "r-shiny/shinylive/webr/packages/mathjaxr/mathjaxr_2.0-0.tgz"
+  },
+  {
+    "archive_path": "app/r-shiny/shinylive/webr/packages/metadat/metadat_1.4-0.tgz",
+    "allmeta_path": "r-shiny/shinylive/webr/packages/metadat/metadat_1.4-0.tgz"
+  },
+  {
+    "archive_path": "app/r-shiny/shinylive/webr/packages/metafor/metafor_4.8-0.tgz",
+    "allmeta_path": "r-shiny/shinylive/webr/packages/metafor/metafor_4.8-0.tgz"
+  },
+  {
+    "archive_path": "app/r-shiny/shinylive/webr/packages/nlme/nlme_3.1-169.tgz",
+    "allmeta_path": "r-shiny/shinylive/webr/packages/nlme/nlme_3.1-169.tgz"
+  },
+  {
+    "archive_path": "app/r-shiny/shinylive/webr/packages/numDeriv/numDeriv_2016.8-1.1.tgz",
+    "allmeta_path": "r-shiny/shinylive/webr/packages/numDeriv/numDeriv_2016.8-1.1.tgz"
+  },
+  {
+    "archive_path": "app/r-shiny/shinylive/webr/packages/pbapply/pbapply_1.7-4.tgz",
+    "allmeta_path": "r-shiny/shinylive/webr/packages/pbapply/pbapply_1.7-4.tgz"
+  },
+  {
+    "archive_path": "app/r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/RcppEigen_0.3.4.0.2.tgz",
+    "allmeta_path": "r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/RcppEigen_0.3.4.0.2.tgz"
+  },
+  {
+    "archive_path": "app/r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/Rcpp_1.1.1-1.1.tgz",
+    "allmeta_path": "r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/Rcpp_1.1.1-1.1.tgz"
+  },
+  {
+    "archive_path": "app/r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/Rdpack_2.6.6.tgz",
+    "allmeta_path": "r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/Rdpack_2.6.6.tgz"
+  },
+  {
+    "archive_path": "app/r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/digest_0.6.39.tgz",
+    "allmeta_path": "r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/digest_0.6.39.tgz"
+  },
+  {
+    "archive_path": "app/r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/lme4_2.0-1.tgz",
+    "allmeta_path": "r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/lme4_2.0-1.tgz"
+  },
+  {
+    "archive_path": "app/r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/minqa_1.2.8.tgz",
+    "allmeta_path": "r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/minqa_1.2.8.tgz"
+  },
+  {
+    "archive_path": "app/r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/nloptr_2.2.1.9000.tgz",
+    "allmeta_path": "r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/nloptr_2.2.1.9000.tgz"
+  },
+  {
+    "archive_path": "app/r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/rbibutils_2.4.1.tgz",
+    "allmeta_path": "r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/rbibutils_2.4.1.tgz"
+  },
+  {
+    "archive_path": "app/r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/reformulas_0.4.4.tgz",
+    "allmeta_path": "r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/reformulas_0.4.4.tgz"
+  },
+  {
+    "archive_path": "app/r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/rlang_1.2.0.tgz",
+    "allmeta_path": "r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/rlang_1.2.0.tgz"
+  },
+  {
+    "archive_path": "app/r-shiny/shinylive/webr/repo/manifest.json",
+    "allmeta_path": "r-shiny/shinylive/webr/repo/manifest.json"
+  },
+  {
+    "archive_path": "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/translations/DESCRIPTION",
+    "allmeta_path": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/translations/DESCRIPTION"
+  },
+  {
+    "archive_path": "app/r-shiny/shinylive/webr/vfs/usr/lib/R/share.data.gz",
+    "allmeta_path": "r-shiny/shinylive/webr/vfs/usr/lib/R/share.data.gz"
+  },
+  {
+    "archive_path": "app/r-shiny/shinylive/webr/vfs/usr/lib/R/share.js.metadata",
+    "allmeta_path": "r-shiny/shinylive/webr/vfs/usr/lib/R/share.js.metadata"
+  },
+  {
+    "archive_path": "app/r-shiny/shinylive/webr/webr-worker.js",
+    "allmeta_path": "r-shiny/shinylive/webr/webr-worker.js"
+  },
+  {
+    "archive_path": "app/r-shiny/shinylive/webr/webr.cjs",
+    "allmeta_path": "r-shiny/shinylive/webr/webr.cjs"
+  },
+  {
+    "archive_path": "app/r-shiny/shinylive/webr/webr.mjs",
+    "allmeta_path": "r-shiny/shinylive/webr/webr.mjs"
+  },
+  {
+    "archive_path": "app/shared/alm-validate.js",
+    "allmeta_path": "shared/alm-validate.js"
+  },
+  {
+    "archive_path": "app/shared/autosave.js",
+    "allmeta_path": "shared/autosave.js"
+  },
+  {
+    "archive_path": "app/shared/build-info.js",
+    "allmeta_path": "shared/build-info.js"
+  },
+  {
+    "archive_path": "app/shared/forced-colors.css",
+    "allmeta_path": "shared/forced-colors.css"
+  },
+  {
+    "archive_path": "app/shared/ma-core.js",
+    "allmeta_path": "shared/ma-core.js"
+  },
+  {
+    "archive_path": "app/shared/ma-studies-v1.js",
+    "allmeta_path": "shared/ma-studies-v1.js"
+  },
+  {
+    "archive_path": "app/shared/truthcert-export.js",
+    "allmeta_path": "shared/truthcert-export.js"
+  },
+  {
+    "archive_path": "app/shared/truthcert-ui.js",
+    "allmeta_path": "shared/truthcert-ui.js"
+  },
+  {
+    "archive_path": "app/shared/webr-runner.js",
+    "allmeta_path": "shared/webr-runner.js"
+  },
+  {
+    "archive_path": "validation-plus/MANIFEST-plus.json",
+    "allmeta_path": "proportion-ma/validate/MANIFEST-plus.json"
+  },
+  {
+    "archive_path": "validation-plus/README-plus-preparation.md",
+    "allmeta_path": "proportion-ma/validate/README-plus-preparation.md"
+  },
+  {
+    "archive_path": "validation-plus/README-plus.md",
+    "allmeta_path": "proportion-ma/validate/README-plus.md"
+  },
+  {
+    "archive_path": "validation-plus/check-plus-diagnostics.mjs",
+    "allmeta_path": "proportion-ma/validate/check-plus-diagnostics.mjs"
+  },
+  {
+    "archive_path": "validation-plus/check-plus.mjs",
+    "allmeta_path": "proportion-ma/validate/check-plus.mjs"
+  },
+  {
+    "archive_path": "validation-plus/compare-browser.mjs",
+    "allmeta_path": "proportion-ma/validate/compare-browser.mjs"
+  },
+  {
+    "archive_path": "validation-plus/diagnostics/README.md",
+    "allmeta_path": "proportion-ma/validate/diagnostics/README.md"
+  },
+  {
+    "archive_path": "validation-plus/diagnostics/host3-common-objectives.json",
+    "allmeta_path": "proportion-ma/validate/diagnostics/host3-common-objectives.json"
+  },
+  {
+    "archive_path": "validation-plus/diagnostics/host3-comparison.json",
+    "allmeta_path": "proportion-ma/validate/diagnostics/host3-comparison.json"
+  },
+  {
+    "archive_path": "validation-plus/diagnostics/host3-summary.json",
+    "allmeta_path": "proportion-ma/validate/diagnostics/host3-summary.json"
+  },
+  {
+    "archive_path": "validation-plus/diagnostics/trace-glmm.R",
+    "allmeta_path": "proportion-ma/validate/diagnostics/trace-glmm.R"
+  },
+  {
+    "archive_path": "validation-plus/generate-plus.R",
+    "allmeta_path": "proportion-ma/validate/generate-plus.R"
+  },
+  {
+    "archive_path": "validation-plus/plus-adapter.js",
+    "allmeta_path": "proportion-ma/validate/plus-adapter.js"
+  },
+  {
+    "archive_path": "validation-plus/plus-corpus/comparison-plus.json",
+    "allmeta_path": "proportion-ma/validate/plus-corpus/comparison-plus.json"
+  },
+  {
+    "archive_path": "validation-plus/plus-corpus/corpus.json",
+    "allmeta_path": "proportion-ma/validate/plus-corpus/corpus.json"
+  },
+  {
+    "archive_path": "validation-plus/plus-corpus/manifest.json",
+    "allmeta_path": "proportion-ma/validate/plus-corpus/manifest.json"
+  },
+  {
+    "archive_path": "validation-plus/plus-corpus/reference-plus.json",
+    "allmeta_path": "proportion-ma/validate/plus-corpus/reference-plus.json"
+  },
+  {
+    "archive_path": "validation-plus/plus-corpus/row-audit.json",
+    "allmeta_path": "proportion-ma/validate/plus-corpus/row-audit.json"
+  },
+  {
+    "archive_path": "validation-plus/plus-corpus/versions-plus.json",
+    "allmeta_path": "proportion-ma/validate/plus-corpus/versions-plus.json"
+  },
+  {
+    "archive_path": "validation-plus/plus-pins.js",
+    "allmeta_path": "proportion-ma/validate/plus-pins.js"
+  },
+  {
+    "archive_path": "validation-plus/plus-source.R",
+    "allmeta_path": "proportion-ma/validate/plus-source.R"
+  }
+]

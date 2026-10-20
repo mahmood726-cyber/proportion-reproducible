@@ -1,0 +1,55 @@
+{
+  "run_date": "2026-10-20",
+  "node": {
+    "version": "v24.16.0",
+    "source": "RUN_LOG.txt"
+  },
+  "native_R": {
+    "version": "4.6.0",
+    "packages": {
+      "metafor": "5.2-1",
+      "meta": "8.5-0",
+      "metadat": "1.6-0",
+      "lme4": "2.0-6",
+      "jsonlite": "2.0.0"
+    },
+    "source": "RUN_LOG.txt: NATIVE PREFLIGHT PASS; pins enforced by analysis/recut_preflight.R"
+  },
+  "playwright": {
+    "version": "1.59.1",
+    "source": "same-host node_modules/playwright/package.json inspected during fixes",
+    "installation": "existing git-ignored node_modules junction; not installed by the runner",
+    "candidate_lock_version": "1.59.1",
+    "candidate_lock_source": "allmeta d04b0a9 hub/shared/tests/package-lock.json",
+    "candidate_lock_sha256": "91aa9a62660919c737eac95a2e53a2739ff1537a6dceead7e13bb1c8a21ff90c"
+  },
+  "browser": {
+    "channel": "chrome (runner default; PW_CHANNEL override not recorded)",
+    "installed_executable_version": [
+      "155.0.8059.82"
+    ],
+    "source": "same-host installed chrome.exe UTF-16 version resource inspected during fixes",
+    "run_version_recorded": false
+  },
+  "python": {
+    "version": "3.13.13",
+    "source": "same-host Python interpreter inspected during fixes",
+    "run_version_recorded": false
+  },
+  "browser_R": {
+    "versions": {
+      "R": "R version 4.5.1 (2025-06-13)",
+      "webR": "0.5.5",
+      "metafor": "4.8-0"
+    },
+    "lme4": "2.0-1",
+    "lme4_source": "app/r-shiny/shinylive/webr/repo/manifest.json"
+  },
+  "deviations": [
+    "Native R/package preflight passed all specified pins.",
+    "Playwright 1.59.1 matches the candidate shared-test lock; an existing node_modules junction was used.",
+    "Installed Chrome was used rather than a bundled Playwright Chromium build; exact browser and Python versions were not emitted by the 20 October run.",
+    "Browser R 4.5.1/metafor 4.8-0/lme4 2.0-1 differ from native R 4.6.0/metafor 5.2-1/lme4 2.0-6, as the existing contract discloses.",
+    "Candidate shared/build-info.js still contains the v1.7.0 stamp; app bytes remain unchanged."
+  ]
+}

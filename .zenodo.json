@@ -5,7 +5,7 @@
       "name": "Ahmad, Mahmood"
     }
   ],
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "upload_type": "software",
   "access_right": "open",
@@ -19,7 +19,12 @@
       "identifier": "10.5281/zenodo.23288388",
       "relation": "isDerivedFrom",
       "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23515177",
+      "relation": "isDerivedFrom",
+      "scheme": "doi"
     }
   ],
-  "description": "Full primary browser/metafor comparison: 298116/298116 checks after two fixes. Secondary meta raw-boundary conventions differ; see README."
+  "description": "Version 1.1.0 validation archive for allmeta v1.8.0 (1cb3f8409c7af75ed41f7e1811f9c502f900fc79, DOI 10.5281/zenodo.23515177). The release run on 2026-10-20 completed 26 labelled commands with RUN_EXIT 0: 298116/298116 original checks, 7248/7248 extras presentation/export checks, 2176/2176 native pair comparisons and 4352/4352 generated native-script comparisons. Live webR/native comparison passed 2139/2166 assertions with 27 failures retained; the exact documented-exceptions contract passed. Original corpus, references and tolerances remain unchanged. Evidence: provenance/run_plan-2026-10-20-release.log and release-run.json. Exact Git blob restoration and manifest verification use FINAL_BLOBS.cmd before publication."
 }

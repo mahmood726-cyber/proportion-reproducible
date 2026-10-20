@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-20",
+  "allmeta_commit": "1cb3f8409c7af75ed41f7e1811f9c502f900fc79",
+  "allmeta_doi": "10.5281/zenodo.23515177",
+  "source": "run_plan.log (runner supplied)",
+  "source_sha256": "856ba5f909a37d90b98ad6e1cfe22ac70736cada3a8a6e90925e088f387fb6e9",
+  "published_log": "provenance/run_plan-2026-10-20-release.log",
+  "published_log_sha256": "48d940ffa04593aaa1ef1ade847fc8da092f8201c703730098e34f57ad4e497d",
+  "redaction": "Home prefixes replaced with <LOCAL> followed by a backslash; line endings normalized to LF.",
+  "labelled_commands": 26,
+  "exit": "RUN_EXIT 0",
+  "node": "v24.13.0",
+  "source_byte_convention": "CRLF checkout; exact Git blob restoration is a separate runner step",
+  "results": {
+    "original_browser": [
+      298116,
+      298116
+    ],
+    "original_python": [
+      298116,
+      298116
+    ],
+    "original_R": [
+      298116,
+      298116
+    ],
+    "original_live_R": [
+      16,
+      16
+    ],
+    "matched_refusals": 198,
+    "extras_presentation_export": [
+      7248,
+      7248
+    ],
+    "native_pairs": [
+      2176,
+      2176
+    ],
+    "native_script": [
+      4352,
+      4352
+    ],
+    "negative_controls": [
+      3,
+      3
+    ],
+    "cross_runtime": [
+      2139,
+      2166
+    ],
+    "retained_failures": 27,
+    "disclosed_configurations": 23,
+    "extras_refusals": 28,
+    "paper_assertions": [
+      15,
+      15
+    ],
+    "documented_exceptions_contract": "PASS",
+    "full_archive_verification": "PASS"
+  }
+}

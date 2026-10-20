@@ -1,0 +1,92 @@
+[
+  {
+    "file": "RUN_LOG.txt",
+    "source": "../run_plan.log",
+    "source_sha256": "4e9938766def1dbbb6d1850e4320d110b7e9b79efc60c8192bc8dcb5ece77d34",
+    "redacted": true
+  },
+  {
+    "file": "RUN_EXIT.txt",
+    "source": "../run_plan.exit",
+    "source_sha256": "7a3d6916402793dff41df992548e30b27479679d035f0e1c12f97486d7934f8d",
+    "redacted": false
+  },
+  {
+    "file": "extras-offline.json",
+    "source": "rerun/extras-offline.json",
+    "source_sha256": "d46e13f4966f08ec319e3d8d20ba3b5a6b3e0119b881a6acc9f4fae154623e54",
+    "redacted": false
+  },
+  {
+    "file": "extras-transport.json",
+    "source": "rerun/extras-transport.json",
+    "source_sha256": "ad2951792bec4d8c8501fa98814b2f4947b621f9eac8ad6a2c0503d614448316",
+    "redacted": false
+  },
+  {
+    "file": "glmm-browser-comparison.json",
+    "source": "rerun/glmm-browser-comparison.json",
+    "source_sha256": "a18b6d2400a9db54f001c9d91e7170b496be32d6bce98a72b712b6d6bfe91cd8",
+    "redacted": false
+  },
+  {
+    "file": "glmm-browser-results.json",
+    "source": "rerun/glmm-browser-results.json",
+    "source_sha256": "9c19be02e49af9f83200dc6f966ecb0bb938fceaa59b557d3923ef32efbd1c1f",
+    "redacted": false
+  },
+  {
+    "file": "live-plus-transport.json",
+    "source": "rerun/live-plus-transport.json",
+    "source_sha256": "4cba9bb65851c5ef95b40c2a487e05ee577c73085799409f7eb83a04ef9c357e",
+    "redacted": false
+  },
+  {
+    "file": "original-browser.json",
+    "source": "rerun/original-browser.json",
+    "source_sha256": "f70ea9b5ca2edc75adc504a3a4acd0fe1d84d7c5fd6f7ea7fbefa485f3da6660",
+    "redacted": false
+  },
+  {
+    "file": "original-compare.log",
+    "source": "rerun/original-compare.log",
+    "source_sha256": "a285146ac21622b9e8c39ac83706a7f99c6bf8295592853cee42cba398d5b36b",
+    "redacted": false
+  },
+  {
+    "file": "original-live.json",
+    "source": "rerun/original-live.json",
+    "source_sha256": "228b546c27d33a2aa92aba5c97372dd29390649e7ebda9194459d531c84e97cd",
+    "redacted": false
+  },
+  {
+    "file": "original-r.log",
+    "source": "rerun/original-r.log",
+    "source_sha256": "087f3a133b09826bb5124c70bed57335c75c43c6082a98604c58dfb66e2f5270",
+    "redacted": false
+  },
+  {
+    "file": "original-transport.json",
+    "source": "rerun/original-transport.json",
+    "source_sha256": "d781ad793963bfb6dd3da0113a39abeab3388708c8df2d6169a5843c4b0ba723",
+    "redacted": false
+  },
+  {
+    "file": "plus-runtime.log",
+    "source": "rerun/plus-runtime.log",
+    "source_sha256": "b1915bba567b7725e9519d4d50c0fe433734980953a9646b7369f2f80feddca3",
+    "redacted": true
+  },
+  {
+    "file": "original/current-results.json",
+    "source": "rerun/original/current-results.json",
+    "source_sha256": "fb92f4b32dde854d11c4204d0a46f7fa5f43f395b249827b7fff814bfed71329",
+    "redacted": false
+  },
+  {
+    "file": "original/outputs/validate_R_table.csv",
+    "source": "rerun/original/outputs/validate_R_table.csv",
+    "source_sha256": "3c1d3fee31fe26ab722d955feb92ea00e9ea3027762b0fd9e1d05e85d588df52",
+    "redacted": false
+  }
+]

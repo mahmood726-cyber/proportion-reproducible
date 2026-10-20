@@ -2,3 +2,5 @@ __pycache__/
 *.pyc
 PROGRESS.md
 node_modules/
+rerun/*
+!rerun/v1.1.0/

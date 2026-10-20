@@ -3,11 +3,10 @@ import hashlib,json,re,tempfile
 from pathlib import Path
 from PIL import Image
 import yaml
+from recut_integrity import verify_pins, source_files
 from make_outputs import ROOT,read,csvread,build
-EXCLUDED={'.git','__pycache__','node_modules','outputs','rerun'}
-def source_files():
-    return sorted(p for p in ROOT.rglob('*') if p.is_file() and p.name not in ['SOURCE_SHA256.json','PROGRESS.md'] and not any(x in EXCLUDED or x.startswith('.verify-') for x in p.relative_to(ROOT).parts))
 def main():
+    provenance=verify_pins()
     actual={p.relative_to(ROOT).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in source_files()}
     assert actual==read(ROOT/'SOURCE_SHA256.json'),'Source inventory/hash mismatch'
     app=read(ROOT/'app/app-sha256.json')
@@ -66,9 +65,10 @@ def main():
     z=read(ROOT/'.zenodo.json');cff=yaml.safe_load((ROOT/'CITATION.cff').read_text(encoding='utf-8'))
     assert z['title']==cff['title']=='Meta-analysis of proportions in the browser: a tool validated against the R packages metafor and meta'
     assert z['creators']==[{'name':'Ahmad, Mahmood'}] and cff['authors']==[{'family-names':'Ahmad','given-names':'Mahmood'}]
-    assert z['license']==cff['license']=='MIT' and z['version']==cff['version']=='1.0.0'
-    assert {(r['identifier'],r['relation']) for r in z['related_identifiers']}=={('https://github.com/mahmood726-cyber/allmeta','isDerivedFrom'),('10.5281/zenodo.23288388','isDerivedFrom')}
+    assert z['license']==cff['license']=='MIT' and z['version']==cff['version']=='1.1.0'
+    assert str(cff['date-released'])=='2026-10-20'
+    assert {(r['identifier'],r['relation']) for r in z['related_identifiers']}=={('https://github.com/mahmood726-cyber/allmeta','isDerivedFrom'),('10.5281/zenodo.23288388','isDerivedFrom'),(provenance['allmeta_doi'],'isDerivedFrom')}
     assert any(r.get('doi')=='10.5281/zenodo.23288388' and r.get('notes')=='isDerivedFrom' for r in cff['references'])
     assert (ROOT/'.gitattributes').read_text().strip()=='* -text'
-    print(f'ARCHIVE PASS: {len(app)} app hashes; {len(actual)} source hashes; 298116/298116 final checks; tables, metadata, reproducible outputs and image pixels verified.')
+    print(f'ARCHIVE PASS: {len(app)} app hashes; {len(actual)} source hashes; 298116/298116 historical checks; tables, metadata, reproducible outputs and image pixels verified.')
 if __name__=='__main__':main()
