@@ -2,13 +2,13 @@
 
 ## v1.2.0 byte-identity result (2026-11-03)
 
-The exact Git blob-identity step, recorded below for v1.1.0 as not yet run, was executed on 2026-11-03 from fresh clones of this archive (v1.1.0, 2929a64) and allmeta checked out at 1cb3f8409c7af75ed41f7e1811f9c502f900fc79, both with `core.autocrlf` false. Verbatim results:
+The exact Git blob-identity step, recorded below for v1.1.0 as not yet run, was executed on 2026-11-03 from fresh clones of this archive (v1.1.0, 2929a64) and allmeta checked out at 1cb3f8409c7af75ed41f7e1811f9c502f900fc79. The archive clone had `core.autocrlf` false; the allmeta bytes were read straight from its object database with `git cat-file blob`, so the allmeta working-tree line-ending setting does not affect the comparison. Verbatim results:
 
 - `BLOB PASS 99/99` (`analysis/finalize_blobs.py`; no file was modified by the restore, so the v1.1.0 bytes were already identical to the upstream blobs, consistent with the blob-identity record in RECUT_PROVENANCE.json)
 - `RECUT INTEGRITY PASS: 78 candidate app hashes; 305 source hashes; 159 protected originals; 21 verbatim extras; 20 R package archives.`
 - `ARCHIVE PASS: 78 app hashes; 305 source hashes; 298116/298116 historical checks; tables, metadata, reproducible outputs and image pixels verified.`
 
-Logs: provenance/v1.2.0-verification/ (run before the v1.2.0 edits; the count of 305 source hashes becomes 308 once the three log files are added, and both verifiers were re-run after the edits and manifest refresh with the same PASS results at 308). v1.2.0 changes only documentation, citation metadata and the metadata version/date assertions in the two verifiers; no data, result, expected value, tolerance, corpus file or reference pin changed. The text below is the v1.1.0 record; passages saying the blob step had not run or that a human runner action remains are superseded by this section.
+Logs: provenance/v1.2.0-verification/ (run before the v1.2.0 edits; the count of 305 source hashes becomes 308 once the three log files are added, and both verifiers were re-run outside the archive after the edits and manifest refresh, with the same PASS results at 308; those re-run logs are not part of the archive, and running the two verifiers on this release reproduces them). v1.2.0 changes only documentation, citation metadata and the metadata version/date assertions in the two verifiers; no data, result, expected value, tolerance, corpus file or reference pin changed. The text below is the v1.1.0 record; passages saying the blob step had not run or that a human runner action remains are superseded by this section.
 
 ## Finalize
 
