@@ -65,8 +65,8 @@ def main():
     z=read(ROOT/'.zenodo.json');cff=yaml.safe_load((ROOT/'CITATION.cff').read_text(encoding='utf-8'))
     assert z['title']==cff['title']=='Meta-analysis of proportions in the browser: a tool validated against the R packages metafor and meta'
     assert z['creators']==[{'name':'Ahmad, Mahmood'}] and cff['authors']==[{'family-names':'Ahmad','given-names':'Mahmood'}]
-    assert z['license']==cff['license']=='MIT' and z['version']==cff['version']=='1.1.0'
-    assert str(cff['date-released'])=='2026-10-20'
+    assert z['license']==cff['license']=='MIT' and z['version']==cff['version']=='1.2.0'
+    assert str(cff['date-released'])=='2026-11-03'
     assert {(r['identifier'],r['relation']) for r in z['related_identifiers']}=={('https://github.com/mahmood726-cyber/allmeta','isDerivedFrom'),('10.5281/zenodo.23288388','isDerivedFrom'),(provenance['allmeta_doi'],'isDerivedFrom')}
     assert any(r.get('doi')=='10.5281/zenodo.23288388' and r.get('notes')=='isDerivedFrom' for r in cff['references'])
     assert (ROOT/'.gitattributes').read_text().strip()=='* -text'

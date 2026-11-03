@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.0 - 2026-11-03
+
+Documentation and metadata release; no data, result, expected value, tolerance, corpus file or reference pin changed. Records the completed byte-identity step: against allmeta v1.8.0 commit 1cb3f8409c7af75ed41f7e1811f9c502f900fc79, `analysis/finalize_blobs.py` printed `BLOB PASS 99/99`, followed by RECUT INTEGRITY PASS and ARCHIVE PASS (logs in provenance/v1.2.0-verification/). Removes the stale statements that the step had not run and the pre-publication wording in README.md. Version and date updated in CITATION.cff and .zenodo.json, with the matching metadata assertions in analysis/verify_archive.py and analysis/recut_integrity.py. Manifests regenerated for the edited documents.
+
 ## 1.1.0 - 2026-10-20
 
 Finalize against allmeta v1.8.0, commit 1cb3f8409c7af75ed41f7e1811f9c502f900fc79, DOI 10.5281/zenodo.23515177. Preserve creators and original scientific inputs, expected values and tolerances. Add the redacted release log, release provenance, a 99-file copy map and binary-safe Git blob finalizer.

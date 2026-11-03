@@ -1,8 +1,12 @@
 # Meta-analysis of proportions in the browser: a tool validated against the R packages metafor and meta
 
-Version 1.1.0, release date 2026-10-20. Creator: Mahmood Ahmad. MIT-licensed archive code.
+Version 1.2.0, release date 2026-11-03. Creator: Mahmood Ahmad. MIT-licensed archive code.
 
-## What's new in v1.1.0
+## What's new in v1.2.0
+
+v1.2.0 is a documentation and metadata release. It changes no data, result, expected value, tolerance or reference pin relative to v1.1.0 (2929a64). It records that the exact Git blob-identity step, previously described as not yet run, was executed on 2026-11-03 with the result **BLOB PASS 99/99** (all 99 copied files byte-identical to allmeta 1cb3f84), followed by RECUT INTEGRITY PASS and ARCHIVE PASS. See the next section and [RECUT_NOTES.md](RECUT_NOTES.md).
+
+## Contents carried from v1.1.0
 
 The archive targets allmeta **v1.8.0**, release commit **1cb3f8409c7af75ed41f7e1811f9c502f900fc79**, Zenodo DOI **10.5281/zenodo.23515177** (concept DOI **10.5281/zenodo.20516880**). The **2026-10-20 release run on allmeta 1cb3f84** completed all 26 labelled commands with RUN_EXIT 0; see [redacted release log](provenance/run_plan-2026-10-20-release.log), [exit marker](provenance/run_plan-2026-10-20-release.exit) and [run provenance](provenance/release-run.json). The earlier d04b0a9 run retained under rerun/v1.1.0/ is historical evidence. The counts below are confirmed by the release log.
 
@@ -20,7 +24,7 @@ The 2026-10-20 run used Node **v24.13.0**, native **R 4.6.0**, **metafor 5.2-1**
 
 All native version pins passed. The browser used webR 0.5.5 / R 4.5.1 / metafor 4.8-0 / lme4 2.0-1, the disclosed differences from native R; installed Chrome was used rather than a bundled Playwright Chromium build. The historical allmeta Git-history assertion is replaced by current/original byte pins in the archive wrapper. The historical run used the earlier v1.7.0 embedded stamp; the current copied stamp is described above.
 
-The release run used the supplied allmeta 1cb3f84 checkout (78 app assets and 21 extras files). Its Windows CRLF checkout bytes are not asserted to be Git blob bytes. From the parent workspace, run FINAL_BLOBS.cmd before publication: it reads all 99 mappings in COPY_MAP.json from the confirmed commit with binary-safe Git output, prints BLOB PASS 99/99, updates only source-byte pins, and runs manifest regeneration and verification. Until that command succeeds, exact release blob identity remains unverified. The archive disables Git text conversion to preserve restored bytes; original reference pins remain unchanged.
+The release run used the supplied allmeta 1cb3f84 checkout (78 app assets and 21 extras files). Its Windows CRLF checkout bytes are not themselves asserted to be Git blob bytes. The byte-identity step was run for real on 2026-11-03 (`python -X utf8 analysis/finalize_blobs.py --archive <archive> --allmeta <allmeta checkout at 1cb3f84> --copy-map COPY_MAP.json`, with `core.autocrlf` false for both clones): it read all 99 mappings in COPY_MAP.json from the confirmed commit with binary-safe Git output and printed `BLOB PASS 99/99`, then manifest verification, `RECUT INTEGRITY PASS` and `ARCHIVE PASS`. No file changed, confirming the v1.1.0 bytes already equal the upstream blobs. The raw logs are in provenance/v1.2.0-verification/. This is a hash-identity result only; numerical and browser reruns are separate (the 2026-10-20 release run). The archive disables Git text conversion to preserve restored bytes; original reference pins remain unchanged.
 
 ## Re-run v1.1.0 on the updated app
 
@@ -93,9 +97,9 @@ python analysis/verify_archive.py
 
 These offline commands regenerate and verify `table1_by_quantity.csv`, `table2_datasets.csv`, agreement and visual-abstract PNG/TIFF pairs, `sizes.json`, numerical provenance in `numbers.json`, and `reproduction_report.md`. The agreement figure shows log10 maximum relative difference by quantity, tolerance lines and before-fix failures. Figures are 300 dpi, 170 mm wide, with text at least 8 pt. Expected values are assertions, never substituted for computed findings. Table 2 includes every catalogue entry, including excluded datasets with zero analysis counts.
 
-`app/` contains the exact local allmeta assets, including the same-origin webR bundle and pinned metafor dependencies used by live validation. `app/app-sha256.json` verifies those source bytes. Serve `app/` locally at `http://127.0.0.1:8000` and open `/proportion-ma/index.html` to use the widget. Tier 1 uses **webR 0.5.5/metafor 4.8-0**, explicitly distinguished from paper metafor 5.2-1. Tier 2 reads hash-pinned inputs and replays **all 298,116 checks** through current page code; it does not substitute archived app outputs. It suppresses URL writes and restores inputs, results and rendered output. A warm replay works offline; file-URL users select both corpus JSON files. The linked future archive repository is an intended destination, not a claim of publication or hosted Actions availability.
+`app/` contains the exact local allmeta assets, including the same-origin webR bundle and pinned metafor dependencies used by live validation. `app/app-sha256.json` verifies those source bytes. Serve `app/` locally at `http://127.0.0.1:8000` and open `/proportion-ma/index.html` to use the widget. Tier 1 uses **webR 0.5.5/metafor 4.8-0**, explicitly distinguished from paper metafor 5.2-1. Tier 2 reads hash-pinned inputs and replays **all 298,116 checks** through current page code; it does not substitute archived app outputs. It suppresses URL writes and restores inputs, results and rendered output. A warm replay works offline; file-URL users select both corpus JSON files. This archive is published as the public GitHub repository mahmood726-cyber/proportion-reproducible, with Zenodo DOI 10.5281/zenodo.23516639 for v1.1.0; hosted Actions availability is not claimed.
 
-`bench/README.md` explains the original scripts. `SOURCE_SHA256.json` pins source inventory, excluding itself, generated outputs, caches and git metadata. Verification permits a future `.git` directory. This preparation does not create a commit, push, deployment or Overmind certification. The historical 20 October d04b0a9 evidence in `rerun/v1.1.0/` is included in `SOURCE_SHA256.json` and both verifiers; other `rerun/` paths are excluded scratch. The original `results/` remains preserved. Counts describe this validation corpus only.
+`bench/README.md` explains the original scripts. `SOURCE_SHA256.json` pins source inventory, excluding itself, generated outputs, caches and git metadata. Verification permits a future `.git` directory. This archive makes no Overmind certification claim. The historical 20 October d04b0a9 evidence in `rerun/v1.1.0/` is included in `SOURCE_SHA256.json` and both verifiers; other `rerun/` paths are excluded scratch. The original `results/` remains preserved. Counts describe this validation corpus only.
 
 | Content | Static or dynamic | Evidence / transformation |
 |---|---|---|

@@ -1,8 +1,18 @@
-# Recut notes: archive v1.1.0
+# Recut notes: archive v1.2.0
+
+## v1.2.0 byte-identity result (2026-11-03)
+
+The exact Git blob-identity step, recorded below for v1.1.0 as not yet run, was executed on 2026-11-03 from fresh clones of this archive (v1.1.0, 2929a64) and allmeta checked out at 1cb3f8409c7af75ed41f7e1811f9c502f900fc79, both with `core.autocrlf` false. Verbatim results:
+
+- `BLOB PASS 99/99` (`analysis/finalize_blobs.py`; no file was modified by the restore, so the v1.1.0 bytes were already identical to the upstream blobs, consistent with the blob-identity record in RECUT_PROVENANCE.json)
+- `RECUT INTEGRITY PASS: 78 candidate app hashes; 305 source hashes; 159 protected originals; 21 verbatim extras; 20 R package archives.`
+- `ARCHIVE PASS: 78 app hashes; 305 source hashes; 298116/298116 historical checks; tables, metadata, reproducible outputs and image pixels verified.`
+
+Logs: provenance/v1.2.0-verification/ (run before the v1.2.0 edits; the count of 305 source hashes becomes 308 once the three log files are added, and both verifiers were re-run after the edits and manifest refresh with the same PASS results at 308). v1.2.0 changes only documentation, citation metadata and the metadata version/date assertions in the two verifiers; no data, result, expected value, tolerance, corpus file or reference pin changed. The text below is the v1.1.0 record; passages saying the blob step had not run or that a human runner action remains are superseded by this section.
 
 ## Finalize
 
-Finalized release metadata on 2026-10-20 for allmeta v1.8.0, commit 1cb3f8409c7af75ed41f7e1811f9c502f900fc79 (tag v1.8.0), DOI 10.5281/zenodo.23515177, concept DOI 10.5281/zenodo.20516880. CITATION.cff remains version 1.1.0, date-released 2026-10-20; .zenodo.json remains version 1.1.0. Creators, authors and licences are unchanged. All release SHA/DOI tokens are resolved.
+Finalized release metadata on 2026-10-20 for allmeta v1.8.0, commit 1cb3f8409c7af75ed41f7e1811f9c502f900fc79 (tag v1.8.0), DOI 10.5281/zenodo.23515177, concept DOI 10.5281/zenodo.20516880. At v1.1.0, CITATION.cff and .zenodo.json carried version 1.1.0, date-released 2026-10-20 (now 1.2.0, 2026-11-03). Creators, authors and licences are unchanged. All release SHA/DOI tokens are resolved.
 
 The release run completed on **2026-10-20 for allmeta 1cb3f84**, with **26 labelled headings** and **RUN_EXIT 0**. Its redacted log is [provenance/run_plan-2026-10-20-release.log](provenance/run_plan-2026-10-20-release.log); the exit marker and source/published-log hashes are in the same directory. The earlier d04b0a9 run under rerun/v1.1.0/ remains historical evidence and was not overwritten or relabelled.
 
@@ -41,7 +51,7 @@ The parent workspace contains FINAL_BLOBS.cmd and finalize_blobs.py; the identic
 
 After blob restoration, only the app/extras source-byte pins and blob_identity record are updated. The helper invokes the archive's own refresh_manifests.py, recut_integrity.py and verify_archive.py, in that order, and propagates any failure. ORIGINAL_SHA256.json, scientific pin manifests and all scientific assertions remain fixed. The supplied release run used checkout bytes; blob restoration does not invent another runtime run.
 
-**Human runner action remains:** run FINAL_BLOBS.cmd from the parent workspace. Git cannot start in this sandbox, so no actual BLOB PASS 99/99 is claimed here. The pre-finalization source pins still describe the supplied checkout. The helper's printed BLOB PASS 2/2 in tests belongs only to synthetic fixtures.
+**Superseded (v1.2.0):** this action was completed on 2026-11-03 with `BLOB PASS 99/99`; see the section at the top of this file. (v1.1.0 text follows.) At v1.1.0 Git could not start in the preparation sandbox, so no BLOB PASS 99/99 was claimed there. The helper's printed BLOB PASS 2/2 in tests belongs only to synthetic fixtures.
 
 RUN_PLAN.cmd already takes R_HOME, R_LIBS_USER, R_LIBS and PLAYWRIGHT_MODULE from the environment, as documented in RUN_PLAN_EXPECTED.md; it contains no machine-specific paths and required no edit. The plan's expected numerical contracts are unchanged.
 

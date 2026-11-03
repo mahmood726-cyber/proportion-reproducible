@@ -1,0 +1,10 @@
+BLOB PASS 99/99
+=== refresh_manifests.py
+REFRESHED: app/app-sha256.json and SOURCE_SHA256.json
+=== recut_integrity.py
+RECUT INTEGRITY PASS: 78 candidate app hashes; 305 source hashes; 159 protected originals; 21 verbatim extras; 20 R package archives.
+Numerical/browser reruns are separate; no runtime pass is inferred from hashes.
+=== verify_archive.py
+PASS: 15/15 paper-value assertions; 298116/298116 final checks; 237911/298116 before fixes.
+ARCHIVE PASS: 78 app hashes; 305 source hashes; 298116/298116 historical checks; tables, metadata, reproducible outputs and image pixels verified.
+FINAL BLOBS AND MANIFESTS PASS

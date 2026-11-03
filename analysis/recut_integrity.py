@@ -66,15 +66,15 @@ def verify_pins():
             assert not raw.startswith(b"\xef\xbb\xbf"), "BOM: "+str(p)
             raw.decode("utf-8")
     z = read(ROOT/".zenodo.json")
-    assert z["version"] == "1.1.0" and z["creators"] == [{"name":"Ahmad, Mahmood"}]
+    assert z["version"] == "1.2.0" and z["creators"] == [{"name":"Ahmad, Mahmood"}]
     relations = {(r["identifier"],r["relation"]) for r in z["related_identifiers"]}
     assert relations == {
         ("https://github.com/mahmood726-cyber/allmeta","isDerivedFrom"),
         ("10.5281/zenodo.23288388","isDerivedFrom"),
         (provenance["allmeta_doi"],"isDerivedFrom")}
     cff = (ROOT/"CITATION.cff").read_text(encoding="utf-8")
-    assert re.search(r"^version: 1\.1\.0$", cff, re.M)
-    assert re.search(r"^date-released: 2026-10-20$", cff, re.M)
+    assert re.search(r"^version: 1\.2\.0$", cff, re.M)
+    assert re.search(r"^date-released: 2026-11-03$", cff, re.M)
     assert provenance["allmeta_commit"] in cff and provenance["allmeta_doi"] in cff
     assert "  - family-names: Ahmad\n    given-names: Mahmood\n" in cff
     return provenance

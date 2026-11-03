@@ -5,8 +5,8 @@ type: software
 authors:
   - family-names: Ahmad
     given-names: Mahmood
-version: 1.1.0
-date-released: 2026-10-20
+version: 1.2.0
+date-released: 2026-11-03
 license: MIT
 references:
   - type: software
